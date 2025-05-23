@@ -126,15 +126,14 @@ As I progress through my journey, I'm building expertise across the modern web d
 Creating a personal library of battle-tested, accessible, and beautiful UI components that can be reused across projects.
 
 ## 📊 Progress Tracking
-
-| Skill Level | Focus Area | Technologies | Target Projects | Current Progress |
-|-------------|------------|--------------|-----------------|------------------|
-| <span style="color:#2196F3">🔵 Newbie</span> | HTML & CSS Fundamentals | HTML5, CSS3, Basic JS | 26 projects | 🎯 **Starting Here** |
-| <span style="color:#4CAF50">🟢 Junior</span> | Responsive & Interactive | CSS Grid/Flexbox, JS DOM | 41 projects | 📋 *Planned* |
-| <span style="color:#FFC107">🟡 Intermediate</span> | APIs & Frameworks | ES6+, APIs, Build Tools | 28 projects | 📋 *Planned* |
-| <span style="color:#FF9652">🟠 Advanced</span> | Modern Frameworks | React/Vue, State Mgmt | 15 projects | 📋 *Planned* |
-| <span style="color:#F44336">🔴 Expert</span> | Architecture & Innovation | Advanced Patterns, WebGL | 7 projects | 📋 *Planned* |
-| <span style="color:#BADE6B">🧩 Component</span> | UI Library | Reusable Components | 20+ components | 📋 *Planned* |
+| Skill Level | Focus Area | Technologies | Projects | Progress |
+|-------------|------------|--------------|----------|----------|
+| <span style="color:#2196F3">🔵 Newbie</span> | HTML & CSS Basics | HTML5, CSS3, JS | 26 | 🎯 **Starting Here** |
+| <span style="color:#4CAF50">🟢 Junior</span> | Responsive Design | Grid/Flexbox, DOM | 41 | 📋 *Planned* |
+| <span style="color:#FFC107">🟡 Intermediate</span> | APIs & Tools | ES6+, APIs, Build | 28 | 📋 *Planned* |
+| <span style="color:#FF9652">🟠 Advanced</span> | Modern Frameworks | React/Vue, State | 15 | 📋 *Planned* |
+| <span style="color:#F44336">🔴 Expert</span> | Architecture | Patterns, WebGL | 7 | 📋 *Planned* |
+| <span style="color:#BADE6B">🧩 Component</span> | UI Library | Components | 20+ | 📋 *Planned* |
 
 ## 📁 Project Architecture
 
