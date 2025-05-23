@@ -22,7 +22,7 @@ My development journey is structured around progressive skill building, moving f
 ├── 🟢 junior/           # JavaScript & Responsive Design
 ├── 🟡 intermediate/     # APIs & Dynamic Interactions
 ├── 🟠 advanced/         # Frameworks & State Management
-├── 🔴 Expert/             # Architecture & Performance
+├── 🔴 Expert/           # Architecture & Performance
 └── 🧩 components/       # Reusable UI Library
 ```
 
@@ -146,7 +146,7 @@ Every project follows a carefully designed structure inspired by industry best p
 ├── 📄 README.md               # Project documentation & deployment guide
 ├── 📄 README-template.md      # Reflection template for completion
 ├── 📄 style-guide.md          # Design system specifications
-├── 📄 .gitignore             # Version control exclusions
+├── 📄 .gitignore              # Version control exclusions
 │
 ├── 📁 design/                 # Visual design references
 │   ├── 📱 mobile-design.jpg   # Mobile viewport designs
