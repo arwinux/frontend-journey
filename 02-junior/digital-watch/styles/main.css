@@ -1,0 +1,112 @@
+@import "./settings.css";
+
+div.dcbackground {
+    background: transparent url("../assets/images/greenc.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div.dcbackground > div.digitalwatch {
+    width: 350px;
+    background-size: cover;
+    box-shadow: 0 0 12px #696969;
+}
+
+div.dcbackground > div.digitalwatch > div.days > .dayitem {
+    width: 35px;
+    height: 35px;
+    flex: 1 1 calc(100% / 7 - 10px);
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid var(--border-color);
+    user-select: none;
+    font-weight: bold;
+}
+
+div.dcbackground > div.digitalwatch > div.days > .dayitem:hover {
+    border: 3px solid var(--border-hover-color);
+    color: var(--text-hover-color);
+}
+
+div.dcbackground > div.digitalwatch > div.monthandyear {
+    width: 310px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    user-select: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background: var(--background-gradiant);
+    font-family: Inter, serif;
+
+
+}
+
+div.dcbackground > div.digitalwatch > div.dayandclock {
+    width: 310px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+}
+
+div.dcbackground > div.digitalwatch > div.dayandclock > span {
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #CCCCCCFF;
+    user-select: none;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    font-family: Inter, serif;
+}
+
+div.dcbackground > div.digitalwatch > div.dayandclock > span.clock {
+    background: var(--background-gradiant);
+}
+
+
+div.dcbackground > div.digitalwatch > div.themecolor {
+    width: 310px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder > .theme {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder {
+    border: 2px solid transparent;
+    padding: 3px;
+    transition: border-color 0.3s ease;
+}
+
+/* Border colors for each theme */
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder.active.redc {
+    border-color: #fa2803; /* Red */
+}
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder.active.bluec {
+    border-color: #2f80ed; /* Blue */
+}
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder.active.yelloc {
+    border-color: #f5af19; /* Yellow */
+}
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder.active.greenc {
+    border-color: #576500; /* Green */
+}
+
+div.dcbackground > div.digitalwatch > div.themecolor > div.circleborder.active.purplec {
+    border-color: #7f00ff; /* Purple */
+}

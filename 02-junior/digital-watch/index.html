@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Digital Watch</title>
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="dcbackground w-100 vh-100 d-flex flex-column justify-content-center align-items-center" id="dcbackground">
+
+    <div class="digitalwatch bg-white flex-column rounded-4 p-3 d-flex justify-content-center align-items-center"
+         id="digitalwatch">
+        <div class="themecolor bg-dark m-2 rounded-3 d-flex flex-row gap-3 justify-content-center align-items-center"
+             id="themecolor">
+
+
+        </div>
+        <div class="monthandyear text-white m-1 rounded-2 d-flex gap-2 justify-content-center align-items-center">
+            <span class="" id="month"></span>
+            <span class="" id="year"></span>
+        </div>
+        <div class="days d-flex flex-row flex-wrap justify-content-center align-items-center" id="dayitems">
+
+        </div>
+        <div class="dayandclock m-1 d-flex gap-2 justify-content-between align-items-center">
+            <span class="day w-50 rounded-2" id="day"></span>
+            <span class="clock text-white w-50 rounded-2" id="clock"></span>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="./scripts/main.js"></script>
+</body>
+
+</html>

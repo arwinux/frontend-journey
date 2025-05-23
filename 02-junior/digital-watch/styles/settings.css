@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Interlight, serif;
+}
+
+:root {
+    --border-color: #CCCCCCFF;
+    --border-hover-color: rgba(87, 101, 0, 0.4);
+    --text-hover-color: #576500;
+    --background-gradiant: linear-gradient(to right, #b5c300, #7D8B01);
+    --border-theme-color: #576500;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url("../assets/fonts/Inter_24pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'interlight';
+    src: url("../assets/fonts/Inter_24pt-Light.ttf");
+}
