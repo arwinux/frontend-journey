@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captcha Generator</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<div class="background w-100 h-100 position-absolute flex-column d-flex justify-content-center align-items-center">
+  <div class="container m-0 p-0 bg-light rounded rounded-3">
+    <div class="capthaandresetbtn w-100 h-50 d-flex flex-row justify-content-center align-items-center">
+      <div class="captchaandtext w-75 h-100 d-flex justify-content-center align-items-center">
+        <div id="captchaback" class="captcha bg-warning rounded rounded-3 d-flex justify-content-center align-items-center">
+          <div id="captchanumbertext" class="captchatext">
+            F2Js5
+          </div>
+        </div>
+      </div>
+      <div class="resetbtncontainer w-25 h-100 d-flex justify-content-center align-items-center">
+        <div id="regenerate" class="resetbtn border border-black border-1 rounded rounded-3 d-flex justify-content-center align-items-center">
+          <img class="w-50" src="./assets/images/reload.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="capthaandresetbtn border-0 w-100 h-50 d-flex flex-row justify-content-center align-items-center">
+      <input itemid="captchainput" class="captchainput border-2 w-75 h-100 p-3 rounded rounded-3" autocomplete="false" type="text" name="captchainput" id="captchainput">
+      <div class="checkbtncontainer w-25 h-100 d-flex justify-content-center align-items-center">
+        <div id="checkbtn" class="checkbtn border border-black border-1 rounded rounded-3 d-flex justify-content-center align-items-center">
+          <img class="w-50" src="./assets/images/check.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="statuscheck" class="statuscheck mt-3 rounded rounded-3"></div>
+</div>
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

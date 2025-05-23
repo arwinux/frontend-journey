@@ -1,0 +1,378 @@
+@import "settings.css";
+
+@media (min-width: 1200px) {
+  div.background{
+    background: linear-gradient(to right, #00b4db, #0083b0);
+  }
+
+  div.background > div.container{
+    width: 500px;
+    height: 200px;
+  }
+
+  div.background > div.container > div.capthaandresetbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.inputandcheckbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext > div.captcha{
+    height: 100%;
+    width: 100%;
+    background: transparent url("../assets/images/p3.jpg") no-repeat fixed center center;
+    background-size: 500px;
+    user-select: none;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext  > div.captcha > div.captchatext{
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    font-family: vceosd,serif;
+    color: #0e0e0e;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.resetbtncontainer > div.resetbtn{
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+  div.background > div.container > div.inputandcheckbtn > div.checkcaptcha{
+    height: 100%;
+    width: 80%;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > input.captchainput{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.checkbtncontainer > div.checkbtn{
+    background: linear-gradient(to right, #add100, #12d62c);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  div.background >  div.statuscheck{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.background{
+    background: linear-gradient(to right, #00b4db, #0083b0);
+  }
+
+  div.background > div.container{
+    width: 500px;
+    height: 200px;
+  }
+
+  div.background > div.container > div.capthaandresetbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.inputandcheckbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext > div.captcha{
+    height: 100%;
+    width: 100%;
+    background: transparent url("../assets/images/p3.jpg") no-repeat fixed center center;
+    background-size: 500px;
+    user-select: none;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext  > div.captcha > div.captchatext{
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    font-family: vceosd,serif;
+    color: #0e0e0e;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.resetbtncontainer > div.resetbtn{
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+  div.background > div.container > div.inputandcheckbtn > div.checkcaptcha{
+    height: 100%;
+    width: 80%;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > input.captchainput{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.checkbtncontainer > div.checkbtn{
+    background: linear-gradient(to right, #add100, #12d62c);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  div.background >  div.statuscheck{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  div.background{
+    background: linear-gradient(to right, #00b4db, #0083b0);
+  }
+
+  div.background > div.container{
+    width: 500px;
+    height: 200px;
+  }
+
+  div.background > div.container > div.capthaandresetbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.inputandcheckbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext > div.captcha{
+    height: 100%;
+    width: 100%;
+    background: transparent url("../assets/images/p3.jpg") no-repeat fixed center center;
+    background-size: 500px;
+    user-select: none;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext  > div.captcha > div.captchatext{
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    font-family: vceosd,serif;
+    color: #0e0e0e;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.resetbtncontainer > div.resetbtn{
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+  div.background > div.container > div.inputandcheckbtn > div.checkcaptcha{
+    height: 100%;
+    width: 80%;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > input.captchainput{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.checkbtncontainer > div.checkbtn{
+    background: linear-gradient(to right, #add100, #12d62c);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  div.background >  div.statuscheck{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  div.background{
+    background: linear-gradient(to right, #00b4db, #0083b0);
+  }
+
+  div.background > div.container{
+    width: 500px;
+    height: 200px;
+  }
+
+  div.background > div.container > div.capthaandresetbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.inputandcheckbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext > div.captcha{
+    height: 100%;
+    width: 100%;
+    background: transparent url("../assets/images/p3.jpg") no-repeat fixed center center;
+    background-size: 500px;
+    user-select: none;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext  > div.captcha > div.captchatext{
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    font-family: vceosd,serif;
+    color: #0e0e0e;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.resetbtncontainer > div.resetbtn{
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+  div.background > div.container > div.inputandcheckbtn > div.checkcaptcha{
+    height: 100%;
+    width: 80%;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > input.captchainput{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.checkbtncontainer > div.checkbtn{
+    background: linear-gradient(to right, #add100, #12d62c);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  div.background >  div.statuscheck{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+  }
+
+}
+
+@media (max-width:576px) {
+  div.background{
+    background: linear-gradient(to right, #00b4db, #0083b0);
+  }
+
+  div.background > div.container{
+    width: 350px;
+    height: 200px;
+  }
+
+  div.background > div.container > div.capthaandresetbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.inputandcheckbtn{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext > div.captcha{
+    height: 100%;
+    width: 100%;
+    background: transparent url("../assets/images/p3.jpg") no-repeat fixed center center;
+    background-size: 500px;
+    user-select: none;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.captchaandtext  > div.captcha > div.captchatext{
+    font-size: 30px;
+    letter-spacing: 25px;
+    font-weight: bold;
+    font-family: vceosd,serif;
+    color: #0e0e0e;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.resetbtncontainer > div.resetbtn{
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+  div.background > div.container > div.inputandcheckbtn > div.checkcaptcha{
+    height: 100%;
+    width: 80%;
+  }
+
+  div.background > div.container > div.capthaandresetbtn > input.captchainput{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+  }
+
+  div.background > div.container > div.capthaandresetbtn > div.checkbtncontainer > div.checkbtn{
+    background: linear-gradient(to right, #add100, #12d62c);
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  div.background >  div.statuscheck{
+    width: 350px;
+    height: 20px;
+    background-color: white;
+  }
+
+}
+
+
