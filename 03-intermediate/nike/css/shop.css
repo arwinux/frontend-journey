@@ -1,0 +1,235 @@
+@media(min-width:1200px) {
+  section>div.shopbyclassics {
+    margin-top: 200px;
+  }
+
+  section>div.shopbyclassics>div.title {
+    font-family: nikefuturand;
+    font-size: 54px;
+    padding: 40px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts {
+    height: 340px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide {
+    width: 220px !important;
+    font-size: 18px;
+    background: #6f7e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+  section>div.shopbyclassics {
+    margin-top: 150px;
+  }
+
+  section>div.shopbyclassics>div.title {
+    font-family: nikefuturand;
+    font-size: 54px;
+    padding: 40px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts {
+    height: 340px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide {
+    width: 220px !important;
+    font-size: 18px;
+    background: #6f7e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+  section>div.shopbyclassics {
+    margin-top: 70px;
+  }
+
+  section>div.shopbyclassics>div.title {
+    font-family: nikefuturand;
+    font-size: 54px;
+    padding: 40px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts {
+    height: 340px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide {
+    width: 220px !important;
+    font-size: 18px;
+    background: #6f7e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(min-width:567px) and (max-width:768px) {
+  section>div.shopbyclassics {
+    margin-top: 50px;
+  }
+
+  section>div.shopbyclassics>div.title {
+    font-family: nikefuturand;
+    font-size: 54px;
+    padding: 40px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts {
+    height: 340px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide {
+    width: 220px !important;
+    font-size: 18px;
+    background: #6f7e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width:567px) {
+  section>div.shopbyclassics {
+    margin-top: 70px;
+  }
+
+  section>div.shopbyclassics>div.title {
+    font-family: nikefuturand;
+    font-size: 40px;
+    padding: 40px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts {
+    height: 340px;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide {
+    width: 220px !important;
+    font-size: 18px;
+    background: #6f7e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo>div.swiper-wrapper>div.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section>div.shopbyclassics>div.classicsproducts>div.mySwipertwo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

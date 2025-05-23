@@ -1,0 +1,184 @@
+@media (min-width:1200px) {
+  section>div.product {
+    margin-top: 150px;
+  }
+
+  section>div.product>video {
+    object-fit: cover;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.title>p {
+    font-size: 60px;
+    font-family: nikefuturand;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.modelname>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.description>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button {
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button:hover {
+    background-color: rgba(54, 54, 54, 0.856) !important;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  section>div.product {
+    margin-top: 80px;
+  }
+
+  section>div.product>video {
+    object-fit: cover;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.title>p {
+    font-size: 60px;
+    font-family: nikefuturand;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.modelname>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.description>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button {
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button:hover {
+    background-color: rgba(54, 54, 54, 0.856) !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  section>div.product {
+    margin-top: 30;
+  }
+
+  section>div.product>video {
+    object-fit: cover;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.title>p {
+    font-size: 60px;
+    font-family: nikefuturand;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.modelname>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.description>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button {
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button:hover {
+    background-color: rgba(54, 54, 54, 0.856) !important;
+  }
+}
+
+@media (min-width:567px) and (max-width:768px) {
+  section>div.product {
+    margin-top: 15px;
+  }
+
+  section>div.product>video {
+    object-fit: cover;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.title>p {
+    font-size: 45px;
+    font-family: nikefuturand;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.modelname>p {
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.description>p {
+    font-size: 16px;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button {
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button:hover {
+    background-color: rgba(54, 54, 54, 0.856) !important;
+  }
+}
+
+@media (max-width:567px) {
+  section>div.product {
+    margin-top: 15px;
+  }
+
+  section>div.product>video {
+    object-fit: cover;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.title>p {
+    font-size: 45px;
+    font-family: nikefuturand;
+    text-align: center;
+
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.modelname>p {
+    font-size: 16px;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>div.description>p {
+    font-size: 16px;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button {
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    font-family: helvetica;
+  }
+
+  section>div.product>div.titleanddescriptionbtn>button:hover {
+    background-color: rgba(54, 54, 54, 0.856) !important;
+  }
+}

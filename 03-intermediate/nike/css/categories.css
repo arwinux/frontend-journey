@@ -1,0 +1,242 @@
+@media(min-width:1200px) {
+  section>div.categories {
+    margin-top: 150px;
+  }
+
+  section>div.categories>div.nikelogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section>div.categories>div.menu>div.headermenu {
+    font-family: helvetica;
+    font-size: 18px;
+    transition: all 200ms linear;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 120px;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu:hover {
+    height: auto;
+    overflow: max-content;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a:nth-child(1) {
+    font-size: 20px;
+    color: black !important;
+  }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+  section>div.categories {
+    margin-top: 150px;
+  }
+
+  section>div.categories>div.nikelogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section>div.categories>div.menu>div.headermenu {
+    font-family: helvetica;
+    font-size: 18px;
+    transition: all 200ms linear;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 70px;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu:hover {
+    height: auto;
+    overflow: max-content;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a:nth-child(1) {
+    font-size: 20px;
+    color: black !important;
+  }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+  section>div.categories {
+    margin-top: 150px;
+  }
+
+  section>div.categories>div.nikelogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section>div.categories>div.menu>div.headermenu {
+    font-family: helvetica;
+    font-size: 18px;
+    transition: all 200ms linear;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 50px;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu:hover {
+    height: auto;
+    overflow: max-content;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a:nth-child(1) {
+    font-size: 20px;
+    color: black !important;
+  }
+}
+
+@media(min-width:567px) and (max-width:768px) {
+  section>div.categories {
+    margin-top: 150px;
+  }
+
+  section>div.categories>div.nikelogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section>div.categories>div.menu>div.headermenu {
+    font-family: helvetica;
+    font-size: 18px;
+    transition: all 200ms linear;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 50px;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu:hover {
+    height: auto;
+    overflow: max-content;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a:nth-child(1) {
+    font-size: 20px;
+    color: black !important;
+  }
+
+}
+
+@media(max-width:567px) {
+  section>div.categories {
+    margin-top: 150px;
+  }
+
+  section>div.categories>div.nikelogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section>div.categories>div.menu>div.headermenu {
+    font-family: helvetica;
+    font-size: 18px;
+    transition: all 200ms linear;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 50px;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu:hover {
+    height: auto;
+    overflow: max-content;
+  }
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+
+
+
+  section>div.categories>div.menu>div.categoriesmenu>div.category>a:nth-child(1) {
+    font-size: 20px;
+    color: black !important;
+  }
+
+  section>div.categoriess {
+    margin-left: 20px;
+  }
+
+  section>div.categoriess>div.menu>div.headermenu {
+    margin-top: 80px;
+    font-family: helvetica;
+    font-size: 18px;
+    color: black !important;
+  }
+
+  section>div.categoriess>div.menu>div.categoriesmenu {
+    margin-top: 60px;
+    font-family: helvetica;
+    font-size: 25px;
+    color: black !important;
+  }
+}

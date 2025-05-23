@@ -1,0 +1,280 @@
+{
+  "header": {
+    "topHeader": {
+      "brands": [
+        {
+          "src": "./assets/images/brands/brand1.svg"
+        },
+        {
+          "src": "./assets/images/brands/brand2.svg"
+        }
+      ],
+      "menuLinks": [
+        "Find a Store",
+        "Help",
+        "Join Us",
+        "Sign In"
+      ]
+    },
+    "mainHeader": {
+      "logo": {
+        "src": "./assets/images/logoblack.jpeg"
+      },
+      "categories": [
+        "New",
+        "Men",
+        "Women",
+        "Kids",
+        "Jordan",
+        "Sale"
+      ],
+      "controls": [
+        {
+          "type": "search",
+          "src": "./assets/images/header/search.svg"
+        },
+        {
+          "type": "favorite",
+          "src": "./assets/images/header/favorite.svg"
+        },
+        {
+          "type": "cart",
+          "src": "./assets/images/header/cart.svg"
+        },
+        {
+          "type": "menu",
+          "src": "./assets/images/header/menu.svg"
+        }
+      ]
+    }
+  },
+  "body": {
+    "sections": [
+      {
+        "type": "swiper",
+        "slides": [
+          {
+            "mediaType": "video",
+            "src": "./assets/videos/slide1.mp4",
+            "title": "GET COMFORTABLE WITH WINNING",
+            "description": "Comfort you want with support you need to power your wins.",
+            "buttonText": "Shop"
+          },
+          {
+            "mediaType": "image",
+            "src": "./assets/images/slider/slide2.jpeg",
+            "title": "NIKE RUNNING'S LATEST",
+            "description": "Everything you'll need for every mile.",
+            "buttonText": "Shop"
+          },
+          {
+            "mediaType": "image",
+            "src": "./assets/images/slider/slide3.jpeg",
+            "title": "FEEL MORE ALIVE",
+            "description": "Get outside in adventure-ready gear from ACG.",
+            "buttonText": "Shop"
+          },
+          {
+            "mediaType": "image",
+            "src": "./assets/images/slider/slide4.jpeg",
+            "title": "JORDAN HEIR SERIES",
+            "description": "Run, defend, and cut with confidence in Jordan’s lowest profile hoops style.",
+            "buttonText": "Shop"
+          }
+        ]
+      },
+      {
+        "type": "collections",
+        "items": [
+          {
+            "mediaType": "image",
+            "srcDesktop": "./assets/images/collections/nikecontainera1.jpeg",
+            "srcMobile": "./assets/images/collections/nikecontainera2.jpeg",
+            "title": "Stretch Freely",
+            "description": "Women's Leggings",
+            "buttonText": "Shop"
+          },
+          {
+            "mediaType": "image",
+            "srcDesktop": "./assets/images/collections/nikecontainerb1.jpeg",
+            "srcMobile": "./assets/images/collections/nikecontainerb2.jpeg",
+            "title": "Keep it Fresh",
+            "description": "Air Force 1 '07",
+            "buttonText": "Shop"
+          }
+        ]
+      },
+      {
+        "type": "product",
+        "modelName": "P-60000",
+        "title": "REMASTERED FOR STYLE",
+        "description": "Elevate your everyday look with the Pegasus-inspired legacy runner.",
+        "buttonText": "Shop",
+        "mediaType": "video",
+        "src": "assets/videos/p6000.mp4"
+      },
+      {
+        "type": "shopByClassics",
+        "title": "SHOP BY CLASSICS",
+        "products": [
+          {
+            "src": "./assets/images/products/product1.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product2.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product3.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product4.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product5.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product6.jpeg"
+          },
+          {
+            "src": "./assets/images/products/product7.jpeg"
+          }
+        ]
+      },
+      {
+        "logo": {
+          "src": "./assets/images/logoblack.jpeg"
+        },
+        "categories": [
+          "New",
+          "Men",
+          "Women",
+          "Kids",
+          "Jordan",
+          "Sale"
+        ],
+        "fcategories": [
+          {
+            "name": "Featured",
+            "subcategories": [
+              "Air Force 1",
+              "Jordan 1",
+              "Metcon",
+              "Air Max 270",
+              "Air Max 97",
+              "Air Max 90",
+              "Blazer",
+              "Pegasus"
+            ]
+          },
+          {
+            "name": "Shoes",
+            "subcategories": [
+              "All Shoes",
+              "Jordan Shoes",
+              "Running Shoes",
+              "Basketball Shoes",
+              "Tennis Shoes",
+              "Training Shoes",
+              "Custom Shoes",
+              "Sale Shoes",
+              "Soccer Cleats"
+            ]
+          },
+          {
+            "name": "Clothing",
+            "subcategories": [
+              "All Clothing",
+              "Tops & T-Shirts",
+              "Shorts",
+              "Hoodies & Pullovers",
+              "Joggers & Sweatpants",
+              "Sports Bras",
+              "Pants & Tights",
+              "Socks",
+              "Yoga",
+              "NikeLab",
+              "Plus Size",
+              "Big & Tall",
+              "Sale Clothing"
+            ]
+          },
+          {
+            "name": "Kids",
+            "subcategories": [
+              "Infant & Toddler Shoes",
+              "Kids Shoes",
+              "Kids Basketball Shoes",
+              "Kids Running Shoes",
+              "Kids Jordan Shoes",
+              "Kids Clothing",
+              "Kids Backpacks",
+              "Kids Socks",
+              "Kids Sale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "menus": [
+      {
+        "title": "Resources",
+        "links": [
+          "Resources",
+          "Gift Cards",
+          "Find a Store",
+          "Membership",
+          "Nike Journal",
+          "Site Feedback"
+        ]
+      },
+      {
+        "title": "Help",
+        "links": [
+          "Help",
+          "Get Help",
+          "Order Status",
+          "Shipping and Delivery",
+          "Returns",
+          "Order Cancellation",
+          "Payment Options",
+          "Gift Card Balance",
+          "Contact Us"
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          "Company",
+          "About Nike",
+          "News",
+          "Careers",
+          "Investors",
+          "Purpose",
+          "Sustainability"
+        ]
+      },
+      {
+        "title": "Promotions & Discounts",
+        "links": [
+          "Promotions & Discounts",
+          "Student",
+          "Military",
+          "Teacher",
+          "First Responders & Medical Professionals",
+          "Birthday"
+        ]
+      }
+    ],
+    "legalLinks": [
+      "© 2025 Nike, Inc. All Rights Reserved",
+      "Guides",
+      "Terms of Sale",
+      "Terms of Use",
+      "Nike Privacy Policy",
+      "Your Privacy Choices",
+      "CA Supply Chains Act"
+    ]
+  }
+}

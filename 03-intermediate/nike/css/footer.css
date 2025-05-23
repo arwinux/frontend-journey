@@ -1,0 +1,230 @@
+@media (min-width:1200px) {
+  footer>div.footer {
+    margin-left: 100px;
+  }
+
+  footer>div.footer>div.footermenu {
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 120px;
+  }
+
+  footer>div.footer>div.footermenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+
+
+
+  footer>div.footer>div.footermenu>div.menuf>a:nth-child(1) {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: black !important;
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  footer>div.footer {
+    margin-left: 100px;
+  }
+
+  footer>div.footer>div.footermenu {
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 24px;
+    gap: 70px;
+  }
+
+  footer>div.footer>div.footermenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 18px;
+    color: grey !important;
+
+  }
+
+
+
+  footer>div.footer>div.footermenu>div.menuf>a:nth-child(1) {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: black !important;
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf {
+    flex-flow: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  footer>div.footer>div.accordion>div.accordion-item>h2.accordion-header>button.accordion-button {
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: white !important;
+    border: none !important;
+    color: black;
+  }
+
+  footer>div.footer>div.accordion>div.accordion-item>div.accordion-collapse>div.accordion-body>a {
+    color: rgb(99, 99, 99) !important;
+    font-family: helvetica;
+
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf {
+    flex-flow: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+
+}
+
+@media (min-width:567px) and (max-width:768px) {
+  footer>div.footer>div.accordion>div.accordion-item>h2.accordion-header>button.accordion-button {
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: white !important;
+    border: none !important;
+    color: black;
+  }
+
+  footer>div.footer>div.accordion>div.accordion-item>div.accordion-collapse>div.accordion-body>a {
+    color: rgb(99, 99, 99) !important;
+    font-family: helvetica;
+
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf {
+    flex-flow: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf {
+    flex-flow: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+}
+
+@media (max-width:567px) {
+  footer>div.footer>div.accordion>div.accordion-item>h2.accordion-header>button.accordion-button {
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: white !important;
+    border: none !important;
+    color: black;
+  }
+
+  footer>div.footer>div.accordion>div.accordion-item>div.accordion-collapse>div.accordion-body>a {
+    color: rgb(99, 99, 99) !important;
+    font-family: helvetica;
+
+  }
+
+  footer>div.footer>div.copyrightmenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf {
+    flex-flow: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+
+  footer>div.footer>div.copyrightmenu>div.menuf>a {
+    font-family: helvetica;
+    font-size: 16px;
+    color: grey !important;
+    gap: 50px;
+
+  }
+}

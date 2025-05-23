@@ -1,0 +1,1231 @@
+@media (min-width:1200px) {
+  header>div.topheader {
+    height: 36px;
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  header>div.topheader>div.brandlist>div.brands>a {
+    width: 25px;
+    height: 25px;
+  }
+
+  header>div.topheader>div.menu>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+
+  header>div.topheader>div.menu>a:hover {
+    color: #646464 !important;
+  }
+
+  /* Help menu container */
+  header>div.topheader>div.menu>div.help-container {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  header>div.topheader>div.menu>div.help-container>a:hover {
+    color: #646464 !important;
+
+  }
+
+  /* Hidden menu */
+  .help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100px;
+    background-color: white;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  /* Help menu items */
+  .help-menu>a {
+    height: 25px;
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+
+  }
+
+  .help-menu>a.hmenu {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+  }
+
+  .help-menu>a:hover {
+    color: #000000;
+  }
+
+  /* Show menu when hovering over Help link */
+  .help-container:hover .help-menu {
+    display: block;
+  }
+
+  /* header>div.mainheader {} */
+
+  header>div.mainheader>div.logo {
+    width: 60px;
+    height: 60px;
+    width: 25%;
+
+  }
+
+  header>div.mainheader>div.logo>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header>div.mainheader>nav.categories {
+    width: 50%;
+  }
+
+
+  header>div.mainheader>nav.categories>ul>li>a.category {
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>a.category:hover {
+    text-decoration: black underline 3px !important;
+  }
+
+
+  header>div.mainheader {
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+
+  header>div.mainheader>div.productscontrol {
+    height: 36px;
+    width: 25%;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput {
+    width: 168px;
+    background-color: #f5f5f5;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput:hover {
+    background-color: #CACACB;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>a.search {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input {
+    width: 132px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    outline: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input:hover {
+    background-color: #E5E5E5;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input::placeholder {
+    color: #8b7f76;
+    font-size: 18px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+  }
+
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control:hover {
+    background-color: rgb(211, 211, 211);
+  }
+
+  header>div.glassbackground {
+    background: rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(10px);
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a {
+    color: #8b7f76;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a:hover {
+    color: black;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  header>div.topheader {
+    height: 36px;
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  header>div.topheader>div.brandlist>div.brands>a {
+    width: 25px;
+    height: 25px;
+  }
+
+  header>div.topheader>div.menu>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+
+  header>div.topheader>div.menu>a:hover {
+    color: #646464 !important;
+  }
+
+  /* Help menu container */
+  header>div.topheader>div.menu>div.help-container {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  header>div.topheader>div.menu>div.help-container>a:hover {
+    color: #646464 !important;
+
+  }
+
+  /* Hidden menu */
+  .help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100px;
+    background-color: white;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  /* Help menu items */
+  .help-menu>a {
+    height: 25px;
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+
+  }
+
+  .help-menu>a.hmenu {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+  }
+
+  .help-menu>a:hover {
+    color: #000000;
+  }
+
+  /* Show menu when hovering over Help link */
+  .help-container:hover .help-menu {
+    display: block;
+  }
+
+  /* header>div.mainheader {} */
+
+  header>div.mainheader>div.logo {
+    width: 60px;
+    height: 60px;
+    width: 25%;
+
+  }
+
+  header>div.mainheader>div.logo>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header>div.mainheader>nav.categories {
+    width: 50%;
+  }
+
+
+  header>div.mainheader>nav.categories>ul>li>a.category {
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>a.category:hover {
+    text-decoration: black underline 3px !important;
+  }
+
+
+  header>div.mainheader {
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+
+  header>div.mainheader>div.productscontrol {
+    height: 36px;
+    width: 25%;
+    gap: 0 !important;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput {
+    width: 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput:hover {
+    background-color: #CACACB;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>a.search {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input {
+    width: 132px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    outline: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    display: none !important;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input:hover {
+    background-color: #E5E5E5;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input::placeholder {
+    color: #8b7f76;
+    font-size: 18px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+  }
+
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control:hover {
+    background-color: rgb(211, 211, 211);
+  }
+
+  header>div.glassbackground {
+    background: rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(10px);
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a {
+    color: #8b7f76;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a:hover {
+    color: black;
+  }
+
+  section>div.swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  header>div.topheader {
+    height: 36px;
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  header>div.topheader>div.brandlist>div.brands>a {
+    width: 25px;
+    height: 25px;
+  }
+
+  header>div.topheader>div.menu>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+
+  header>div.topheader>div.menu>a:hover {
+    color: #646464 !important;
+  }
+
+  /* Help menu container */
+  header>div.topheader>div.menu>div.help-container {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  header>div.topheader>div.menu>div.help-container>a:hover {
+    color: #646464 !important;
+
+  }
+
+  /* Hidden menu */
+  .help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100px;
+    background-color: white;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  /* Help menu items */
+  .help-menu>a {
+    height: 25px;
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+
+  }
+
+  .help-menu>a.hmenu {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+  }
+
+  .help-menu>a:hover {
+    color: #000000;
+  }
+
+  /* Show menu when hovering over Help link */
+  .help-container:hover .help-menu {
+    display: block;
+  }
+
+  /* header>div.mainheader {} */
+
+  header>div.mainheader>div.logo {
+    width: 60px;
+    height: 60px;
+    width: 25%;
+
+  }
+
+  header>div.mainheader>div.logo>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header>div.mainheader>nav.categories {
+    width: 50%;
+  }
+
+
+  header>div.mainheader>nav.categories>ul>li>a.category {
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>a.category:hover {
+    text-decoration: black underline 3px !important;
+  }
+
+
+  header>div.mainheader {
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+
+  header>div.mainheader>div.productscontrol {
+    height: 36px;
+    width: 25%;
+    gap: 0 !important;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput {
+    width: 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput:hover {
+    background-color: #CACACB;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>a.search {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input {
+    width: 132px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    outline: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    display: none !important;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input:hover {
+    background-color: #E5E5E5;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input::placeholder {
+    color: #8b7f76;
+    font-size: 18px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+  }
+
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control:hover {
+    background-color: rgb(211, 211, 211);
+  }
+
+  header>div.glassbackground {
+    background: rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(10px);
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a {
+    color: #8b7f76;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a:hover {
+    color: black;
+  }
+
+  section>div.swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  header>div.topheader {
+    height: 36px;
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  header>div.topheader>div.brandlist>div.brands>a {
+    width: 25px;
+    height: 25px;
+  }
+
+  header>div.topheader>div.menu>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+
+  header>div.topheader>div.menu>a:hover {
+    color: #646464 !important;
+  }
+
+  /* Help menu container */
+  header>div.topheader>div.menu>div.help-container {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  header>div.topheader>div.menu>div.help-container>a:hover {
+    color: #646464 !important;
+
+  }
+
+  /* Hidden menu */
+  .help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100px;
+    background-color: white;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  /* Help menu items */
+  .help-menu>a {
+    height: 25px;
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+
+  }
+
+  .help-menu>a.hmenu {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+  }
+
+  .help-menu>a:hover {
+    color: #000000;
+  }
+
+  /* Show menu when hovering over Help link */
+  .help-container:hover .help-menu {
+    display: block;
+  }
+
+  /* header>div.mainheader {} */
+
+  header>div.mainheader>div.logo {
+    width: 60px;
+    height: 60px;
+    width: 25%;
+
+  }
+
+  header>div.mainheader>div.logo>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header>div.mainheader>nav.categories {
+    width: 50%;
+  }
+
+
+  header>div.mainheader>nav.categories>ul>li>a.category {
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>a.category:hover {
+    text-decoration: black underline 3px !important;
+  }
+
+
+  header>div.mainheader {
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+
+  header>div.mainheader>div.productscontrol {
+    height: 36px;
+    width: 25%;
+    gap: 0 !important;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput {
+    width: 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput:hover {
+    background-color: #CACACB;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>a.search {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input {
+    width: 132px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    outline: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    display: none !important;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input:hover {
+    background-color: #E5E5E5;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input::placeholder {
+    color: #8b7f76;
+    font-size: 18px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>div.offcanvas {
+    width: 320px;
+    padding: 8px 36px 8px 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>div.offcanvas>div.offcanvas-body>nav.categories>ul>li>a.category:hover {
+    color: #8b7f76 !important;
+  }
+
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control:hover {
+    background-color: rgb(211, 211, 211);
+  }
+
+  header>div.glassbackground {
+    background: rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(10px);
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a {
+    color: #8b7f76;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a:hover {
+    color: black;
+  }
+
+  section>div.swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+}
+
+@media (max-width:576px) {
+  header>div.topheader {
+    height: 36px;
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  header>div.topheader>div.brandlist>div.brands>a {
+    width: 25px;
+    height: 25px;
+  }
+
+  header>div.topheader>div.menu>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+
+  header>div.topheader>div.menu>a:hover {
+    color: #646464 !important;
+  }
+
+  /* Help menu container */
+  header>div.topheader>div.menu>div.help-container {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  header>div.topheader>div.menu>div.help-container>a:hover {
+    color: #646464 !important;
+
+  }
+
+  /* Hidden menu */
+  .help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100px;
+    background-color: white;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  /* Help menu items */
+  .help-menu>a {
+    height: 25px;
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+
+  }
+
+  .help-menu>a.hmenu {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+  }
+
+  .help-menu>a:hover {
+    color: #000000;
+  }
+
+  /* Show menu when hovering over Help link */
+  .help-container:hover .help-menu {
+    display: block;
+  }
+
+  /* header>div.mainheader {} */
+
+  header>div.mainheader>div.logo {
+    width: 60px;
+    height: 60px;
+    width: 25%;
+
+  }
+
+  header>div.mainheader>div.logo>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header>div.mainheader>nav.categories {
+    width: 50%;
+  }
+
+
+  header>div.mainheader>nav.categories>ul>li>a.category {
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>a.category:hover {
+    text-decoration: black underline 3px !important;
+  }
+
+
+  header>div.mainheader {
+    padding-right: 48px;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+
+  header>div.mainheader>div.productscontrol {
+    height: 36px;
+    width: 25%;
+    gap: 0 !important;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput {
+    width: 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput:hover {
+    background-color: #CACACB;
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>a.search {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input {
+    width: 132px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    outline: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    display: none !important;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input:hover {
+    background-color: #E5E5E5;
+
+  }
+
+  header>div.mainheader>div.productscontrol>div.searchandinput>input::placeholder {
+    color: #8b7f76;
+    font-size: 18px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>div.offcanvas {
+    width: 320px;
+    padding: 8px 36px 8px 36px;
+  }
+
+  header>div.mainheader>div.productscontrol>div.controls>div.offcanvas>div.offcanvas-body>nav.categories>ul>li>a.category:hover {
+    color: #8b7f76 !important;
+  }
+
+
+  header>div.mainheader>div.productscontrol>div.controls>a.control:hover {
+    background-color: rgb(211, 211, 211);
+  }
+
+  header>div.glassbackground {
+    background: rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(10px);
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a {
+    color: #8b7f76;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+
+  header>div.mainheader>nav.categories>ul>li>div.glassbackground>div.categoriessubmenu>div.sub>div.submenu>div.submenustitles>a:hover {
+    color: black;
+  }
+
+  section>div.swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+}

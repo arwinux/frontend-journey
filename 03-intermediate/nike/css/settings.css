@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: helvetica;
+  src: url("../assets/fonts/helvetica/HelveticaNowText-Medium.ttf");
+}
+
+@font-face {
+  font-family: nikebold;
+  src: url("../assets/fonts/nike/FuturaBold.ttf");
+}
+
+@font-face {
+  font-family: nikeheavy;
+  src: url("../assets/fonts/nike/FuturaHeavy.ttf");
+}
+
+@font-face {
+  font-family: nikefuturand;
+  src: url("../assets/fonts/nike/NikeFuturaND.ttf");
+}
