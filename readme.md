@@ -140,32 +140,39 @@ Creating a personal library of battle-tested, accessible, and beautiful UI compo
 Every project follows a carefully designed structure inspired by industry best practices and Frontend Mentor's proven methodology:
 
 ```
-📁 project-name/
+🟩 project-name/
 │
-├── 📄 index.html              # Main entry point with semantic HTML
-├── 📄 README.md               # Project documentation & deployment guide
-├── 📄 README-template.md      # Reflection template for completion
-├── 📄 style-guide.md          # Design system specifications
-├── 📄 .gitignore              # Version control exclusions
+├── 📁 design/                   # Visual design references
+│   ├── 📱 mobile-design.jpg     # Mobile viewport designs
+│   ├── 🖥️ desktop-design.jpg    # Desktop viewport designs
+│   └── 💻 ...
 │
-├── 📁 design/                 # Visual design references
-│   ├── 📱 mobile-design.jpg   # Mobile viewport designs
-│   └── 🖥️ desktop-design.jpg  # Desktop viewport designs
-│
-├── 📁 images/                 # Optimized project assets
-├── 📁 src/                    # Source code organization
-│   ├── 📁 styles/             # CSS architecture
-│   │   ├── 📄 main.css        # Primary stylesheet
-│   │   ├── 📄 reset.css       # CSS normalization
-│   │   └── 📁 components/     # Component-specific styles
+├── 📁 src/                      # Source code organization
+│   ├── 📁 styles/               # CSS architecture
+│   │   ├── 📄 main.css          # Primary stylesheet
+│   │   ├── 📄 reset.css         # CSS normalization
+│   │   ├── 📄 typography.css    # Text styling presets
+│   │   ├── 📄 variables.css     # Design tokens & fonts
+│   │   └── 📄 ...     
 │   │
-│   ├── 📁 scripts/            # JavaScript modules
-│   │   ├── 📄 app.js          # Main application logic
-│   │   └── 📁 modules/        # Reusable JavaScript modules
+│   ├── 📁 scripts/              # JavaScript modules
+│   │   ├── 📄 app.js            # Main application logic
+│   │   └── ...
 │   │
-│   └── 📁 assets/             # Additional resources
+│   └── 📁 assets/               # All project assets
+│        ├── 📁 fonts/           # fonts assets
+│        │   ├── 🗛 Outfit.ttf
+│        │   └── 🗛 ...
+│        │
+│        └── 📁 images/          # Images and icons
+│            ├── 🖼️ favicon.png
+│            └── 🖼️ ...
 │
-└── 📄 DEVELOPMENT.md          # Learning notes & challenges faced
+├── 📄 index.html                # Main entry point with semantic HTML
+├── 📄 README.md                 # Project documentation & deployment guide
+├── 📄 style-guide.md            # Design system specifications
+├── 📄 .gitignore                # Version control exclusions
+└── 📄 DEVELOPMENT.md            # Learning notes & challenges faced
 ```
 
 ### 🔍 Key Files Explained
