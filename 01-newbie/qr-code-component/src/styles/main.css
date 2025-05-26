@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./typography.css";
+
+body {
+  background-color: var(--color-blue-300);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.qr-code {
+  max-width: 320px;
+  overflow-y: auto;
+  background-color: var(--white);
+  padding: var(--spacing-200);
+  padding-bottom: var(--spacing-500);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen {}
+
+.qr-code__image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.qr-code__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-200);
+  padding: 0 var(--spacing-200);
+}
