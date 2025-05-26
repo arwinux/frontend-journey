@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/arwinux/qr-code-component)
-- Live Site URL: [Live Demo](https://arwinux.github.io/qr-code-component)
+- Live Site URL: [Live Demo](https://arwinux.github.io/frontend-journey/01-newbie/qr-code-component)
 
 ## My process
 
