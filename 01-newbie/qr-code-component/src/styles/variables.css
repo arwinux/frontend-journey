@@ -1,0 +1,24 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --color-blue-300: hsl(212, 45%, 89%);
+  --color-blue-500: hsl(216, 15%, 48%);
+  --color-blue-900: hsl(218, 44%, 22%);
+
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+}
+
+@font-face {
+  font-family: "outfit-regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets//fonts/Outfit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "outfit-bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../assets/fonts/Outfit-Bold.ttf");
+}

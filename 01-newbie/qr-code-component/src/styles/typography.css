@@ -1,0 +1,16 @@
+.text-preset-1 {
+  font-size: 2.2rem;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-family: "outfit-bold";
+  color: var(--color-blue-900);
+}
+
+.text-preset-2 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-family: "outfit-regular";
+  color: var(--color-blue-500);
+
+}
