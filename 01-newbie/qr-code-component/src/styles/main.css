@@ -14,7 +14,7 @@ main {
 }
 
 .qr-code {
-  max-width: 320px;
+  max-width: 32rem;
   overflow-y: auto;
   background-color: var(--white);
   padding: var(--spacing-200);
