@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Cosmic Notes](https://i.imgur.com/placeholder.png)
+![Cosmic Notes](./src/assets/images/preview.gif)
 
 _Where thoughts transcend dimensions and ideas become constellations_ ✨
 
@@ -34,6 +34,41 @@ Step into a universe where note-taking transcends the ordinary. Cosmic Notes is 
 - **Glass Morphism**: Modern UI elements that reflect the transparency of space
 - **Gradient Text**: Text that flows like cosmic rivers across the interface
 - **Responsive Layout**: A grid system that adapts like the expanding universe
+
+### 🧩 Project Structure
+
+```
+🟩 Cosmic Notes/
+│
+├── 📁 design/                   # Visual design references
+│   ├── 📱 mobile-design.jpg     # Mobile viewport designs
+│   └── 🖥️ desktop-design.jpg    # Desktop viewport designs
+│
+├── 📁 src/                      # Source code organization
+│   ├── 📁 styles/               # CSS architecture
+│   │   ├── 📄 main.css          # Primary stylesheet
+│   │   ├── 📄 reset.css         # CSS normalization
+│   │   ├── 📄 typography.css    # Text styling presets
+│   │   ├── 📄 variables.css     # Design tokens & fonts
+│   │   └── 📄 ...
+│   │
+│   ├── 📁 scripts/              # JavaScript modules
+│   │   └── 📄 app.js            # Main application logic
+│   │
+│   └── 📁 assets/               # All project assets
+│        ├── 📁 fonts/           # fonts assets
+│        │   ├── 🗛 Inter.ttf
+│        │   └── 🗛 Orbitron.ttf
+│        │
+│        └── 📁 images/          # Images and icons
+│            └── 🖼️ preview.gif
+│
+├── 📄 index.html                # Main entry point with semantic HTML
+├── 📄 README.md                 # Project documentation & deployment guide
+├── 📄 style-guide.md            # Design system specifications
+├── 📄 .gitignore                # Version control exclusions
+└── 📄 DEVELOPMENT.md            # Learning notes & challenges faced
+```
 
 ## 🚀 Quick Start
 
