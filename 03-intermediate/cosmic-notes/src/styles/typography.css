@@ -1,0 +1,64 @@
+/* ------------------- Inter Font Face ------------------- */
+@font-face {
+  font-family: "inter";
+  font-style: normal;
+  src: url("../assets/fonts/inter/Inter-VariableFont.ttf");
+}
+
+/* ------------------- Orbitron Font Face ------------------- */
+@font-face {
+  font-family: "orbitron";
+  font-style: normal;
+  src: url("../assets/fonts/orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+
+.note.pink {
+  border-left: 0.4rem solid var(--color-pink);
+  box-shadow: inset 0 0 2rem rgba(255, 0, 128, 0.1);
+}
+
+.note.cyan {
+  border-left: 0.4rem solid var(--color-cyan);
+  box-shadow: inset 0 0 2rem rgba(0, 255, 128, 0.1);
+}
+
+.note.purple {
+  border-left: 0.4rem solid var(--color-purple);
+  box-shadow: inset 0 0 2rem rgba(128, 0, 255, 0.1);
+}
+
+.note.orange {
+  border-left: 0.4rem solid var(--color-orange);
+  box-shadow: inset 0 0 2rem rgba(255, 128, 0, 0.1);
+}
+
+.note.blue {
+  border-left: 0.4rem solid var(--color-blue);
+  box-shadow: inset 0 0 2rem rgba(0, 128, 255, 0.1);
+}
+
+.option.pink {
+  background: var(--gradient-pink);
+}
+
+.option.cyan {
+  background: var(--gradient-cyan);
+}
+
+.option.purple {
+  background: var(--gradient-purple);
+}
+
+.option.orange {
+  background: var(--gradient-orange);
+}
+
+.option.blue {
+  background: var(--gradient-blue);
+}
+
+
+.hidden {
+  display: none;
+}

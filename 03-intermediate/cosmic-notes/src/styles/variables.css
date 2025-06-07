@@ -1,0 +1,134 @@
+:root {
+  /* Colors */
+  --color-primary-bg: #0a0a0a;
+  --color-white: #ffffff;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.9);
+  --color-text-muted: rgba(255, 255, 255, 0.6);
+  --color-text-faded: rgba(255, 255, 255, 0.5);
+
+  /* Accent Colors */
+  --color-pink: #ff0080;
+  --color-cyan: #00ff80;
+  --color-purple: #8000ff;
+  --color-orange: #ff8000;
+  --color-blue: #0080ff;
+
+  /* Gradient Colors */
+  --gradient-pink: linear-gradient(135deg, #ff0080, #ff4da6);
+  --gradient-cyan: linear-gradient(135deg, #00ff80, #4dff9f);
+  --gradient-purple: linear-gradient(135deg, #8000ff, #a64dff);
+  --gradient-orange: linear-gradient(135deg, #ff8000, #ff9f4d);
+  --gradient-blue: linear-gradient(135deg, #0080ff, #4d9fff);
+
+  /* Multi-color Gradients */
+  --gradient-primary: linear-gradient(45deg, #a0a0a0, #ffffff);
+  --gradient-text: linear-gradient(45deg, var(--color-white), #cccccc);
+  --gradient-modal: linear-gradient(45deg, var(--color-pink), var(--color-cyan));
+  --gradient-portal: linear-gradient(135deg, rgba(255, 0, 128, 0.1), rgba(0, 255, 128, 0.1));
+
+  /* Background Colors */
+  --bg-glass: rgba(255, 255, 255, 0.1);
+  --bg-glass-hover: rgba(255, 255, 255, 0.2);
+  --bg-glass-light: rgba(255, 255, 255, 0.05);
+  --bg-modal: rgba(20, 20, 20, 0.95);
+  --bg-modal-overlay: rgba(0, 0, 0, 0.9);
+
+  /* Border Colors */
+  --border-glass: rgba(255, 255, 255, 0.3);
+  --border-glass-hover: rgba(255, 255, 255, 0.8);
+  --border-glass-light: rgba(255, 255, 255, 0.2);
+  --border-dashed: rgba(255, 255, 255, 0.3);
+
+  /* Typography */
+  --font-primary: "inter";
+  --font-display: "orbitron";
+
+  /* Font Sizes (rem) */
+  --font-xs: 0.8rem;
+  /* 8px */
+  --font-sm: 1.2rem;
+  /* 12px */
+  --font-base: 1.6rem;
+  /* 16px */
+  --font-lg: 1.8rem;
+  /* 18px */
+  --font-xl: 2.4rem;
+  /* 24px */
+  --font-2xl: 4rem;
+  /* 40px */
+  --font-3xl: 6.4rem;
+  /* 64px */
+
+  /* Font Weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-black: 800;
+  --font-heavy: 900;
+
+  /* Spacing (rem) */
+  --space-xs: 0.8rem;
+  /* 8px */
+  --space-sm: 1rem;
+  /* 10px */
+  --space-md: 1.5rem;
+  /* 15px */
+  --space-lg: 2rem;
+  /* 20px */
+  --space-xl: 2.5rem;
+  /* 25px */
+  --space-2xl: 3rem;
+  /* 30px */
+  --space-3xl: 4rem;
+  /* 40px */
+  --space-4xl: 5rem;
+  /* 50px */
+
+  /* Border Radius */
+  --radius-sm: 1.5rem;
+  /* 15px */
+  --radius-md: 2rem;
+  /* 20px */
+  --radius-lg: 2.5rem;
+  /* 25px */
+  --radius-xl: 5rem;
+  /* 50px */
+  --radius-full: 50%;
+
+  /* Shadows */
+  --shadow-sm: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 2rem rgba(255, 255, 255, 0.3);
+  --shadow-glow-strong: 0 0 3rem rgba(255, 255, 255, 0.5);
+  --shadow-float: 0 2.5rem 5rem rgba(0, 0, 0, 0.3), 0 0 3rem rgba(255, 255, 255, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.3s ease;
+  --transition-medium: 0.4s ease;
+  --transition-slow: 0.6s ease;
+  --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --transition-smooth: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+
+  /* Z-index */
+  --z-behind: -2;
+  --z-back: -1;
+  --z-base: 1;
+  --z-modal: 1000;
+
+  /* Backdrop Filters */
+  --blur-sm: blur(5px);
+  --blur-md: blur(10px);
+  --blur-lg: blur(15px);
+  --blur-xl: blur(20px);
+
+  /* Container Sizes */
+  --container-max: 140rem;
+  /* 1400px */
+  --modal-max: 60rem;
+  /* 600px */
+  --search-max: 40rem;
+  /* 400px */
+}

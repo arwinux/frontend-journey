@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Notes</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+
+<body>
+
+  <div class="cosmic-bg"></div>
+  <div class="stars" id="stars"></div>
+  <section class="container">
+    <header class="header">
+      <h1 class="header__title">COSMIC NOTES</h1>
+      <div class="header__author">
+        <span class="header__author-text">Made by – </span>
+        <a class="header__author-link" href="https://github.com/arwinux" target="_blank">Arvin
+          Jafary @Arwinux</a>
+      </div>
+      <div class="header__controls">
+        <button class="control btn btn--create" type="button">✨ Create Reality</button>
+        <input class="control input input__search" type="text" name="search" id="search"
+          placeholder="Search the multiverse">
+      </div>
+    </header>
+
+    <main class="notes">
+      <div class="notes__collections" id="notes-collections">
+      </div>
+    </main>
+
+  </section>
+
+  <div class="modal hidden">
+    <div class="modal__form">
+      <form>
+        <div class="form__header">
+          <h1 class="form__header__title">Add Note</h1>
+          <button class="form__close-btn" type="button">×</button>
+        </div>
+
+        <div class="form__content">
+          <div class="content form__title">
+            <label class="form__label" for="form__name">Note Title</label>
+            <input class="form__input form__name " placeholder="write your note Title" type="text" name="form__name"
+              id="form__name">
+          </div>
+
+          <div class="content form__caption">
+            <label class="form__label" for="note-caption">Caption</label>
+            <textarea class="form__input form__textarea" placeholder="Write you note description" name="form__textarea"
+              id="form__textarea"></textarea>
+          </div>
+          <div class="content form__tag">
+            <label class="form__label" for="note-tag">Tag</label>
+            <input class="form__input" placeholder="Write you note Tag (without #)" name="form__textarea"
+              id="note-tag"></input>
+          </div>
+          <input class="colorpictext" type="text" name="colorpic" id="colorpic">
+          <div class="form__colors">
+            <label class="form__label" for="coloroption">Select Color</label>
+            <div class="color__options">
+              <div class="option pink"></div>
+              <div class="option cyan"></div>
+              <div class="option purple"></div>
+              <div class="option orange"></div>
+              <div class="option blue"></div>
+            </div>
+          </div>
+        </div>
+        <div class="form__footer">
+          <button class="control btn actio-btn__add" type="button">Add</button>
+          <button style="display: none;" class="control btn actio-btn__update" type="button">Update</button>
+          <button style="display: none;" class="control btn actio-btn__delete-modal" type="button">Delete</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="./src/scripts/app.js"></script>
+</body>
+
+</html>
