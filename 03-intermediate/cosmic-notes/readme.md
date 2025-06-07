@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![Cosmic Notes](./src/assets/images/preview.gif)
+![Cosmic Notes](./design/desktop-design.png)
 
 _Where thoughts transcend dimensions and ideas become constellations_ ✨
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-✨-ff69b4.svg)](https://github.com/arwinux)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/arwinux/cosmic-notes?style=social)](https://github.com/arwinux/cosmic-notes)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-🌌%20Cosmic%20Notes-blue)](https://arwinux.github.io/frontend-journey/03-intermediate/cosmic-notes)
 
 </div>
 
