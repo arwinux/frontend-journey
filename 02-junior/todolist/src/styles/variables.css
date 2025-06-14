@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --color-bg-body: linear-gradient(to right, #fbf6fa, #dbdbdb);
+  --color-bg-container: #fbf6fa;
+  --color-box-shadow-light: #cfcfcf;
+  --color-box-shadow-medium: #e2e2e2;
+  --color-box-shadow-hover: #d6d6d6;
+  --color-primary-text: #232526;
+  --color-secondary-text: #8a8a8a;
+  --color-placeholder: #707070;
+  --color-bg-white: #ffffff;
+  --color-filter-bg: #232526;
+
+  /* Gradients */
+  --gradient-btn: linear-gradient(to right, #232526, #414345);
+  --gradient-border-left: linear-gradient(to right, #009fc7, #2948ff);
+  --gradient-complete: linear-gradient(to right, #11998e, #2bff60);
+  --gradient-delete: linear-gradient(to right, #ff416c, #ff4b2b);
+  --gradient-number: linear-gradient(to right, #009fc7, #2948ff);
+
+  /* Fonts */
+  --font-main: "Roboto", sans-serif;
+  --font-italic: "Alegreya", serif;
+
+  /* Sizing & Radius */
+  --radius-small: 1rem;
+  --radius-medium: 1.6rem;
+  --radius-large: 2rem;
+  --shadow-regular: 0 0 20px rgb(206, 206, 206);
+  --shadow-hover: 0 0 20px #707070;
+
+  /* Font Sizes */
+  --font-size-lg: 3rem;
+  --font-size-md: 2rem;
+  --font-size-sm: 1.4rem;
+}
