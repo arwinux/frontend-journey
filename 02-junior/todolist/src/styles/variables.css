@@ -19,8 +19,9 @@
   --gradient-number: linear-gradient(to right, #009fc7, #2948ff);
 
   /* Fonts */
-  --font-main: "Roboto", sans-serif;
-  --font-italic: "Alegreya", serif;
+  --font-main: "roberto";
+  --font-italic: "alegreya";
+  --font-title: "pacifico";
 
   /* Sizing & Radius */
   --radius-small: 1rem;

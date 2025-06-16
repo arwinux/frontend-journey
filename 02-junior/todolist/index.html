@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDo List</title>
-    <link rel="stylesheet" href="./src/styles/main.css" />
-  </head>
 
-  <body>
-    <main>
-      <div class="container">
-        <div class="todo">
-          <div class="todo__header">
-            <div class="todo__title">
-              <h1>ToDo List</h1>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="todo">
+        <div class="todo__header">
+          <div class="todo__title">
+            <h1>ToDo List</h1>
           </div>
+        </div>
+        <form class="todo__form">
           <div class="todo__input-section">
-            <input
-              class="inputtext todo__input-text"
-              placeholder="What needs to be done?"
-              type="text"
-              name="notetext"
-              id="notetext"
-            />
-            <button
-              id="add-note-btn"
-              class="btn todo__input-button"
-              type="button"
-            >
-              +
-            </button>
+            <input class="todo__input-text" placeholder="What needs to be done?" type="text">
+            <button class="btn todo__input-button" type="submit">+</button>
           </div>
           <select class="todo__filter-button" name="filter" id="filter">
             <option class="filter-option" value="all">All</option>
             <option class="filter-option" value="completed">Completed</option>
-            <option class="filter-option" value="active">Active</option>
+            <option class="filter-option" value="uncompleted">Uncompleted</option>
           </select>
+        </form>
 
-          <div class="todo__items" id="todo-items">
-            <!-- Adding todo items with JavaScript -->
-          </div>
+        <div class="todo__items">
+          <!-- Adding todo items with JavaScript -->
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <script src="./src/scripts/app.js"></script>
-  </body>
+  <script src="./src/scripts/app.js"></script>
+</body>
+
 </html>

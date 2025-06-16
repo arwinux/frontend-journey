@@ -13,7 +13,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: var(--font-main);
-  margin: 2rem 0;
+  padding: 2rem 0;
   font-weight: bold;
 }
 
@@ -37,10 +37,21 @@ body {
   margin-bottom: 2rem;
   text-align: center;
   color: var(--color-primary-text);
-  font-family: roboto;
+  font-family: var(--font-title);
+  cursor: default;
+  user-select: none;
 }
 
 .todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  user-select: none;
+
+}
+
+.todo__form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +69,8 @@ body {
   background-color: var(--color-bg-white);
   border-radius: var(--radius-medium);
   box-shadow: var(--shadow-regular);
+  border: 0.05rem solid transparent;
+  transition: border 200ms linear;
 }
 
 .todo__input-section:hover {
@@ -82,7 +95,7 @@ body {
   box-shadow: var(--shadow-hover);
 }
 
-.inputtext {
+.todo__input-text {
   height: 100%;
   box-sizing: border-box;
   position: relative;
@@ -97,7 +110,7 @@ body {
   flex: 1;
 }
 
-.inputtext::placeholder {
+.todo__input-text::placeholder {
   font-weight: normal;
 }
 
@@ -122,6 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  transition: all 200ms linear;
 }
 
 .todo__item {
@@ -137,11 +151,14 @@ body {
   position: relative;
   cursor: pointer;
   background-color: var(--color-bg-white);
+
 }
 
 .todo__item:hover {
   box-shadow: 0 0 20px var(--color-box-shadow-hover);
   transform: translateY(-2px);
+  box-shadow: 12px 12px 15px rgb(212, 212, 212);
+
 }
 
 .todo__item::before {
@@ -191,7 +208,7 @@ body {
 }
 
 .todo-item__date {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
   color: var(--color-secondary-text);
   font-style: italic;
   font-family: var(--font-italic);
@@ -212,6 +229,8 @@ body {
   cursor: pointer;
   transition: all 200ms linear;
 }
+
+
 
 .todo-item__complete {
   background: var(--gradient-complete);

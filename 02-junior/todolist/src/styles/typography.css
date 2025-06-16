@@ -7,3 +7,9 @@
   font-family: "alegreya";
   src: url("../assets/fonts/Alegreya-VariableFont_wght.ttf");
 }
+
+
+@font-face {
+  font-family: "pacifico";
+  src: url("../assets/fonts/Pacifico-Regular.ttf");
+}
