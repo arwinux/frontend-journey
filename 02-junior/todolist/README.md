@@ -2,7 +2,10 @@
 
 <div align="center">
 
-![Todo List](./src/assets/images/preview.png)
+
+| ![Image 1](./src/assets/images/previewnote.png) | ![Image 2](./src/assets/images/editnote.png) |
+|:----------------------:|:----------------------:|
+
 
 _Where productivity meets elegance in a symphony of organization_ ✨
 

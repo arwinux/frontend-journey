@@ -10,12 +10,14 @@
   --color-placeholder: #707070;
   --color-bg-white: #ffffff;
   --color-filter-bg: #232526;
+  --color-modal-bg: #ababab4d;
 
   /* Gradients */
   --gradient-btn: linear-gradient(to right, #232526, #414345);
   --gradient-border-left: linear-gradient(to right, #009fc7, #2948ff);
   --gradient-complete: linear-gradient(to right, #11998e, #2bff60);
   --gradient-delete: linear-gradient(to right, #ff416c, #ff4b2b);
+  --gradient-edite: linear-gradient(to right, #F5DE33, #d8aa14);
   --gradient-number: linear-gradient(to right, #009fc7, #2948ff);
 
   /* Fonts */
