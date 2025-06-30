@@ -13,6 +13,7 @@ _Where productivity meets elegance in a symphony of organization_ ✨
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-📝%20Todo%20List-blue)](https://arwinux.github.io/frontend-journey/02-junior/todolist/)
 
+
 </div>
 
 ## 🎯 Welcome to Todo List
