@@ -1,0 +1,14 @@
+/* Assistant font (used for secondary headings) */
+@font-face {
+  font-family: "Assistant";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../assets/fonts/Assistant-Medium.ttf");
+}
+
+/* Ubuntu font (used for primary text) */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  src: url("../assets/fonts/Ubuntu-Medium.ttf");
+}

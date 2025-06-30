@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="./src/styles/fontawesome/css/all.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header">
+      <nav class="nav-header container">
+        <div class="nav-header__menubars">
+          <i class="icon fas fa-bars"></i>
+        </div>
+        <h2 class="nav-header__title">Arvin's Store</h2>
+        <div class="nav-header__addcart-btn">
+          <i class="icon fas fa-cart-plus"></i>
+          <div class="nav-header__addcartnumber"><span class="header__cart-count">0</span></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="products ">
+    <div class="products__title">
+      Our Products
+    </div>
+
+    <div class="product-grid container">
+      <!-- 
+      Article => product-grid__card
+      -->
+
+    </div>
+
+  </section>
+
+  <section class="cart-modal hidden">
+    <div class="cart-modal__form">
+      <div class="cart-modal__header">
+        <div class="cart-modal__title">
+          <p>Your Cart</p>
+        </div>
+        <button class="cart-modal__closebtn btn"><i class="fa fa-close icon"></i></button>
+      </div>
+
+
+      <div class="cart-modal__content">
+        <!--
+         Div => cart-modal__product 
+         -->
+      </div>
+
+
+      <div class="cart-modal__totalprice">
+        <div class="cart-modal__totalprice-title">
+          <h3>Total Price :</h3>
+        </div>
+        <div>
+          <h2 class="cart-modal__totalprice-value"></h2>
+        </div>
+      </div>
+      <div class="cart-modal__footer">
+        <button class="cart-modal-clear-button btn control">Clear Cart</button>
+        <button class="cart-modal-confirm-button btn control">Confirm</button>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="./src/scripts/app.js"></script>
+</body>
+
+</html>

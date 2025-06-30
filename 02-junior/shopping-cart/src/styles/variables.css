@@ -1,0 +1,52 @@
+:root {
+  /* Font Sizes */
+  --font-size-xs: 1.3rem;
+  --font-size-sm: 1.5rem;
+  --font-size-md: 1.8rem;
+  --font-size-lg: 1.9rem;
+  --font-size-xl: 2.4rem;
+  --font-size-xxl: 5rem;
+
+  /* Spacing */
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
+  --space-xl: 5rem;
+  --space-xxl: 8rem;
+
+  /* Sizes */
+  --icon-size: 5rem;
+  --badge-size: 2.4rem;
+  --border-radius-xs: 0.5rem;
+  --border-radius-sm: 1rem;
+  --border-radius-md: 1.5rem;
+  --border-radius-full: 50%;
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-light: rgba(141, 141, 141, 0.2);
+  --color-gray-dark: rgba(141, 141, 141, 0.8);
+  --color-gray-text: #666666;
+  --color-purple: rgb(146, 69, 223);
+  --color-purple-dark: rgb(118, 32, 204);
+  --color-purple-light: rgb(242, 228, 255);
+  --color-purple-badge: rgb(162, 0, 255);
+
+  /* Additional Colors */
+  --color-remove: #c33b3b;
+  --color-remove-hover: #9e3232;
+  --color-total: #9333ea;
+
+  /* Fonts */
+  --font-primary: "Ubuntu";
+  --font-secondary: "Assistant";
+
+  /* Transitions */
+  --transition-fast: all 200ms linear;
+
+  /* Shadows */
+  --box-shadow-header: 1rem 1rem 1rem var(--color-gray-light);
+  --box-shadow-card: 0 0 2rem var(--color-gray-dark);
+}

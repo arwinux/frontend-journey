@@ -1,0 +1,73 @@
+@import "./variables.css";
+
+/* =========================
+   Box Sizing Reset
+   ========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* =========================
+   Base Font & Background
+   ========================= */
+html {
+  font-size: 62.5%;
+  background-color: #f3f4f6;
+  font-family: var(--font-primary);
+}
+
+/* =========================
+   Headings
+   ========================= */
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+/* =========================
+   Utility Classes
+   ========================= */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.btn {
+  border: none;
+  font-size: var(--font-size-md);
+  cursor: pointer;
+}
+
+.control {
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-remove);
+  color: var(--color-white);
+}
+
+.action {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: var(--border-radius-full);
+  background-color: #e5e7eb;
+  color: #4e4e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition-fast);
+}
+
+.action:hover {
+  background-color: #d1d5db;
+}
