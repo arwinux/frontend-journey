@@ -17,7 +17,7 @@ Nike-JS is a modern and interactive web application built with JavaScript, desig
 - ![axios](https://img.shields.io/badge/axios-8b5bdc?style=for-the-badge&logo=axios&logoColor=white)
 
 ## Theme Preview 🖼️
-![HTML Preview](assets/images/screenshot/preview.png)
+![HTML Preview](./design/preview.png)
 
 
 

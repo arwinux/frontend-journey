@@ -3,7 +3,7 @@
 <div align="center">
 
 
-| ![Image 1](./src/assets/images/previewnote.png) | ![Image 2](./src/assets/images/editnote.png) |
+| ![Image 1](./design/previewnote.png) | ![Image 2](./design/editnote.png) |
 |:----------------------:|:----------------------:|
 
 

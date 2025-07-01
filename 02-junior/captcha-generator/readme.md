@@ -12,7 +12,7 @@ A sleek, interactive CAPTCHA generator built using **JavaScript, HTML, and CSS**
 - **Simple & Lightweight** - No external dependencies beyond Bootstrap.
 
 ## 🖼️ Screenshots
-<img src="./assets/video/readme.gif">
+<img src="./design/readme.gif">
 
 ## 📂 Project Structure
 ```

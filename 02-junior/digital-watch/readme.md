@@ -19,7 +19,7 @@ showcases a beautifully designed timepiece with:
 ✔️ **Responsive Design** – Works seamlessly on all devices.
 
 ## 📸 Screenshots
-<img src="./assets/video/radme.gif">
+<img src="./design/radme.gif">
 
 ## 🛠️ Installation
 

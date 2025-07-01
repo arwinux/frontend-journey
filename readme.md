@@ -1,5 +1,5 @@
+![Image 1](./01-newbie/qr-code-component/design/arwinux.jpg)
 # ✨ Front End Development Journey
-
 > *Building beautiful, functional web experiences one project at a time*
 
 Welcome to my front-end development journey! This repository chronicles my evolution from aspiring developer to skilled craftsperson through Frontend Mentor challenges and personal projects. Every line of code tells a story of growth, learning, and passion for creating exceptional digital experiences.
