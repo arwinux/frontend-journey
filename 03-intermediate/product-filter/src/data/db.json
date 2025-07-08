@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Solid Color Long Sleeve Nightgowns",
+      "image_url": "./src/assets/images/gowns/gowns2.jpg",
+      "category": "Gowns",
+      "price": "$287.00",
+      "tag": "# Gowns"
+    },
+    {
+      "id": 2,
+      "title": "Gold Chain with Angel and Praying Hands Pendants",
+      "image_url": "./src/assets/images/jewelry/jewelry1.jpg",
+      "category": "Jewelry",
+      "price": "$731.00",
+      "tag": "# Jewelry"
+    },
+    {
+      "id": 3,
+      "title": "Green Leaf Print Shirt",
+      "image_url": "./src/assets/images/shirts/shirt3.jpg",
+      "category": "Shirt",
+      "price": "$159.00",
+      "tag": "# Shirt"
+    },
+    {
+      "id": 4,
+      "title": "Blue Dial Men's Watch",
+      "image_url": "./src/assets/images/watch/watch1.jpg",
+      "category": "Watch",
+      "price": "$524.00",
+      "tag": "# Watch"
+    },
+    {
+      "id": 5,
+      "title": "Sunset Palm Tree Shirt",
+      "image_url": "./src/assets/images/shirts/shirt1.jpg",
+      "category": "Shirt",
+      "price": "$210.00",
+      "tag": "# Shirt"
+    },
+    {
+      "id": 6,
+      "title": "Black Silk Slip Dress",
+      "image_url": "./src/assets/images/gowns/gowns4.jpg",
+      "category": "Gowns",
+      "price": "$399.00",
+      "tag": "# Gowns"
+    },
+    {
+      "id": 7,
+      "title": "Rose Gold Heart and Rose Pendant Necklace",
+      "image_url": "./src/assets/images/jewelry/jewelry3.jpg",
+      "category": "Jewelry",
+      "price": "$876.00",
+      "tag": "# Jewelry"
+    },
+    {
+      "id": 8,
+      "title": "Star Print Nightgown Set",
+      "image_url": "./src/assets/images/gowns/gowns1.jpg",
+      "category": "Gowns",
+      "price": "$125.00",
+      "tag": "# Gowns"
+    },
+    {
+      "id": 9,
+      "title": "Green Dial Diamond Watch",
+      "image_url": "./src/assets/images/watch/watch3.jpg",
+      "category": "Watch",
+      "price": "$680.00",
+      "tag": "# Watch"
+    },
+    {
+      "id": 10,
+      "title": "Abstract Striped Shirt",
+      "image_url": "./src/assets/images/shirts/shirt4.jpg",
+      "category": "Shirt",
+      "price": "$95.00",
+      "tag": "# Shirt"
+    },
+    {
+      "id": 11,
+      "title": "Black and Blue Steel Bracelet with Diamonds",
+      "image_url": "./src/assets/images/jewelry/jewelry2.jpg",
+      "category": "Jewelry",
+      "price": "$340.00",
+      "tag": "# Jewelry"
+    },
+    {
+      "id": 12,
+      "title": "Lace Trim Babydoll Nightgown",
+      "image_url": "./src/assets/images/gowns/gowns3.jpg",
+      "category": "Gowns",
+      "price": "$215.00",
+      "tag": "# Gowns"
+    },
+    {
+      "id": 13,
+      "title": "Gold Dial Chronograph Watch",
+      "image_url": "./src/assets/images/watch/watch2.jpg",
+      "category": "Watch",
+      "price": "$799.00",
+      "tag": "# Watch"
+    },
+    {
+      "id": 14,
+      "title": "Grey Linen Casual Shirt",
+      "image_url": "./src/assets/images/shirts/shirt2.jpg",
+      "category": "Shirt",
+      "price": "$185.00",
+      "tag": "# Shirt"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary-700);
+  letter-spacing: 1.5px;
+  color: white;
+  text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.200);
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 6rem;
+  color: white;
+
+}
+
+
+.filter_badge {
+  padding: 1.6rem 3.2rem 1.6rem 3.2rem;
+  background: transparent;
+  font-family: var(--font-primary-600);
+  border: 0.2rem solid white;
+  transition: all linear 200ms;
+}
+
+.filter_badge:hover {
+  background: white;
+  color: #3b82f6;
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0 1rem rgb(255, 255, 255);
+}
+
+
+.filter_badge.active {
+  background: linear-gradient(to right, #FACC15, #F97316);
+}
+
+.filter_badge.active:hover {
+  color: white;
+}
+
+.tag_badge {
+  color: white;
+  background-color: var(--color-primary-blue);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 2rem;
+
+}

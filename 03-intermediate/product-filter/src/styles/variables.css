@@ -1,0 +1,48 @@
+:root {
+  /* === Font Families === */
+  --font-primary: "Inter-400";
+  --font-primary-400: "Inter-400";
+  --font-primary-500: "Inter-500";
+  --font-primary-600: "Inter-600";
+  --font-primary-700: "Inter-700";
+  --font-primary-800: "Inter-800";
+
+  /* === Colors === */
+  --header-Background-Color: linear-gradient(to bottom right, #9333ea, #3b82f6);
+  --color-primary-blue: #2563eb;
+  --color-border: #d8b4fe;
+  --color-white: #fff;
+  --color-icon: #b697d8;
+  --color-hover-border: #8b3aeb;
+  --color-hover-shadow: #8a3aeb59;
+  --color-gradient-start: #facc15;
+  --color-gradient-end: #f97316;
+  --color-shadow-dark: rgba(0, 0, 0, 0.479);
+  --color-shadow-medium: rgba(0, 0, 0, 0.226);
+  --color-shadow-light: rgba(0, 0, 0, 0.2);
+  --color-blue: #3b82f6;
+
+  /* === Border Radii === */
+  --radius-header: 3rem;
+  --radius-search: 5rem;
+  --radius-product: 1rem;
+  --radius-tag: 2rem;
+  --radius-link: 6rem;
+
+  /* === Border Widths === */
+  --border-width-thin: 0.2rem;
+  --border-width-thick: 0.4rem;
+
+  /* === Font Sizes === */
+  --font-size-h1: 6rem;
+  --font-size-base: 2rem;
+  --font-size-price: 2.4rem;
+  --font-size-tag: 1.4rem;
+  --font-size-icon: 3rem;
+
+  /* === Paddings === */
+  --padding-filter-badge: 1.6rem 3.2rem;
+  --padding-tag-badge: 0.5rem 1rem;
+  --padding-product-image: 2rem;
+  --padding-product-details: 2rem;
+}
