@@ -1,0 +1,274 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./variables.css";
+@import "./components.css";
+
+.container-xl {
+  max-width: 1200px;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  padding: 4rem 3rem;
+  color: var(--white);
+  border-radius: 2.4rem 2.4rem 0 0;
+  overflow: hidden;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, var(--white-rgb-1) 0%, transparent 70%);
+  animation: shimmer 3s infinite;
+
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
+.header__title {
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+.header__subtitle {
+  font-size: 1.8rem;
+}
+
+
+@media screen and (max-width:768px) {
+  .header__title {
+    font-size: 2.5rem;
+  }
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transactions {
+  width: 100%;
+  border-radius: 0 0 2.4rem 2.4rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--neutral-50);
+  box-shadow: var(--shadow-xl);
+
+}
+
+.transactions-panel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.transactions-panel__search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem;
+  border-bottom: 0.1rem solid var(--neutral-200);
+}
+
+
+.transactions-panel__static {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  border-bottom: 0.1rem solid var(--neutral-200);
+}
+
+.transactions-panel__grid {
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transactions-panel__grid-table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid var(--neutral-200);
+  border-radius: 1.6rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+
+}
+
+.transactions-panel__grid-table-header {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: var(--neutral-100);
+
+}
+
+.table-header-item {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-weight: 500;
+}
+
+.transactions-panel__grid-table-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transactions-panel__grid-table-item {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral-50);
+  font-size: 1.6rem;
+  cursor: default;
+  border-top: 0.1rem solid var(--neutral-200);
+  transition: all 0.2s linear;
+}
+
+.transactions-panel__grid-table-item:hover {
+  background-color: var(--neutral-100);
+  transform: translateX(-0.5rem);
+
+}
+
+.table-body-item {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-weight: 500;
+}
+
+.lable-item {
+  display: none;
+}
+
+
+@media screen and (max-width:992px) {
+
+
+
+  .transactions-panel__grid-table {
+    border: none;
+  }
+
+  .table-header-item {
+    display: none;
+    border: none;
+  }
+
+  .action {
+    display: flex !important;
+  }
+
+  .transactions-panel__grid-table-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .transactions-panel__grid-table-item {
+    width: 100%;
+    display: block;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    /* background-color: black; */
+    border: 2px solid var(--neutral-200);
+    background-color: var(--neutral-100);
+    border-radius: 1.4rem;
+    font-size: 1.6rem;
+    cursor: default;
+
+  }
+
+
+  .table-body-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 0.1rem solid var(--neutral-200);
+  }
+
+
+  .table-body-item:nth-child(7) {
+    border: none;
+  }
+
+
+  .lable-item {
+    display: block;
+    font-size: 1.4rem;
+  }
+
+  .type-id {
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+
+  }
+
+  .badge {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  }
+}
+
+.rotated-180 {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}

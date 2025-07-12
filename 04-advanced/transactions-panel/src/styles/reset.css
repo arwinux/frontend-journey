@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Vazirmatn";
+
+}
+
+body {
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--neutral-50) 0%, var(--neutral-100) 100%);
+}
+
+button {
+  outline: none;
+  background: none;
+  font-family: "Vazirmatn";
+  font-size: 1.6rem;
+}
+
+.action {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}

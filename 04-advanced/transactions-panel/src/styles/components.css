@@ -1,0 +1,380 @@
+/* -------------------------- BUTTON -------------------------- */
+.btn {
+  padding: 1.4rem 3.2rem;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  font-family: "Vazirmatn";
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+  color: var(--neutral-50);
+  border: 0.2rem solid #2949ff;
+  /* This color #2949ff is not in variables.css, keeping as is */
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  margin-top: 4rem;
+}
+
+.btn:hover {
+  transform: translateY(-0.8rem);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  border-radius: 1.2rem;
+  background: linear-gradient(90deg, transparent, var(--transparent-blue-57), transparent);
+  transition: left 0.5s;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-icon {
+  margin-right: 0.5rem;
+}
+
+
+/* -------------------------- STATIC BOARD -------------------------- */
+
+.static-board {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 1.6rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px var(--black-rgb-8);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-bottom: 0.3rem solid transparent;
+  background: linear-gradient(135deg, var(--white) 0%, var(--neutral-50) 100%);
+}
+
+.static-board:hover {
+  transform: translateY(-0.8rem);
+  box-shadow: 0 12px 30px var(--black-rgb-15);
+}
+
+.static-board::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -96%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.static-board:hover::before {
+  top: -94%;
+}
+
+.static-board__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  color: var(--neutral-600);
+}
+
+.static-board__number {
+  font-family: "Vazirmatn";
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--neutral-800);
+  text-shadow: 0 1px 3px var(--black-rgb-1);
+}
+
+.static-board.blur-bg-color::before {
+  background: linear-gradient(135deg, var(--indigo-600) 0%, var(--indigo-700) 100%);
+  box-shadow: 0 4px 20px var(--indigo-600-rgb-3);
+}
+
+.static-board.yello-bg-color::before {
+  background: linear-gradient(135deg, var(--warning-color) 0%, var(--yellow-600) 100%);
+  box-shadow: 0 4px 20px var(--yellow-400-rgb-3);
+}
+
+.static-board.green-bg-color::before {
+  background: linear-gradient(135deg, var(--success-color) 0%, var(--green-600) 100%);
+  box-shadow: 0 4px 20px var(--green-500-rgb-3);
+}
+
+.static-board.red-bg-color::before {
+  background: linear-gradient(135deg, var(--error-color) 0%, var(--red-600) 100%);
+  box-shadow: 0 4px 20px var(--red-500-rgb-3);
+}
+
+/* ------------ */
+
+
+
+
+/* -------------------------- BUTTON -------------------------- */
+/* This section seems to be a duplicate of the first .btn, but with different colors.
+   Assuming this is the intended styling for .btn and updating it. */
+.btn {
+  padding: 1.4rem 3.2rem;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  font-family: "Vazirmatn";
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--indigo-600) 0%, var(--indigo-700) 100%);
+  color: var(--white);
+  border: 0.2rem solid var(--indigo-600-rgb-5);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-top: 4rem;
+  box-shadow: 0 4px 15px var(--indigo-600-rgb-3);
+  text-shadow: 0 1px 2px var(--black-rgb-3);
+}
+
+.btn:hover {
+  transform: translateY(-0.8rem);
+  box-shadow: 0 8px 25px var(--indigo-600-rgb-4);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  border-radius: 1.2rem;
+  background: linear-gradient(90deg, transparent, var(--white-rgb-3), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-icon {
+  margin-right: 0.5rem;
+}
+
+/* -------------------------- STATIC BOARD -------------------------- */
+/* This section seems to be a duplicate of the first .static-board, keeping as is */
+.static-board {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 1.6rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px var(--black-rgb-8);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-bottom: 0.3rem solid transparent;
+  background: linear-gradient(135deg, var(--white) 0%, var(--neutral-50) 100%);
+}
+
+.static-board:hover {
+  transform: translateY(-0.8rem);
+  box-shadow: 0 12px 30px var(--black-rgb-15);
+}
+
+.static-board::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -96%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.static-board:hover::before {
+  top: -94%;
+}
+
+.static-board__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  color: var(--neutral-600);
+}
+
+.static-board__number {
+  font-family: "Vazirmatn";
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--neutral-800);
+  text-shadow: 0 1px 3px var(--black-rgb-1);
+}
+
+.static-board.blur-bg-color::before {
+  background: linear-gradient(135deg, var(--indigo-600) 0%, var(--indigo-700) 100%);
+  box-shadow: 0 4px 20px var(--indigo-600-rgb-3);
+}
+
+.static-board.yello-bg-color::before {
+  background: linear-gradient(135deg, var(--warning-color) 0%, var(--yellow-600) 100%);
+  box-shadow: 0 4px 20px var(--yellow-400-rgb-3);
+}
+
+.static-board.green-bg-color::before {
+  background: linear-gradient(135deg, var(--success-color) 0%, var(--green-600) 100%);
+  box-shadow: 0 4px 20px var(--green-500-rgb-3);
+}
+
+.static-board.red-bg-color::before {
+  background: linear-gradient(135deg, var(--error-color) 0%, var(--red-600) 100%);
+  box-shadow: 0 4px 20px var(--red-500-rgb-3);
+}
+
+/* -------------------------- BADGES -------------------------- */
+
+/* Badge Order: Primary → Secondary → Accent → Success → Warning → Error */
+
+.number-badge {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--dark-gray-800) 0%, var(--dark-gray-700) 100%);
+  /* 1st - Primary Indigo */
+  text-align: center;
+  line-height: 3.7rem;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.badge {
+  padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+  color: var(--white);
+  /* 2nd - Secondary Pink */
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  border: 0.3rem solid var(--black-rgb-2);
+  font-weight: 600;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.badge::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  border-radius: 1.2rem;
+  background: linear-gradient(90deg, transparent, var(--white-rgb-3), transparent);
+  transition: left 0.5s ease;
+}
+
+.badge:hover::before {
+  left: 80%;
+}
+
+.type-red {
+  background: linear-gradient(135deg, var(--error-color) 0%, var(--red-600) 100%);
+}
+
+.status-yellow {
+  background: linear-gradient(135deg, var(--warning-color) 0%, var(--yellow-600) 100%);
+}
+
+.type-green {
+  background: linear-gradient(135deg, var(--success-color) 0%, var(--green-600) 100%);
+}
+
+.type-blue {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--sky-600) 100%);
+}
+
+
+
+.type-deposit {
+  background: var(--green-500-rgb-1);
+  color: var(--success-color);
+  border-color: var(--green-500-rgb-2);
+  box-shadow: none;
+}
+
+.type-withdrawal {
+  background: var(--red-500-rgb-1);
+  color: var(--error-color);
+  border-color: var(--red-500-rgb-2);
+  box-shadow: none;
+}
+
+
+.type-id {
+  text-align: center;
+  backdrop-filter: blur(2rem);
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, var(--indigo-600) 0%, var(--indigo-700) 100%);
+  /* 1st - Primary Indigo */
+  color: var(--white);
+}
+
+.date {
+  font-size: 1.5rem;
+  color: var(--neutral-700);
+  font-weight: 500;
+}
+
+/* -------------------------- TEXT STYLES -------------------------- */
+
+
+.green-color {
+  color: var(--success-color);
+}
+
+.red-color {
+  color: var(--error-color);
+}
+
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+
+
+.input {
+  width: 100%;
+  max-width: 50rem;
+  font-size: 1.6rem;
+  padding: 1.6rem 2rem 1.6rem 2rem;
+  border: 2px solid var(--neutral-200);
+  background: var(--white);
+  color: var(--neutral-700);
+  font-family: "Vazirmatn";
+  border-radius: 12px;
+  outline: none;
+}
+
+
+
+
+.search-icon {
+  font-size: 3rem;
+  color: var(--primary-dark);
+}
