@@ -252,10 +252,10 @@ class Ui {
     const withdrawalStats = document.querySelector(".withdrawal-transactions");
     const totalpriceStats = document.querySelector(".totalprice-transactions");
 
-    allStats.innerText = ProdcutStatics.productALLLStatic(allProducts).length;
-    depositeStats.innerText = ProdcutStatics.productDepositeStatic(allProducts).length;
-    withdrawalStats.innerText = ProdcutStatics.productWithdrawalStatic(allProducts).length;
-    totalpriceStats.innerText = ProdcutStatics.productTotalPriceStatic(allProducts)
+    allStats.innerText = ProdcutStatics.productALLLStatic(allProducts).length.toLocaleString("fa-IR");
+    depositeStats.innerText = ProdcutStatics.productDepositeStatic(allProducts).length.toLocaleString("fa-IR");
+    withdrawalStats.innerText = ProdcutStatics.productWithdrawalStatic(allProducts).length.toLocaleString("fa-IR");
+    totalpriceStats.innerText = ProdcutStatics.productTotalPriceStatic(allProducts).toLocaleString("fa-IR");
 
 
 
