@@ -123,7 +123,73 @@ As I progress through my journey, I'm building expertise across the modern web d
 ### <span style="color:#BADE6B">🧩 Component Library</span> - Reusable Excellence
 *Building a toolkit for rapid development*
 
-Creating a personal library of battle-tested, accessible, and beautiful UI components that can be reused across projects.
+Creating a personal library of battle-tested, accessible, and beautiful UI components that can be reused across projects. Each component is crafted with attention to accessibility, performance, and modern design patterns.
+
+## 🧩 Component Library Structure
+
+The component library is organized into logical categories that mirror real-world development needs:
+
+```
+📁 components/
+├── 🎮 controls/          # Interactive elements for user actions
+│   ├── buttons/          # Primary, secondary, icon buttons
+│   ├── dropdowns/        # Select menus, multi-select
+│   ├── toggles/          # Switches, checkboxes, radio buttons
+│   └── sliders/          # Range inputs, progress bars
+│
+├── 📊 data-display/      # Components for presenting information
+│   ├── cards/            # Content cards, feature cards
+│   ├── tables/           # Data tables, responsive tables
+│   ├── badges/           # Status indicators, labels
+│   └── tags/             # Categorization, filtering tags
+│
+├── 🧭 navigation/        # Wayfinding and site structure
+│   ├── navbars/          # Header navigation, responsive nav
+│   ├── tabs/             # Tab navigation, accordion tabs
+│   ├── sidebars/         # Side navigation, drawer menus
+│   └── breadcrumbs/      # Page hierarchy navigation
+│
+├── 🗂️ overlays/          # Modal and popup interfaces
+│   ├── modals/           # Dialog boxes, confirmation prompts
+│   ├── tooltips/         # Contextual help, hover info
+│   ├── drawers/          # Slide-out panels, off-canvas
+│   └── popovers/         # Contextual overlays, dropdowns
+│
+├── 📝 forms/             # Input and form components
+│   ├── inputs/           # Text fields, search boxes
+│   ├── checkboxes/       # Multi-select options
+│   ├── selects/          # Dropdown selectors
+│   └── validation/       # Error states, success feedback
+│
+├── 📐 layout/            # Structural and spacing components
+│   ├── containers/       # Wrappers, max-width containers
+│   ├── grids/            # CSS Grid layouts, responsive grids
+│   ├── spacing/          # Margin/padding utilities
+│   └── dividers/         # Section separators, hr elements
+│
+├── 💬 feedback/          # User notification components
+│   ├── alerts/           # Success, error, warning messages
+│   ├── spinners/         # Loading indicators
+│   ├── toasts/           # Temporary notifications
+│   └── progress/         # Progress indicators, steps
+│
+├── 🔧 widgets/           # Specialized functional components
+│   ├── calendars/        # Date pickers, event calendars
+│   ├── clocks/           # Time displays, timers
+│   ├── counters/         # Number counters, statistics
+│   └── tools/            # Utility widgets, calculators
+│
+├── ⚡ utilities/         # Helper and enhancement components
+│   ├── loaders/          # Page loading states
+│   ├── skeletons/        # Content placeholders
+│   ├── dark-mode/        # Theme toggle functionality
+│   └── animations/       # Micro-interactions, transitions
+│
+└── 🧪 experiments/       # Innovative and creative components
+    ├── unfinished/       # Work-in-progress components
+    ├── creative/         # Artistic, experimental designs
+    └── concepts/         # Proof-of-concept implementations
+```
 
 ## 📊 Progress Tracking
 | Skill Level | Focus Area | Technologies | Projects | Progress |
@@ -133,7 +199,7 @@ Creating a personal library of battle-tested, accessible, and beautiful UI compo
 | <span style="color:#FFC107">🟡 Intermediate</span> | APIs & Tools | ES6+, APIs, Build | 28 | 📋 *Planned* |
 | <span style="color:#FF9652">🟠 Advanced</span> | Modern Frameworks | React/Vue, State | 15 | 📋 *Planned* |
 | <span style="color:#F44336">🔴 Expert</span> | Architecture | Patterns, WebGL | 7 | 📋 *Planned* |
-| <span style="color:#BADE6B">🧩 Component</span> | UI Library | Components | 20+ | 📋 *Planned* |
+| <span style="color:#BADE6B">🧩 Component</span> | UI Library | Components | 50+ | 📋 *Planned* |
 
 ## 📁 Project Architecture
 
