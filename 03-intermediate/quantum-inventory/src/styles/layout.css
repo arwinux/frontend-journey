@@ -1,0 +1,217 @@
+header {
+  width: 100%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-8xl);
+  padding: 0 var(--spacing-4xl) 0 var(--spacing-4xl);
+}
+
+.header {
+  padding: var(--spacing-5xl) 0 var(--spacing-5xl) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2xl);
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.header__statics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2xl);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.inventory__product-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-6xl);
+}
+
+.inventory__product-action-lable {
+  display: flex;
+  align-items: center;
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+}
+
+.inventory__category-input-lable {
+  display: flex;
+  flex-direction: column;
+}
+
+.inventory__product {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-7xl);
+  /* align-items: center; */
+}
+
+.inventory__category {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-7xl);
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.6s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.inventory__search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-7xl);
+  /* align-items: center; */
+}
+
+.search-input-logo {
+  width: var(--spacing-4xl);
+}
+
+.inventory__searchinput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.inventory__searchandfilters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-4xl);
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  margin-left: var(--spacing-md);
+  background-color: transparent;
+  outline: none;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter-500);
+  color: var(--color-text-light);
+}
+
+.title-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-5xl);
+}
+
+.inventory__product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-5xl);
+}
+
+.inventory__category-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-5xl);
+}
+
+.inventory__product-gridt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-5xl);
+  margin-top: var(--spacing-5xl);
+}
+
+.inventory__product-input-lable {
+  display: flex;
+  flex-direction: column;
+}
+
+.inventory__category-btns {
+  display: flex;
+  justify-content: end;
+  margin-top: var(--spacing-7xl);
+  gap: var(--spacing-4xl);
+}
+
+.inventory__product-btns {
+  display: flex;
+  justify-content: end;
+  margin-top: var(--spacing-7xl);
+  gap: var(--spacing-4xl);
+}
+
+.product__inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: var(--spacing-4xl);
+  margin-bottom: var(--spacing-7xl);
+}
+
+.product-cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--color-text-light);
+  gap: var(--spacing-md);
+}
+
+.product-cart-logo-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xl);
+}
+
+.product-cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.product-cart-actions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.product-card-title {
+  font-family: var(--font-inter-700);
+}
+
+.quantity-number,
+.price-number,
+.date-number {
+  color: var(--color-success);
+}

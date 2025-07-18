@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --color-primary: #ff4e08;
+  --color-primary-dark: #d84207;
+  --color-accent: #11bcff; /* Used for category badge */
+  --color-text-light: #e6e5c7;
+  --color-text-dark: #2e2c23;
+  --color-background: #233033;
+  --color-success: #7bff00;
+
+  /* Transparent colors */
+  --color-glass-background: #e6e5c705;
+  --color-glass-border: #e6e5c71a;
+  --color-glass-shadow: #0000004d;
+  --color-input-background: #e6e5c70d;
+  --color-input-border: #ff4e08a6;
+  --color-input-focus-shadow: #ff4e0880;
+  --color-input-focus-background: #e6e5c714;
+  --color-btn-shadow: #ff4e0866;
+  --color-btn-accent-shadow: rgba(255, 78, 8, 0.4);
+  --color-btn-primary-hover-shadow: #ff4e0899;
+  --color-btn-primary-before: #e6e5c733;
+  --color-static-badge-border: rgba(230, 229, 199, 0.1);
+  --color-static-badge-background: #e6e5c708;
+  --color-logo-main-background: #ffffff33;
+
+  /* Fonts */
+  --font-inter-400: "Inter-400";
+  --font-inter-500: "Inter-500";
+  --font-inter-600: "Inter-600";
+  --font-inter-700: "Inter-700";
+  --font-inter-800: "Inter-800";
+  --font-inter-900: "Inter-900";
+
+  /* Spacing */
+  --spacing-xxs: 0.2rem;
+  --spacing-xs: 0.6rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.2rem;
+  --spacing-xl: 1.4rem;
+  --spacing-2xl: 1.5rem;
+  --spacing-3xl: 1.6rem;
+  --spacing-4xl: 2rem;
+  --spacing-5xl: 2.4rem;
+  --spacing-6xl: 3.2rem;
+  --spacing-7xl: 4rem;
+  --spacing-8xl: 4.8rem;
+
+  /* Border Radius */
+  --border-radius-sm: 1.2rem;
+  --border-radius-md: 1.6rem;
+  --border-radius-round: 50%;
+
+  /* Font Sizes */
+  --font-size-xxs: 1.4rem;
+  --font-size-xs: 1.6rem;
+  --font-size-sm: 1.8rem;
+  --font-size-md: 2rem;
+  --font-size-lg: 2.5rem;
+  --font-size-xl: 3rem;
+  --font-size-2xl: 3.6rem;
+
+  /* Box Shadows */
+  --shadow-sm: 0 0.4rem 2rem var(--color-glass-shadow);
+  --shadow-md: 0 0.8rem 3.2rem;
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  /* Transitions */
+  --transition-ease: all 0.3s ease;
+  --transition-linear: all 0.3s linear;
+  --transition-fast: all 0.5s;
+}

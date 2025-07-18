@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Inventory</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+
+<body>
+
+  <!-- ------------------- Header ---------------------- -->
+  <header>
+    <div class="container header">
+
+      <div class="header__details">
+        <div class="header__logo logo logo-main"><i class="fas fa-cube"></i></div>
+
+        <div class="header__content">
+          <span class="header__title">Quantum Inventory</span>
+          <p class="header__subtitle">Next-Gen Asset Management</p>
+
+        </div>
+      </div>
+
+      <div class="header__statics">
+
+        <div class="static-badge">
+          <i class="static-icon fa-solid fa-box-open"></i>
+          <p>Total Items</p>
+          <span class="total-static-items static-number"></span>
+        </div>
+
+        <div class="static-badge">
+          <i class="static-icon fas fa-layer-group"></i>
+          <p>Categories</p>
+          <span class="total-categories-items static-number"></span>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ---------------------- Body ---------------------- -->
+  <section>
+    <div class="inventory container-x">
+
+      <div class="inventory__product-action card glass-card">
+        <div class="inventory__product-action-lable">
+          <i class="fas fa-rocket"></i>
+          <p class="title">Quick Action</p>
+        </div>
+
+        <button class="btn btn-accent add-new-category" type="button">
+          <i class="btn-icon fa-solid fa-plus"></i>
+          New Category
+        </button>
+      </div>
+
+      <!-- ---------------------- Add Category ---------------------- -->
+      <div class="inventory__category glass-card animate-slideInUp hidden">
+        <div class="category-title title-section">
+          <div class="logo"><i class="fas fa-folder-plus"></i></div>
+          <p class="title">Create New Category</p>
+        </div>
+
+        <div class="inventory__category-grid">
+          <div class="inventory__category-input-lable">
+            <label class="label" for="category-name">Category Name</label>
+            <input class="input" autocomplete="off" placeholder="Electronics, Furniture, Books..." type="text" name=""
+              id="category-name">
+          </div>
+
+          <div class="inventory__category-input-lable">
+            <label class="label" for="category-description">Description</label>
+            <textarea class="input category-description" autocomplete="off"
+              placeholder="Brief description this category" name="" id="category-description"></textarea>
+          </div>
+        </div>
+
+        <div class="inventory__category-btns">
+          <button class="cancel-new-category-btn btn btn-outline" type="button">
+            <i class="btn-icon fa-solid fa-xmark"></i>
+            Cancel
+          </button>
+
+          <button class="add-new-category-btn btn btn-primary" type="button">
+            <i class="btn-icon fa-solid fa-plus"></i>
+            Create Category
+          </button>
+
+        </div>
+      </div>
+
+      <!-- ---------------------- Add Product ---------------------- -->
+      <div class="inventory__product glass-card">
+        <div class="inventory__product-title title-section">
+          <div class="logo"><i class="fas fa-box-open"></i></div>
+          <p class="title">Add New Product</p>
+        </div>
+
+        <div class="inventory__product-grid">
+          <div class="inventory__product-input-lable">
+            <label class="label" for="product-name">Product Name</label>
+            <input class="input" autocomplete="off" placeholder="Electronics, Furniture, Books..." type="text" name=""
+              id="product-name">
+          </div>
+
+          <div class="inventory__product-input-lable">
+            <label class="label" for="product-quantity">Quantity</label>
+            <input class="input" autocomplete="off" placeholder="10" type="number" name="" id="product-quantity">
+          </div>
+
+          <div class="inventory__product-input-lable">
+            <label class="label" for="product-category">Category</label>
+            <select class="categories-options product-category-option input" name="" id="product-category">
+
+            </select>
+          </div>
+        </div>
+
+        <div class="inventory__product-gridt">
+          <div class="inventory__product-input-lable">
+            <label class="label" for="product-price">Price</label>
+            <input class="input" autocomplete="off" placeholder="99.99" type="number" name="" id="product-price">
+          </div>
+
+          <div class="inventory__product-input-lable">
+            <label class="label" for="product-sku">Product SKU</label>
+            <input class="input" autocomplete="off" placeholder="SKU-001" type="text" name="" id="product-sku">
+          </div>
+        </div>
+
+        <div class="inventory__product-btns">
+          <button class="cancel-new-product-btn btn btn-outline" type="button">
+            <i class="btn-icon fa-solid fa-xmark"></i>
+            Cancel
+          </button>
+
+          <button class="add-new-product-btn btn btn-primary" type="button">
+            <i class="btn-icon fa-solid fa-plus-square"></i>
+            Add Product
+          </button>
+        </div>
+      </div>
+
+
+      <!-- ---------------------- Search Product ---------------------- -->
+      <div class="inventory__search glass-card">
+        <div class="inventory__search-title title-section">
+          <div class="logo"><i class="fas fa-search"></i></div>
+          <p class="title">Search & Filters</p>
+        </div>
+
+        <div class="inventory__searchandfilters">
+
+
+          <div class="inventory__searchinput input">
+            <i class="search-input-logo fas fa-search"></i>
+            <input class="search-input" autocomplete="off" placeholder="Search Products" type="text" name="search-input"
+              id="search-input">
+          </div>
+
+          <select class="input inventory__filter-product categories-options-search product-category-option"
+            id="product-filter">
+          </select>
+
+
+          <select class="input inventory__sort-product product-category-option" id="product-sort">
+            <option value="Newest First">Newest First</option>
+            <option value="Oldest First">Oldest First</option>
+            <option value="Name (A-Z)">Name (A-Z)</option>
+            <option value="Quantity (Low to High)">Quantity (Low to High)</option>
+            <option value="Price (Low to High)">Price (Low to High)</option>
+          </select>
+
+        </div>
+      </div>
+
+
+      <!-- ---------------------- Product Inventory ---------------------- -->
+      <div class="product__inventory title-section">
+        <p class="title">Product Inventory</p>
+      </div>
+      <div class="product__inventory-grid">
+        <!-- ---------------- My Product -->
+      </div>
+
+
+  </section>
+
+
+
+
+  <script src="./src/scripts/app.js"></script>
+</body>
+
+</html>
