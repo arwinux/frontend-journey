@@ -1,0 +1,21 @@
+<div x-data="{ isOpen: false }" class="relative">
+  <button @click="isOpen = !isOpen"
+    class="z-10 relative inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ring-offset-white">
+    <span>Show more</span>
+    <svg class="w-5 h-5 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
+        clip-rule="evenodd" />
+    </svg>
+  </button>
+
+  <!-- Overlay -->
+  <button x-show="isOpen" @click="isOpen = false" class="inset-0 fixed w-full h-full bg-gray-400 opacity-50"></button>
+
+  <!-- Dropdown menu -->
+  <div x-show="isOpen" class="bg-white w-56 mt-2 rounded-lg overflow-hidden border border-gray-200 absolute shadow-xl">
+    <a href="#" class="block text-gray-700 p-2 hover:bg-gray-100">Account</a>
+    <a href="#" class="block text-gray-700 p-2 hover:bg-gray-100">Support</a>
+    <a href="#" class="block text-gray-700 p-2 hover:bg-gray-100">Setting</a>
+  </div>
+</div>
