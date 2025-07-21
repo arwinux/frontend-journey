@@ -1,0 +1,85 @@
+<templatel class="bg-gradient-to-r from-cyan-400 to-cyan-600 p-4 w-screen h-screen flex justify-center items-center">
+  <div x-data="{
+      item : 1,
+      activeClass : 'bg-gradient-to-r from-cyan-700 to-sky-700 outline outline-4 outline-cyan-200' 
+          
+    }" class="flex flex-col gap-2 w-[440px]">
+
+    <div @click="item = 1" :class="item === 1 ? activeClass : '' "
+      class="bg-white p-4 w-100 h-[72px] rounded-xl flex justify-between items-center cursor-pointer">
+      <div class="flex flex-col text-sm justify-center">
+        <p class="font-medium" :class="item === 1 ? 'text-gray-200' : '' ">Startup</p>
+        <span class="font-normal" :class="item === 1 ? 'text-gray-300' : 'text-gray-500' ">
+          <span>12GB/8 CPUs</span>
+          <span> · </span>
+          <span>160 GB SSD disk</span>
+        </span>
+      </div>
+      <div x-show="item === 1" class="flex justify-center items-center">
+        <div class="flex relative justify-center items-center size-7 rounded-full bg-gray-50  opacity-20">
+
+        </div>
+        <svg class="size-4 absolute stroke-white" viewBox="0 0 24.00 24.00" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div @click="item = 2" :class="item === 2 ? activeClass : '' "
+      class="bg-white p-4 w-100 h-[72px] rounded-xl flex justify-between items-center cursor-pointer">
+      <div class="flex flex-col text-sm justify-center">
+        <p class="font-medium" :class="item === 2 ? 'text-gray-200' : '' ">Business</p>
+        <span class="font-normal" :class="item === 2 ? 'text-gray-300' : 'text-gray-500' ">
+          <span>16GB/8 CPUs</span>
+          <span> · </span>
+          <span>512 GB SSD disk</span>
+        </span>
+      </div>
+      <div x-show="item === 2" class="flex justify-center items-center">
+        <div class="flex relative justify-center items-center size-7 rounded-full bg-gray-50  opacity-20">
+
+        </div>
+        <svg class="size-4 absolute stroke-white" viewBox="0 0 24.00 24.00" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div @click="item = 3" :class="item === 3 ? activeClass : '' "
+      class="bg-white p-4 w-100 h-[72px] rounded-xl flex justify-between items-center cursor-pointer">
+      <div class="flex flex-col text-sm justify-center">
+        <p class="font-medium" :class="item === 3 ? 'text-gray-200' : '' ">Enterprise</p>
+        <span class="font-normal" :class="item === 3 ? 'text-gray-300' : 'text-gray-500' ">
+          <span>32GB/8 CPUs</span>
+          <span> · </span>
+          <span>1024 GB SSD disk</span>
+        </span>
+      </div>
+      <div x-show="item === 3" class="flex justify-center items-center">
+        <div class="flex relative justify-center items-center size-7 rounded-full bg-gray-50  opacity-20">
+        </div>
+        <svg class="size-4 absolute stroke-white" viewBox="0 0 24.00 24.00" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</templatel>
