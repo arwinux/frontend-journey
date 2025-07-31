@@ -1,0 +1,22 @@
+{
+  "name": "digitize-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "prod": "cross-env NODE_ENV=production postcss ./src/css/tailwind.css -o ./public/build/tailwind.css"
+  },
+  "author": "Arvin Jafary",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "cross-env": "^10.0.0",
+    "cssnano": "^7.1.0"
+  }
+}

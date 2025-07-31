@@ -1,0 +1,59 @@
+/* Thin */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-Thin.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-Thin.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-Thin.ttf') format('truetype');
+}
+
+/* Light */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-Light.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-Light.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-Light.ttf') format('truetype');
+}
+
+/* Regular */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-Regular.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-Regular.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-Regular.ttf') format('truetype');
+}
+
+/* Medium */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-Medium.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-Medium.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-Medium.ttf') format('truetype');
+}
+
+/* Bold */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-Bold.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-Bold.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-Bold.ttf') format('truetype');
+}
+
+/* Black (Heavy) — You should rename the file to `BlackHeavy` in all folders */
+@font-face {
+  font-family: 'iranyekan';
+  font-weight: 900;
+  font-style: normal;
+  src: url('../assets/fonts/iranyekan/woff2/YekanNewFaceD1-BlackHeavy.woff2') format('woff2'),
+    url('../assets/fonts/iranyekan/woff/YekanNewFaceD1-BlackHeavy.woff') format('woff'),
+    url('../assets/fonts/iranyekan/ttf/YekanNewFaceD1-BlackHeavy.ttf') format('truetype');
+}
