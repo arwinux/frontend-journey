@@ -1,0 +1,88 @@
+/* Thin */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 100;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-Thin.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-thin.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-Thin.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-Thin.ttf') format('truetype');
+}
+
+/* Light */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-Light.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-Light.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-Light.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-Light.ttf') format('truetype');
+}
+
+
+/* Regular */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-Regular.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-Regular.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-Regular.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-Regular.ttf') format('truetype');
+}
+
+/* SemiBold */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-SemiBold.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-SemiBold.ttf') format('truetype');
+}
+
+/* Bold */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-Bold.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-Bold.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-Bold.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-Bold.ttf') format('truetype');
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-ExtraBold.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+}
+
+/* Black */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-Black.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-Black.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-Black.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-Black.ttf') format('truetype');
+}
+
+/* ExtraBlack */
+@font-face {
+  font-family: yekanback;
+  font-style: normal;
+  font-weight: 950;
+  src: url('../assets/fonts/yekanback/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+    url('../assets/fonts/yekanback/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2'),
+    url('../assets/fonts/yekanback/OTF/YekanBakhFaNum-ExtraBlack.otf') format('otf'),
+    url('../assets/fonts/yekanback/TTF/YekanBakhFaNum-ExtraBlack.ttf') format('truetype');
+}
