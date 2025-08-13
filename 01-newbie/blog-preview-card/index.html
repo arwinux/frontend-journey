@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
 
-  Learning
+  <body>
+    <main>
+      <article class="blog-card">
+        <div class="blog-card__image">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="article image"
+          />
+        </div>
 
-  Published 21 Dec 2023
+        <div class="blog-card__content">
+          <!-- Blog Card Category -->
+          <div class="blog-card__badge">
+            <span class="badge text-preset-3-bold">Learning</span>
+          </div>
 
-  HTML & CSS foundations
+          <!-- Blog Card Date -->
+          <div class="blog-card__date">
+            <span class="text-preset-2 date"> Published 21 Dec 2023 </span>
+          </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+          <!-- Blog Card Title -->
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <div class="blog-card__title">
+            <h1 class="text-preset-1 title">HTML & CSS foundations</h1>
+          </div>
+
+          <!-- Blog Card Description -->
+          <div class="blog-card__description">
+            <p class="text-preset-2 description">
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+          </div>
+
+          <!-- Blog Card Author -->
+          <div class="blog-card__author">
+            <div class="blog-card__author-avatar">
+              <img
+                src="./assets/images/image-avatar.webp"
+                alt="author Avatar"
+              />
+            </div>
+
+            <div class="blog-card__author-name">
+              <span class="text-preset-3-bold">Greg Hooper</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/arwinux">Arvin Jafary</a>.
+      </div>
+    </main>
+  </body>
 </html>

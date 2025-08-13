@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Figtree-Medium";
+  src: url("../../assets/fonts/static/Figtree-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Figtree-ExtraBold";
+  src: url("../../assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+.text-preset-1 {
+  font-size: 2.4rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-family: var(--font-extrabold);
+  transition: all 400ms linear;
+}
+
+.text-preset-2 {
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-family: var(--font-medium);
+}
+
+.text-preset-3 {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-family: var(--font-medium);
+}
+
+.text-preset-3-bold {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-family: var(--font-extrabold);
+}

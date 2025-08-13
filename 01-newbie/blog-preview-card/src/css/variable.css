@@ -1,0 +1,19 @@
+@import "./typography.css";
+
+:root {
+  /*? Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-yellow: #f4d04e;
+  --color-gray-950: #111111;
+  --color-gray-500: #6b6b6b;
+
+  /*? Typograpy */
+  --font-medium: "Figtree-Medium";
+  --font-extrabold: "Figtree-ExtraBold";
+
+  /*? Spacing */
+  --spacing-50: 0.4rem;
+  --spacing-100: 0.8rem;
+  --spacing-150: 1.2rem;
+  --spacing-300: 2.4rem;
+}
