@@ -1,0 +1,21 @@
+@import "typography.css";
+
+:root {
+  /*? Colors */
+  --color-primary: #4e80ee;
+  --color-text: #030616;
+  --color-border: #d2d5da;
+  --color-bg-light: #f8fafc;
+  --color-bg-white: #ffffff;
+
+  /*? Fonts */
+  --font-inter-regular: "InterRegular";
+  --font-inter-semibold: "InterSemiBold";
+
+  /*? Spacing */
+  --spacing-100: 1.6rem;
+  --spacing-150: 2.4rem;
+  --spacing-200: 3.6rem;
+
+  
+}

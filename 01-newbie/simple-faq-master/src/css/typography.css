@@ -1,0 +1,19 @@
+@font-face {
+  font-family: InterSemiBold;
+  src: url("../../assets/fonts/Inter_28pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: InterRegular;
+  src: url("../../assets/fonts/Inter_28pt-Regular.ttf");
+}
+
+h1 {
+  font-family: var(--font-inter-semibold);
+  font-size: var(--spacing-200);
+}
+
+h2 {
+  font-family: var(--font-inter-semibold);
+  font-size: var(--spacing-150);
+}
