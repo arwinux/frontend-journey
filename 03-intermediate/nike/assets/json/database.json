@@ -9,25 +9,13 @@
           "src": "./assets/images/brands/brand2.svg"
         }
       ],
-      "menuLinks": [
-        "Find a Store",
-        "Help",
-        "Join Us",
-        "Sign In"
-      ]
+      "menuLinks": ["Find a Store", "Help", "Join Us", "Sign In"]
     },
     "mainHeader": {
       "logo": {
         "src": "./assets/images/logoblack.jpeg"
       },
-      "categories": [
-        "New",
-        "Men",
-        "Women",
-        "Kids",
-        "Jordan",
-        "Sale"
-      ],
+      "categories": ["New", "Men", "Women", "Kids", "Jordan", "Sale"],
       "controls": [
         {
           "type": "search",
@@ -144,14 +132,7 @@
         "logo": {
           "src": "./assets/images/logoblack.jpeg"
         },
-        "categories": [
-          "New",
-          "Men",
-          "Women",
-          "Kids",
-          "Jordan",
-          "Sale"
-        ],
+        "categories": ["New", "Men", "Women", "Kids", "Jordan", "Sale"],
         "fcategories": [
           {
             "name": "Featured",
