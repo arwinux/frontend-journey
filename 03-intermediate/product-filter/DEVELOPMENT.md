@@ -11,17 +11,17 @@ A guide for developers working on **Product Filter**. This document covers setup
    git clone https://github.com/yourusername/product-filter.git
    cd product-filter
    ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Start a local server:**
+2. **Open `index.html` in your browser or use a local server:**
 
+   - With Python:
+     ```bash
+     python -m http.server
+     ```
    - With Node.js:
      ```bash
-     npx json-server db.json
+     npx serve
      ```
-4. **Open `index.html` in your browser.**
+   - Or simply open `index.html` directly in your browser
 
 ---
 
@@ -39,7 +39,7 @@ product-filter/
 ```
 
 - **Single-page app**: All logic in `src/scripts/app.js`
-- **Data**: Fetched from `src/data/db.json` (via local server or mock API)
+- **Data**: Loaded directly from `src/data/db.json` using native fetch API
 - **Styling**: CSS variables for theme, responsive grid, and custom fonts
 
 ---
@@ -60,14 +60,16 @@ product-filter/
 - **Separation of concerns**: Data, UI, and logic are modular
 - **Responsive design**: Grid adapts to all screens
 - **Live filtering**: Search and category filter update UI instantly
+- **Native fetch API**: No external dependencies for data loading
 
 ---
 
 ## 🐞 Troubleshooting
 
 - **Products not loading?**
-  - Ensure local server is running (CORS issues if opened as file)
-  - Check `db.json` path and API endpoint in `app.js`
+  - Ensure you're running from a local server (CORS issues if opened as file)
+  - Check `db.json` path in `app.js`
+  - Verify the JSON structure matches the expected format
 - **Styles not applied?**
   - Confirm CSS files are linked in `index.html`
   - Check for typos in variable names
@@ -81,7 +83,7 @@ product-filter/
 
 - **Modern CSS**: Custom properties, grid, flexbox, responsive units
 - **JS Classes**: Modular, maintainable code
-- **API Simulation**: Using local JSON as a mock API
+- **Native Fetch API**: Loading JSON data without external libraries
 - **UI/UX**: Minimalist, accessible, and visually appealing
 
 ---

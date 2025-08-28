@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product Filter</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/fontawesome/css/all.css" />
+  </head>
 
-  <link rel="stylesheet" href="./src/styles/main.css" />
-  <link rel="stylesheet" href="./src/styles/fontawesome/css/all.css" />
-</head>
-
-<body>
-  <header>
-    <div class="header__container">
-      <div class="header__title">
-        <h1>
-          Explore Our <span style="color: #fde047">Amazing</span> Products
-        </h1>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__title">
+          <h1>
+            Explore Our <span style="color: #fde047">Amazing</span> Products
+          </h1>
+        </div>
+        <div class="header__searchbox">
+          <form action="">
+            <div class="search__container">
+              <input
+                class="search__input"
+                placeholder="Search for watches, shirts, gowns, jewelry..."
+                type="text"
+                name="search"
+                id="search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </form>
+        </div>
+        <div class="header__filterbox">
+          <a class="filter_badge active" data-filter="all" href="#"
+            >All Products</a
+          >
+          <a class="filter_badge" data-filter="watch" href="#">Watches</a>
+          <a class="filter_badge" data-filter="shirt" href="#">Shirts</a>
+          <a class="filter_badge" data-filter="gowns" href="#">Gowns</a>
+          <a class="filter_badge" data-filter="jewelry" href="#">Jewelry</a>
+        </div>
       </div>
-      <div class="header__searchbox">
-        <form action="">
-          <div class="search__container">
-            <input class="search__input" placeholder="Search for watches, shirts, gowns, jewelry..." type="text"
-              name="search" id="search" />
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </form>
-      </div>
-      <div class="header__filterbox">
-        <a class="filter_badge active" data-filter="all" href="#">All Products</a>
-        <a class="filter_badge" data-filter="watch" href="#">Watches</a>
-        <a class="filter_badge" data-filter="shirt" href="#">Shirts</a>
-        <a class="filter_badge" data-filter="gowns" href="#">Gowns</a>
-        <a class="filter_badge" data-filter="jewelry" href="#">Jewelry</a>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="products">
-    <div class="products__grid">
+    <section class="products">
+      <div class="products__grid"></div>
+    </section>
 
-
-
-
-
-
-
-
-    </div>
-  </section>
-
-  <script type="module" src="./node_modules/axios/dist/axios.js"></script>
-  <script src="./src/scripts/app.js"></script>
-</body>
-
+    <script src="./src/scripts/app.js"></script>
+  </body>
 </html>
