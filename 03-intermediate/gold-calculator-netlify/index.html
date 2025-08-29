@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ماشین حساب طلا</title>
+  <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+
+<body>
+
+  <div class="dark goldcontainer flex items-center min-h-screen flex-col p-6 bg-zinc-300 dark:bg-[#171A21]">
+
+    <!-- Dashboard Header -->
+    <div
+      class="flex w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl sm:flex-row sm:justify-between flex-col items-center gap-y-4 p-6 mb-8 border-b border-zinc-700">
+      <div class="flex justify-center items-center gap-2">
+        <div class=" bg-white flex items-center justify-center ring-2 ring-gray-400 ml-3 overflow-hidden rounded-full">
+          <div class="lightmode cursor-pointer hover:bg-yellow-400 w-full py-2 px-3">
+            <svg class="size-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7.25 22C7.25 21.5858 7.58579 21.25 8 21.25H16C16.4142 21.25 16.75 21.5858 16.75 22C16.75 22.4142 16.4142 22.75 16 22.75H8C7.58579 22.75 7.25 22.4142 7.25 22Z"
+                  fill="#1C274C"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V3C12.75 3.41421 12.4142 3.75 12 3.75C11.5858 3.75 11.25 3.41421 11.25 3V2C11.25 1.58579 11.5858 1.25 12 1.25ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H3C3.41421 11.25 3.75 11.5858 3.75 12C3.75 12.4142 3.41421 12.75 3 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM20.25 12C20.25 11.5858 20.5858 11.25 21 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H21C20.5858 12.75 20.25 12.4142 20.25 12Z"
+                  fill="#1C274C"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6.08267 15.25H2C1.58579 15.25 1.25 15.5858 1.25 16C1.25 16.4142 1.58579 16.75 2 16.75H22C22.4142 16.75 22.75 16.4142 22.75 16C22.75 15.5858 22.4142 15.25 22 15.25H17.9173H6.08267Z"
+                  fill="#1C274C"></path>
+                <path opacity="0.5"
+                  d="M4.25 19C4.25 18.5858 4.58579 18.25 5 18.25H19C19.4142 18.25 19.75 18.5858 19.75 19C19.75 19.4142 19.4142 19.75 19 19.75H5C4.58579 19.75 4.25 19.4142 4.25 19Z"
+                  fill="#1C274C"></path>
+                <g opacity="0.5">
+                  <path
+                    d="M4.39838 4.39838C4.69127 4.10549 5.16615 4.10549 5.45904 4.39838L5.85188 4.79122C6.14477 5.08411 6.14477 5.55898 5.85188 5.85188C5.55898 6.14477 5.08411 6.14477 4.79122 5.85188L4.39838 5.45904C4.10549 5.16615 4.10549 4.69127 4.39838 4.39838Z"
+                    fill="#1C274C"></path>
+                  <path
+                    d="M19.6009 4.39864C19.8938 4.69153 19.8938 5.16641 19.6009 5.4593L19.2081 5.85214C18.9152 6.14503 18.4403 6.14503 18.1474 5.85214C17.8545 5.55924 17.8545 5.08437 18.1474 4.79148L18.5402 4.39864C18.8331 4.10575 19.308 4.10575 19.6009 4.39864Z"
+                    fill="#1C274C"></path>
+                </g>
+                <path opacity="0.5"
+                  d="M5.25 12C5.25 13.1778 5.5521 14.2858 6.08267 15.25H17.9173C18.4479 14.2858 18.75 13.1778 18.75 12C18.75 8.27208 15.7279 5.25 12 5.25C8.27208 5.25 5.25 8.27208 5.25 12Z"
+                  fill="#1C274C"></path>
+              </g>
+            </svg>
+          </div>
+
+          <div class="darkmode cursor-pointer bg-sky-500 hover:bg-sky-400 w-full py-2 px-3">
+            <svg class=" size-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path opacity="0.5"
+                  d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                  fill="#1C274C"></path>
+                <path
+                  d="M11.2857 22C13.3371 22 15 20.4198 15 18.4706C15 16.9257 13.9554 15.6126 12.5008 15.1344C12.2941 13.3711 10.7203 12 8.80952 12C6.75818 12 5.09524 13.5802 5.09524 15.5294C5.09524 15.9605 5.17659 16.3736 5.3255 16.7555C5.15087 16.723 4.97039 16.7059 4.78571 16.7059C3.24721 16.7059 2 17.891 2 19.3529C2 20.8149 3.24721 22 4.78571 22H11.2857Z"
+                  fill="#1C274C"></path>
+              </g>
+            </svg>
+          </div>
+
+        </div>
+        <span class="dark:text-yellow-500 text-2xl font-bold">ماشین حساب طلا</span>
+      </div>
+
+      <div class="flex items-center gap-2">
+
+        <span class="text-zinc-900 font-bold text-lg dark:text-zinc-400">تاریخ امروز : </span>
+        <span class="text-green-900 font-bold text-lg dark:text-green-400">۱۴۰۴/۵/۱۰</span>
+      </div>
+    </div>
+
+    <!-- Dashborad Grid-->
+    <div
+      class="grid sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-8 text-black dark:text-white">
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default md:col-end-2 lg:col-span-3 2xl:col-span-3 from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-center p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">قیمت نهایی فاکتور</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span
+            class="totalprice font-bold text-4xl md:text-5xl lg:text-7xl lg:tracking-[0.2em]  text-yellow-600 dark:text-yellow-500">0</span>
+          <span class="text-2xl text-gray-900 dark:text-zinc-400">تومان</span>
+
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">قیمت طلای محصول</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="goldprice text-3xl font-bold lg:tracking-widest text-yellow-600 dark:text-yellow-500">0
+            تومان</span>
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">قیمت اجرت ساخت</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="laborPrice text-3xl font-bold lg:tracking-widest text-blue-600 dark:text-blue-500">0 تومان</span>
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">مبلغ سود فروش</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="profitPrice text-3xl font-bold lg:tracking-widest text-green-600 dark:text-green-500">0
+            تومان</span>
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">مالیات (9%)</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="taxprice text-3xl font-bold lg:tracking-widest text-red-600 dark:text-red-500">0 تومان</span>
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">قیمت سنگ/جواهر</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="stonePrice text-3xl font-bold lg:tracking-widest text-fuchsia-600 dark:text-fuchsia-500">0
+            تومان</span>
+        </div>
+      </div>
+
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 flex flex-col justify-center items-start p-6 rounded-3xl">
+        <p class="text-2xl font-semibold mb-4">هزینه های متفرقه</p>
+        <div class="flex flex-wrap justify-center items-center gap-2">
+          <span class="otherCosts text-3xl font-bold lg:tracking-widest text-orange-600 dark:text-orange-600">0
+            تومان</span>
+        </div>
+      </div>
+
+      <!-- Dashboard Inputs -->
+      <div
+        class="hover:border-yellow-500 hover:-translate-y-[0.3rem] hover:scale-[1.01] duration-300 delay-100 bg-gradient-to-r cursor-default from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40 border shadow-lg border-zinc-500 md:col-span-1 lg:col-span-2 flex flex-col  items-start p-6 rounded-3xl">
+        <!-- header -->
+        <div class="flex w-full pb-5 mb-4 items-center border-b border-zinc-600/40">
+          <p class="text-xl text-bold">ورودی ها</p>
+        </div>
+
+        <!-- inputs -->
+        <div class="grid w-full md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-6">
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="goldGram">نرخ هر گرم طلا</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 2،800،000" type="number" name="goldGram" id="goldGram" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">تومان</div>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="goldWeight">وزن طلا</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 15.4" type="number" name="goldWeight" id="goldWeight" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">گرم</div>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="laborPercent">درصد اجرت ساخت</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 7" type="number" name="laborPercent" id="laborPercent" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">%</div>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="profitPercent">درصد سود فروش</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 5" type="number" name="profitPercent" id="profitPercent" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">%</div>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="stonePrice">قیمت سنگ/جواهر</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 1،500،000" type="number" name="stonePrice" id="stonePrice" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">تومان</div>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col">
+            <label class="mb-2" for="otherCosts">هزینه های متفرقه</label>
+            <div
+              class="w-full flex justify-between items-center bg-zinc-300 dark:bg-zinc-700/35 rounded-xl py-1 px-3 border border-zinc-400/65  focus-within:animate-glow focus-within:border-yellow-500 focus-within:ring-1 focus-within:ring-yellow-500 focus-within:shadow-[0_0px_10px_rgba(255,255,0,0.25)]">
+              <input
+                class="w-3/4 text-lg text-gray-900 dark:text-yellow-500 bg-transparent ring-transparent border-none focus:ring-transparent"
+                placeholder="مثلا 200,000" type="number" name="otherCosts" id="otherCosts" autocomplete="off">
+              <div class="flex text-gray-900 dark:text-zinc-300">تومان</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Dashboard Chart  -->
+      <div
+        class="p-6 rounded-xl shadow-xl w-full text-center bg-zinc-700/35 border border-zinc-400/65 col-span-1 bg-gradient-to-r from-gray-300 to-zinc-200 dark:from-zinc-800/40 dark:to-zinc-700/40">
+        <div class="flex w-full pb-5  items-center border-b border-zinc-600/40">
+          <p class="text-xl font-bold">نمودار هزینه</p>
+        </div>
+
+        <div class="w-full h-full rounded-lg p-4">
+          <div id="donutChart" class="w-full h-full" style="min-height: 400px;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+  <script type="module" src="/src/js/main.js"></script>
+
+
+</body>
+
+</html>

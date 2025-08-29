@@ -1,0 +1,11 @@
+@import url("/src/css/fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.apexcharts-datalabel-value {
+  fill: #d49100 !important;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: ;
+}
