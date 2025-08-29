@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
-    "prod": "cross-env NODE_ENV=production postcss ./src/css/tailwind.css -o ./public/build/tailwind.css"
+    "build:css": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css",
+    "build": "npm run build:css",
+    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch"
   },
   "author": "Arvin Jafary",
   "license": "MIT",
