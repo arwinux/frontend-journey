@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transactions panel</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header container-xl">
+        <h1 class="header__title">
+          <i class="fas fa-chart-line"></i>
+          لیست تراکنش ها
+        </h1>
+        <p class="header__subtitle">مدیریت و نظارت بر تراکش های مالی</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="transactions container-xl hidden">
+        <div class="transactions-panel">
+          <div class="transactions-panel__search">
+            <i class="search-icon fa-solid fa-window-restore"></i>
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder=" جستجو بر اساس شماره پیگیری، مبلغ یا تاریخ..."
+              type="text"
+              name=""
+              id="search-input"
+            />
+          </div>
+          <div class="transactions-panel__static">
+            <div
+              class="transactions-panel__static-board static-board blur-bg-color"
+            >
+              <div class="static-board__title">
+                <i class="fas fa-list-ul blur-color"></i>
+                <span>کل تراکنش‌ها</span>
+              </div>
+              <p class="static-board__number all-transaction"></p>
+            </div>
+
+            <div
+              class="transactions-panel__static-board static-board green-bg-color"
+            >
+              <div class="static-board__title">
+                <i class="fas fa-arrow-up green-color"></i>
+                <span>واریزی ها</span>
+              </div>
+              <p class="static-board__number deposite-transactions"></p>
+            </div>
+
+            <div
+              class="transactions-panel__static-board static-board red-bg-color"
+            >
+              <div class="static-board__title">
+                <i class="fas fa-arrow-down red-color"></i>
+                <span>برداشت ها</span>
+              </div>
+              <p class="static-board__number withdrawal-transactions"></p>
+            </div>
+
+            <div
+              class="transactions-panel__static-board static-board yello-bg-color"
+            >
+              <div class="static-board__title">
+                <i class="fas fa-coins yello-color"></i>
+                <span>مجموع مبلغ</span>
+              </div>
+              <p class="static-board__number totalprice-transactions"></p>
+            </div>
+          </div>
+
+          <div class="transactions-panel__grid">
+            <div class="transactions-panel__grid-table">
+              <div class="transactions-panel__grid-table-header">
+                <div class="table-header-item">ردیف</div>
+                <div class="table-header-item">نوع تراکنش</div>
+                <button class="table-header-item action order-price">
+                  مبلغ
+                  <i class="btn-icon fa-solid fa-down-long"></i>
+                </button>
+                <div class="table-header-item">شماره پیگیری</div>
+                <button class="table-header-item action order-date">
+                  تاریخ تراکنش
+                  <i class="btn-icon fa-solid fa-down-long"></i>
+                </button>
+                <div class="table-header-item">روز</div>
+
+                <div class="table-header-item">زمان</div>
+              </div>
+
+              <div class="transactions-panel__grid-table-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn upload-transactions" type="button">
+        <span>بارگذاری تراکنش ها</span>
+        <i class="btn-icon fa-solid fa-cloud-arrow-up"></i>
+      </button>
+    </section>
+
+    <script src="./src/scripts/app.js"></script>
+  </body>
+</html>

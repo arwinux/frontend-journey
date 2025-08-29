@@ -11,6 +11,10 @@ _Where financial management meets simplicity in a symphony of design_ ✨
 </div>
 A modern, responsive web application for managing and monitoring financial transactions with real-time statistics and advanced filtering capabilities.
 
+## 🚀 Live Demo
+
+**Netlify Deployment**: [View Live Demo](https://your-netlify-url.netlify.app)
+
 ## ✨ Features
 
 - **📊 Real-time Statistics Dashboard**
@@ -41,8 +45,8 @@ A modern, responsive web application for managing and monitoring financial trans
   - Custom Vazirmatn font family
 
 - **⚡ Performance Optimized**
-  - Efficient data handling
-  - Smooth interactions
+  - Static data for fast loading
+  - Client-side filtering and sorting
   - Optimized rendering
 
 ## 🛠️ Technologies Used
@@ -52,7 +56,6 @@ A modern, responsive web application for managing and monitoring financial trans
   - HTML5
   - CSS3 (Custom Properties, Flexbox, Grid)
   - Vanilla JavaScript (ES6+)
-  - Axios for HTTP requests
 
 - **Styling**
 
@@ -62,11 +65,12 @@ A modern, responsive web application for managing and monitoring financial trans
   - Custom font integration (Vazirmatn)
 
 - **Data Management**
-  - JSON Server for mock API
-  - Local JSON database
-  - RESTful API consumption
+  - Static JSON data
+  - Client-side filtering and sorting
 
-## 🚀 Installation
+## 🚀 Installation & Deployment
+
+### Local Development
 
 1. **Clone the repository**
 
@@ -81,18 +85,32 @@ A modern, responsive web application for managing and monitoring financial trans
    npm install
    ```
 
-3. **Start the JSON Server**
+3. **Run locally**
 
    ```bash
-   npx json-server --watch src/data/db.json --port 3000
+   npm run dev
    ```
 
 4. **Open the application**
    - Open `index.html` in your browser
-   - Or serve it using a local server:
-     ```bash
-     npx serve .
-     ```
+   - Or visit `http://localhost:3000` if using serve
+
+### Netlify Deployment
+
+1. **Push to GitHub**
+
+   ```bash
+   git add .
+   git commit -m "Prepare for Netlify deployment"
+   git push origin main
+   ```
+
+2. **Deploy to Netlify**
+   - Connect your GitHub repository to Netlify
+   - Set build settings:
+     - Build command: `echo 'Static site - no build required'`
+     - Publish directory: `.`
+   - Deploy!
 
 ## 📖 Usage
 
@@ -136,9 +154,6 @@ A modern, responsive web application for managing and monitoring financial trans
 │   ├── 📁 scripts/              # JavaScript modules
 │   │   └── 📄 app.js            # Main application logic
 │   │
-│   ├── 📁 data/                 # Product data (JSON)
-│   │   └── 📄 db.json           # Product list
-│   │
 │   └── 📁 assets/               # All project assets
 │        └── 📁 fonts/           # Custom fonts
 │
@@ -146,6 +161,7 @@ A modern, responsive web application for managing and monitoring financial trans
 │   └── 🖼️ preview.png          # Product Grid preview
 │
 ├── 📄 index.html                # Main entry point
+├── 📄 netlify.toml              # Netlify configuration
 ├── 📄 README.md                 # Project documentation
 ├── 📄 style-guide.md            # Design system specifications
 ├── 📄 .gitignore                # Version control exclusions
@@ -157,7 +173,7 @@ A modern, responsive web application for managing and monitoring financial trans
 ### Classes Overview
 
 - **`Product`**: Data model for transactions
-- **`ProductServices`**: API communication layer
+- **`ProductServices`**: Static data management
 - **`FilterProduct`**: Sorting and filtering logic
 - **`SearchProduct`**: Search functionality
 - **`ProdcutStatics`**: Statistics calculations
@@ -199,23 +215,17 @@ A modern, responsive web application for managing and monitoring financial trans
 
 ## 🔧 Customization
 
-### Adding New Transaction Types
+### Adding New Transactions
 
-1. Update the `db.json` file with new transaction data
-2. Modify the `setTransactionsTypeStyle()` method in `Ui` class
-3. Add corresponding CSS classes in `components.css`
+1. Edit the `staticTransactions` array in `src/scripts/app.js`
+2. Add new transaction objects with the required fields
+3. The application will automatically update
 
 ### Styling Modifications
 
 - Edit `variables.css` for color scheme changes
 - Modify `components.css` for component styling
 - Update `typography.css` for font changes
-
-### API Configuration
-
-- Update the base URL in `ProductServices.setupApiClient()`
-- Modify API endpoints as needed
-- Add new filtering parameters
 
 ## 📱 Browser Support
 
@@ -248,7 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Vazirmatn Font](https://github.com/rastikerdar/vazirmatn) - Beautiful Persian font
 - [Font Awesome](https://fontawesome.com/) - Icon library
-- [JSON Server](https://github.com/typicode/json-server) - Mock API server
+- [Netlify](https://netlify.com/) - Hosting platform
 
 ---
 

@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #2563eb;
+  --primary-light: #3b82f6;
+  --primary-dark: #1d4ed8;
+  --secondary-color: #64748b;
+  --secondary-light: #94a3b8;
+  --accent-color: #f59e0b;
+  --accent-light: #fbbf24;
+  --success-color: #10b981;
+  --success-light: #34d399;
+  --error-color: #ef4444;
+  --error-light: #f87171;
+  --warning-color: #f59e0b;
+  --warning-light: #fbbf24;
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  --white: #ffffff;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* New variables from components.css and main.css */
+  --indigo-600: #6366f1;
+  --indigo-700: #4f46e5;
+  --red-600: #dc2626;
+  --yellow-600: #d97706;
+  --green-600: #059669;
+  --sky-600: #0284c7;
+  --black-rgb-8: rgba(0, 0, 0, 0.08);
+  --black-rgb-15: rgba(0, 0, 0, 0.15);
+  --black-rgb-3: rgba(0, 0, 0, 0.03);
+  --white-rgb-3: rgba(255, 255, 255, 0.3);
+  --indigo-600-rgb-3: rgba(99, 102, 241, 0.3);
+  --indigo-600-rgb-5: rgba(99, 102, 241, 0.5);
+  --indigo-600-rgb-4: rgba(99, 102, 241, 0.4);
+  --yellow-400-rgb-3: rgba(245, 158, 11, 0.3);
+  --green-500-rgb-3: rgba(16, 185, 129, 0.3);
+  --red-500-rgb-3: rgba(239, 68, 68, 0.3);
+  --green-500-rgb-1: rgba(16, 185, 129, 0.1);
+  --green-500-rgb-2: rgba(16, 185, 129, 0.2);
+  --red-500-rgb-1: rgba(239, 68, 68, 0.1);
+  --red-500-rgb-2: rgba(239, 68, 68, 0.2);
+  --black-rgb-2: rgba(0, 0, 0, 0.2);
+  --black-rgb-1: rgba(0, 0, 0, 0.1);
+  --transparent-blue-57: #00ccff57;
+  --dark-gray-800: #2c2c2c;
+  --dark-gray-700: #4d4d4d;
+}
