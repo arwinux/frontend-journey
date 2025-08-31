@@ -1,6 +1,4 @@
 class GoldPrice {
-
-
   static calcGoldProductPrice() {
     const goldGram = document.getElementById("goldGram");
     const goldWeight = document.getElementById("goldWeight");
@@ -16,7 +14,8 @@ class GoldPrice {
     const laborPercent = document.getElementById("laborPercent");
     const laborPercentValue = +laborPercent.value || 0;
 
-    const calculatedPrice = (this.calcGoldProductPrice() * (laborPercentValue / 100));
+    const calculatedPrice =
+      this.calcGoldProductPrice() * (laborPercentValue / 100);
     return calculatedPrice;
   }
 
@@ -24,12 +23,15 @@ class GoldPrice {
     const profitPercent = document.getElementById("profitPercent");
     const profitPercentValue = +profitPercent.value || 0;
 
-    const calculatedPrice = (this.calcGoldProductPrice() + this.calcGoldLaborPrice()) * (profitPercentValue / 100);
+    const calculatedPrice =
+      (this.calcGoldProductPrice() + this.calcGoldLaborPrice()) *
+      (profitPercentValue / 100);
     return calculatedPrice;
   }
 
   static calcTaxPrice() {
-    const calculatedPrice = (this.calcProfitPercent() + this.calcGoldLaborPrice()) * ((9 / 100));
+    const calculatedPrice =
+      (this.calcProfitPercent() + this.calcGoldLaborPrice()) * (9 / 100);
     return calculatedPrice;
   }
 
@@ -43,19 +45,22 @@ class GoldPrice {
     const otherCosts = document.getElementById("otherCosts");
     const otherCostsValue = +otherCosts.value;
     return otherCostsValue;
-
   }
 
   static calcTotalPrice() {
-    const totalPrice = this.calcGoldProductPrice() + this.calcGoldLaborPrice() + this.calcProfitPercent() + this.calcTaxPrice() + this.calcStonePrice() + this.calcOtherCosts();
+    const totalPrice =
+      this.calcGoldProductPrice() +
+      this.calcGoldLaborPrice() +
+      this.calcProfitPercent() +
+      this.calcTaxPrice() +
+      this.calcStonePrice() +
+      this.calcOtherCosts();
     return totalPrice;
   }
-
 
   static seperateNumbers(number) {
     return number.toLocaleString("en-us");
   }
-
 }
 
 class Ui {
@@ -76,7 +81,7 @@ class Ui {
     const taxPrice = document.querySelector(".taxprice");
     const stonePrice = document.querySelector(".stonePrice");
     const otherPrice = document.querySelector(".otherCosts");
-    const totalPrice = document.querySelector(".totalprice")
+    const totalPrice = document.querySelector(".totalprice");
 
     // Helper function to update both displays, preventing duplication
     const updateDisplays = () => {
@@ -90,12 +95,17 @@ class Ui {
       const goldTotalPrice = GoldPrice.calcTotalPrice();
 
       // Then, format and display them
-      goldprice.textContent = GoldPrice.seperateNumbers(goldProductPrice) + " تومان";
-      laborPrice.textContent = GoldPrice.seperateNumbers(goldLaborPrice) + " تومان";
-      profitPrice.textContent = GoldPrice.seperateNumbers(goldProfitPercent) + " تومان";
+      goldprice.textContent =
+        GoldPrice.seperateNumbers(goldProductPrice) + " تومان";
+      laborPrice.textContent =
+        GoldPrice.seperateNumbers(goldLaborPrice) + " تومان";
+      profitPrice.textContent =
+        GoldPrice.seperateNumbers(goldProfitPercent) + " تومان";
       taxPrice.textContent = GoldPrice.seperateNumbers(goldTaxPrice) + " تومان";
-      stonePrice.textContent = GoldPrice.seperateNumbers(goldStonePrice) + " تومان";
-      otherPrice.textContent = GoldPrice.seperateNumbers(goldOtherCosts) + " تومان";
+      stonePrice.textContent =
+        GoldPrice.seperateNumbers(goldStonePrice) + " تومان";
+      otherPrice.textContent =
+        GoldPrice.seperateNumbers(goldOtherCosts) + " تومان";
       totalPrice.textContent = GoldPrice.seperateNumbers(goldTotalPrice);
     };
 
@@ -113,7 +123,9 @@ class Ui {
     if (!Ui.chartInstance) return;
 
     const goldcontainer = document.querySelector(".goldcontainer");
-    const newTextColor = goldcontainer.classList.contains("dark") ? '#ffffff' : '#000000';
+    const newTextColor = goldcontainer.classList.contains("dark")
+      ? "#ffffff"
+      : "#000000";
 
     Ui.chartInstance.updateOptions({
       legend: {
@@ -127,9 +139,9 @@ class Ui {
             labels: {
               total: {
                 color: newTextColor,
-              }
-            }
-          }
+              },
+            },
+          },
         },
       },
     });
@@ -163,26 +175,32 @@ class Ui {
 
   static initDisplayChart() {
     // Get all the input elements
-    const inputs = document.querySelectorAll("#goldGram, #goldWeight, #laborPercent, #profitPercent, #stonePrice, #otherCosts");
+    const inputs = document.querySelectorAll(
+      "#goldGram, #goldWeight, #laborPercent, #profitPercent, #stonePrice, #otherCosts"
+    );
 
     const goldcontainer = document.querySelector(".goldcontainer");
-    const getChartTextColor = () => goldcontainer.classList.contains("dark") ? '#ffffff' : '#000000';
+    const getChartTextColor = () =>
+      goldcontainer.classList.contains("dark") ? "#ffffff" : "#000000";
+
+    const todaydate = document.querySelector(".todaydate");
+    todaydate.textContent = new Date().toLocaleDateString("fa-ir");
 
     // ApexCharts configuration object
     const chartOptions = {
       chart: {
-        type: 'donut',
+        type: "donut",
         fontFamily: "yekanback",
-        width: '100%',
-        height: '100%',
+        width: "100%",
+        height: "100%",
       },
       labels: [
-        'قیمت پایه',
-        'اجرت ساخت',
-        'سود فروش',
-        'مالیات',
-        'قیمت سنگ/جواهر',
-        'هزینه جانبی'
+        "قیمت پایه",
+        "اجرت ساخت",
+        "سود فروش",
+        "مالیات",
+        "قیمت سنگ/جواهر",
+        "هزینه جانبی",
       ],
       series: [
         GoldPrice.calcGoldProductPrice(),
@@ -193,54 +211,60 @@ class Ui {
         GoldPrice.calcOtherCosts(),
       ],
       colors: [
-        '#EAB308', // Gold
-        '#3b82f6', // Blue
-        '#22c55e', // Green
-        '#EF4444', // Red
-        '#d946ef', // Purple
-        '#ea580c', // Orange
+        "#EAB308", // Gold
+        "#3b82f6", // Blue
+        "#22c55e", // Green
+        "#EF4444", // Red
+        "#d946ef", // Purple
+        "#ea580c", // Orange
       ],
       dataLabels: {
-        enabled: false
+        enabled: false,
       },
       legend: {
-        position: 'bottom',
-        fontSize: '14px',
+        position: "bottom",
+        fontSize: "14px",
         labels: {
           colors: getChartTextColor(), // Initial color
         },
       },
       tooltip: {
         y: {
-          formatter: val => `${GoldPrice.seperateNumbers(val)} تومان`
-        }
+          formatter: (val) => `${GoldPrice.seperateNumbers(val)} تومان`,
+        },
       },
       plotOptions: {
         pie: {
           donut: {
-            size: '65%',
+            size: "65%",
             labels: {
               show: true,
               total: {
                 show: true,
-                label: 'جمع کل',
-                fontSize: '20px',
+                label: "جمع کل",
+                fontSize: "20px",
                 color: getChartTextColor(), // Initial color
                 fontWeight: 600,
-                formatter: (w) => GoldPrice.seperateNumbers(w.globals.seriesTotals.reduce((a, b) => a + b, 0))
+                formatter: (w) =>
+                  GoldPrice.seperateNumbers(
+                    w.globals.seriesTotals.reduce((a, b) => a + b, 0)
+                  ),
               },
-            }
-          }
+            },
+          },
         },
       },
       stroke: {
         width: 0,
-        colors: ['#0d1117']
-      }
+        colors: ["#0d1117"],
+      },
     };
 
     // Create and render the chart
-    const chart = new ApexCharts(document.querySelector("#donutChart"), chartOptions);
+    const chart = new ApexCharts(
+      document.querySelector("#donutChart"),
+      chartOptions
+    );
     chart.render();
 
     // Assign the chart instance to the static property
@@ -269,7 +293,7 @@ class Ui {
     };
 
     // Add an event listener to each input to trigger a full update
-    inputs.forEach(input => {
+    inputs.forEach((input) => {
       input.addEventListener("input", updateAll);
     });
 
@@ -284,7 +308,6 @@ class App {
     Ui.initDisplayChart();
     Ui.displayDarkMode();
   }
-
 }
 
 document.addEventListener("DOMContentLoaded", () => {
