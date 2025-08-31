@@ -1,19 +1,39 @@
 # Frontend Mentor - Blog Preview Card Solution
 
+![Blog Preview Card](./preview.jpg)
+
+## Project Links & Badges
+
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://01-newbie-blog-preview-card.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/blog-preview-card)  
+[![Challenge](https://img.shields.io/badge/Challenge-Frontendmentor-c7b000?style=for-the-badge&logoColor=white)](https://www.frontendmentor.io/solutions/blog-preview-card-solution-s8_wDg1zTY)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
+
+</div>
+
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Blog Preview Card Solution](#frontend-mentor---blog-preview-card-solution)
+  - [Project Links \& Badges](#project-links--badges)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Project Structure](#project-structure)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,14 +46,10 @@ Users should be able to:
 - Experience a clean, accessible design that works across devices
 - Interact with the card to see enhanced shadow and color effects
 
-### Screenshot
-
-![Blog Preview Card](./preview.jpg)
-
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/blog-preview-card)
-- Live Site URL: [Live Demo](https://arwinux.github.io/frontend-journey/01-newbie/blog-preview-card)
+- Live Site URL: [Live Demo](https://01-newbie-blog-preview-card.netlify.app/)
 
 ## My process
 

@@ -1,5 +1,21 @@
 # Digital Watch - A Stylish and Interactive Clock
 
+<img src="./design/radme.gif">
+
+## Project Links & Badges
+
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://02-junior-digital-watch.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/02-junior/digital-watch)  
+[![Challenge](https://img.shields.io/badge/Challenge-Persoanl-c7b000?style=for-the-badge&logoColor=white)](#)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
+
+</div>
+
 ## 🚀 Introduction
 
 **Digital Watch** is a sleek and interactive web-based clock that displays the current date, time, and day of the week with dynamic styling. Featuring customizable themes, a responsive design, and smooth real-time updates, this project is perfect for learning JavaScript time manipulation and CSS styling techniques.
@@ -17,9 +33,6 @@ showcases a beautifully designed timepiece with:
 ✔️ **Day Highlighter** – Highlights today's date for easy recognition.\
 ✔️ **Multiple Themes** – Choose from 5 stunning background themes.\
 ✔️ **Responsive Design** – Works seamlessly on all devices.
-
-## 📸 Screenshots
-<img src="./design/radme.gif">
 
 ## 🛠️ Installation
 
@@ -46,7 +59,6 @@ To change the theme, simply click on one of the color options at the top of the 
 - 🟡 **Yellow**
 - 🟢 **Green**
 - 🟣 **Purple**
-
 
 You can also modify `styles/main.css` to tweak the UI elements according to your preference.
 
@@ -77,4 +89,3 @@ digital-watch-js/
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
 If you like this project, consider giving it a ⭐ on [GitHub](https://github.com/arwinux/digital-watch-js)! 🚀
-

@@ -1,14 +1,18 @@
 # 🌌 Cosmic Notes
 
-<div align="center">
-
 ![Cosmic Notes](./design/desktop-design.png)
 
-_Where thoughts transcend dimensions and ideas become constellations_ ✨
+## Project Links & Badges
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-✨-ff69b4.svg)](https://github.com/arwinux)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-🌌%20Cosmic%20Notes-blue)](https://arwinux.github.io/frontend-journey/03-intermediate/cosmic-notes)
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://03-intermediate-cosmic-notes.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/03-intermediate/cosmic-notes)  
+[![Challenge](https://img.shields.io/badge/Challenge-Personal-c7b000?style=for-the-badge&logoColor=white)](#)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS%20·%20JS-cccccc?style=for-the-badge)](#)
 
 </div>
 

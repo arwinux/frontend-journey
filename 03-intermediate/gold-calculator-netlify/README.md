@@ -1,13 +1,19 @@
 # 🏆 Gold Calculator
 
-<div align="center">
-
 | ![Design Preview](./src/assets/images/design/preview-dark-mode.png)![Design Preview](./src/assets/images/design/preview-light-mode.png) |
-| :------------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------------------: |
 
-_Where precision meets elegance in gold price calculations_ ✨
+## Project Links & Badges
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-✨-ff69b4.svg)](https://github.com/arwinux) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/) [![ApexCharts](https://img.shields.io/badge/ApexCharts-FF4560.svg)](https://apexcharts.com/)
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://03-intermediate-gold-calculator.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/03-intermediate/gold-calculator)  
+[![Challenge](https://img.shields.io/badge/Challenge-Fronthooks-c7b000?style=for-the-badge&logoColor=white)](https://fronthooks.ir/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS%20·%20JS%20·%20Tailwind-cccccc?style=for-the-badge)](#)
 
 </div>
 

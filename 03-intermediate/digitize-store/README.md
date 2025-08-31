@@ -1,13 +1,19 @@
 # 🛍️ Digitize Store
 
-<div align="center">
-
 | ![Design Preview](./design/preview.png)![Design Preview](./design/previewproduct.png)![Design Preview](./design/previewcart.png) |
-| :------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------: |
 
-_Where Persian e-commerce meets modern design_ ✨
+## Project Links & Badges
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-✨-ff69b4.svg)](https://github.com/arwinux) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) [![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0.svg?logo=alpine.js&logoColor=white)](https://alpinejs.dev/)
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://03-intermediate-digitize-store.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/03-intermediate/digitize-store)  
+[![Challenge](https://img.shields.io/badge/Challenge-Fronthooks-c7b000?style=for-the-badge&logoColor=white)](https://fronthooks.ir/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS%20·%20JS%20·%20Tailwind-cccccc?style=for-the-badge)](#)
 
 </div>
 
@@ -230,7 +236,6 @@ We welcome contributions! Whether it's bug fixes, new features, or documentation
 - Maintain Persian language support
 - Update documentation as needed
 
-
 ## 👨‍💻 Creator
 
 - **Arvin Jafary** - [@Arwinux](https://github.com/arwinux)
@@ -250,7 +255,6 @@ We welcome contributions! Whether it's bug fixes, new features, or documentation
 - **[Development Guide](./DEVELOPMENT.md)**: Complete development setup and workflow
 - **[Style Guide](./style-guide.md)**: Design system and component patterns
 - **[Package.json](./package.json)**: Project dependencies and scripts
-
 
 <div align="center">
 

@@ -1,14 +1,18 @@
 # Request Card Dashboard
 
-<div align="center">
-
 ![Request Card Dashboard](./assets/images/img.png)
 
-_Where thoughts transcend dimensions and ideas become constellations_ ✨
+## Project Links & Badges
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-✨-ff69b4.svg)](https://github.com/arwinux)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-🌌%20Request%20Card%20Dashboard-blue)](https://arwinux.github.io/frontend-journey/01-newbie/request-card-dashboard)
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://01-newbie-request-card-dashboard.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/request-card-dashboard)  
+[![Challenge](https://img.shields.io/badge/Challenge-Personal-c7b000?style=for-the-badge&logoColor=white)](#)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
 
 </div>
 
@@ -39,21 +43,23 @@ A sleek and modern dashboard for managing and displaying request cards in a Pers
 ## 🖼️ Preview
 
 The dashboard displays multiple request cards that show:
+
 - Current step in the process (numbered 1-6)
 - Request date (in Persian calendar format)
 - Request type and ID
 - User information with avatar
 - Action button
 
-
 ## 💻 Installation and Setup
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/arwinux/bootcamp-task-1.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd bootcamp-task-1
    ```

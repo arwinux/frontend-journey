@@ -1,37 +1,54 @@
 # Frontend Mentor - QR Code Component Solution
 
+![QR Code Component](./src/assets/images/preview.png)
+
+## Project Links & Badges
+
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://01-newbie-qr-code-component.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/qr-code-component)  
+[![Challenge](https://img.shields.io/badge/Challenge-Frontendmentor-c7b000?style=for-the-badge&logoColor=white)](https://www.frontendmentor.io/solutions/qr-code-component-solution-using-flex-9a-PL2OoLd)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
+
+</div>
+
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - QR Code Component Solution](#frontend-mentor---qr-code-component-solution)
+  - [Project Links \& Badges](#project-links--badges)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Project Structure](#project-structure)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### The challenge
 
 Users should be able to:
+
 - View the QR code component in a centered, responsive layout
 - See hover states for interactive elements (if applicable)
 - Experience a clean, accessible design that works across devices
 
-### Screenshot
-
-![QR Code Component](./src/assets/images/preview.png)
-
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/arwinux/qr-code-component)
-- Live Site URL: [Live Demo](https://arwinux.github.io/frontend-journey/01-newbie/qr-code-component)
+- Solution URL: [GitHub Repository](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/qr-code-component)
+- Live Site URL: [Live Demo](https://01-newbie-qr-code-component.netlify.app/)
 
 ## My process
 
@@ -39,7 +56,7 @@ Users should be able to:
 
 - **Semantic HTML5 markup** - Used proper semantic elements like `<main>`, `<article>`, and `<figure>`
 - **CSS custom properties** - Implemented CSS variables for consistent theming
-- **BEM** - Block Element Modifier methodology methodology 
+- **BEM** - Block Element Modifier methodology methodology
 - **Flexbox** - Used for centering and layout structure
 - **Mobile-first workflow** - Designed with responsive principles in mind
 - **Modern CSS architecture** - Organized stylesheets with imports and modular structure
@@ -79,6 +96,7 @@ QR code component/
 This project reinforced several important concepts:
 
 **CSS Architecture**: I implemented a modular CSS structure separating concerns into different files:
+
 - `reset.css` for normalizing browser defaults
 - `variables.css` for design tokens and font declarations
 - `typography.css` for text styling presets
@@ -94,7 +112,7 @@ The project also includes design reference files in the `design/` folder and fol
   --color-blue-300: hsl(212, 45%, 89%);
   --color-blue-500: hsl(216, 15%, 48%);
   --color-blue-900: hsl(218, 44%, 22%);
-  
+
   --spacing-500: 40px;
   --spacing-300: 24px;
   --spacing-200: 16px;

@@ -36,7 +36,7 @@ main {
   padding: var(--spacing-300);
   border-radius: 2rem;
   box-shadow: 0.8rem 0.8rem 0rem black;
-  transition: all 400ms linear;
+  transition: all 100ms linear;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-300);
@@ -79,14 +79,4 @@ main {
 
 .blog-card__author-avatar img {
   width: 100%;
-}
-
-.attribution {
-  font-size: 2rem;
-  text-align: center;
-  position: relative;
-  top: 15rem;
-}
-.attribution a {
-  color: green;
 }

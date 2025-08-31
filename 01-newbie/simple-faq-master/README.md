@@ -1,42 +1,39 @@
 # Simple FAQ | devChallenges
 
-<div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
-</div>
+![screenshot](./thumbnail.jpg)
 
-<div align="center">
-  <h3>
-    <a href="https://simple-faq-master-dusky.vercel.app/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://github.com/arwinux/frontend-journey/tree/main/01-newbie/simple-faq-master">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenge/simple-faq-challenge">
-      Challenge
-    </a>
-  </h3>
+## Project Links & Badges
+
+<div style="text-align:left;">
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cc3333?style=for-the-badge)](https://01-newbie-simple-faq-master.netlify.app/)  
+[![Code Repository](https://img.shields.io/badge/Code-Repository-d46b2a?style=for-the-badge)](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/simple-faq-master)  
+[![Challenge](https://img.shields.io/badge/Challenge-devchallenges-c7b000?style=for-the-badge&logoColor=white)](https://devchallenges.io/solution/57178)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
+[![Author: Arvin Jafary](https://img.shields.io/badge/Author-Arvin%20Jafary-3366cc?style=for-the-badge)](https://github.com/arwinux)  
+[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-Netlify-9933cc?style=for-the-badge)](https://www.netlify.com)  
+[![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Built with](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Simple FAQ | devChallenges](#simple-faq--devchallenges)
+  - [Project Links \& Badges](#project-links--badges)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+    - [Built with](#built-with)
+  - [Features](#features)
+  - [Contact](#contact)
+  - [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot](./thumbnail.jpg)
 
 This project is a responsive FAQ (Frequently Asked Questions) page built as a solution to the devChallenges.io Simple FAQ challenge. The page features a clean, modern design with a dark starry background and a centered white content area containing frequently asked questions and their detailed answers.
 
@@ -101,7 +98,3 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [devChallenges.io](https://devchallenges.io/) for providing this excellent learning opportunity
 - [Inter Font Family](https://fonts.google.com/specimen/Inter) for the beautiful typography
 - The devChallenges community for inspiration and support
-
-## Author
-
-- GitHub [@arwinux](https://github.com/arwinux)
