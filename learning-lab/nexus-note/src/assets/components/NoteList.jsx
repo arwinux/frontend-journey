@@ -1,6 +1,8 @@
+import { useNotes, useNotesDispatch } from "../context/NotesContext";
 import NoteStatus from "./NoteStatus";
 
-function NoteList({ notes, onDelete, onComplete, sortBy }) {
+function NoteList({ sortBy }) {
+  const notes = useNotes();
   let sortedNotes = notes;
 
   if (sortBy === "earliest")
@@ -28,13 +30,7 @@ function NoteList({ notes, onDelete, onComplete, sortBy }) {
       <div className="w-full flex flex-col gap-y-4 justify-center items-center">
         {/* Start notes List */}
         {sortedNotes.map((note, index) => (
-          <NoteItem
-            key={note.id}
-            note={note}
-            noteid={index + 1}
-            onDelete={onDelete}
-            onComplete={onComplete}
-          />
+          <NoteItem key={note.id} note={note} noteid={index + 1} />
         ))}
 
         {/* End notes list */}
@@ -45,7 +41,9 @@ function NoteList({ notes, onDelete, onComplete, sortBy }) {
 
 export default NoteList;
 
-function NoteItem({ note, noteid, onDelete, onComplete }) {
+function NoteItem({ note }) {
+  const dispatch = useNotesDispatch();
+
   const option = {
     year: "numeric",
     month: "long",
@@ -61,7 +59,7 @@ function NoteItem({ note, noteid, onDelete, onComplete }) {
       <div className="flex justify-between">
         <div className="flex justify-center items-center gap-2">
           <span className="bg-[#77bad1] px-3 border h-5 flex items-center rounded-2xl">
-            {noteid}
+            {note.id}
           </span>
           <h2
             className={`text-lg font-bold p-2 ${
@@ -73,7 +71,7 @@ function NoteItem({ note, noteid, onDelete, onComplete }) {
         </div>
         <div className="flex justify-center items-center gap-2">
           <button
-            onClick={() => onDelete(note.id)}
+            onClick={() => dispatch({ type: "delete", payload: note.id })}
             className="size-8 bg-red-500 hover:bg-red-600 transition-all p-1.5 rounded-lg text-black cursor-pointer"
             type="button"
           >
@@ -127,7 +125,10 @@ function NoteItem({ note, noteid, onDelete, onComplete }) {
             id={note.id}
             value={note.id}
             checked={note.completed}
-            onChange={onComplete}
+            onChange={(e) => {
+              const noteId = Number(e.target.value);
+              dispatch({ type: "complete", payload: noteId });
+            }}
           />
         </div>
       </div>

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import SortNote from "./SortNote";
+import { useNotesDispatch } from "../context/NotesContext";
 
-function AddNoteForm({ onAddNote, sortBy, onSort }) {
+function AddNoteForm({ sortBy, onSort }) {
+  const dispatch = useNotesDispatch();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
@@ -18,7 +20,7 @@ function AddNoteForm({ onAddNote, sortBy, onSort }) {
       createdAt: new Date().toISOString(),
     };
 
-    onAddNote(newNote);
+    dispatch({ type: "add", payload: newNote });
     setTitle("");
     setDescription("");
   };

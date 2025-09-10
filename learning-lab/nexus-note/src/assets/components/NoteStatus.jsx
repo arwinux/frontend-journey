@@ -1,8 +1,11 @@
 import React from "react";
 import Message from "./Message";
+import { useNotes } from "../context/NotesContext";
 
-function NoteStatus({ notes }) {
+function NoteStatus() {
+  const notes = useNotes();
   const allnotes = notes.length;
+
   let completedNotes = notes.filter((note) => note.completed).length;
   let pendingNote = notes.filter((note) => !note.completed).length;
 
