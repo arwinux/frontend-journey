@@ -1,0 +1,87 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./typography.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2.4rem;
+}
+
+.profile-card {
+  max-width: 37rem;
+  width: 100%;
+  background-color: var(--color-grey-700);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: var(--color-grey-800);
+  gap: 2rem;
+}
+
+.profile-card__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.profile-card__name-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-card__name {
+  font-size: 2.4rem;
+  font-family: inter-semibold;
+}
+
+.profile-card__location {
+  color: var(--color-green);
+  font-family: inter-bold;
+}
+
+.profile-card__image {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+}
+
+.profile-card__links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile-card__link {
+  width: 100%;
+  height: 4.2rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: inter-semibold;
+  border-radius: 0.8rem;
+  background-color: var(--color-grey-700);
+  cursor: pointer;
+}
+
+.profile-card__link:hover {
+  background-color: var(--color-green);
+  color: var(--color-grey-800);
+  font-family: inter-bold;
+  transition: all 300ms linear;
+}

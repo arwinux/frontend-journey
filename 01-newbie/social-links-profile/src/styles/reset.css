@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--white);
+  font-family: inter-reqular;
+}
+
+body {
+  background-color: var(--color-grey-900);
+}
+
+p {
+  font-size: 1.4rem;
+}

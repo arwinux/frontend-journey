@@ -1,0 +1,25 @@
+:root {
+  --white: #ffffff;
+  --color-green: #c5f82a;
+  --color-grey-700: #333333;
+  --color-grey-800: #1f1f1f;
+  --color-grey-900: #141414;
+}
+
+@font-face {
+  font-family: "inter-reqular";
+  font-weight: 400;
+  src: url("../assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "inter-semibold";
+  font-weight: 400;
+  src: url("../assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "inter-bold";
+  font-weight: 400;
+  src: url("../assets/fonts/static/Inter-Bold.ttf");
+}
