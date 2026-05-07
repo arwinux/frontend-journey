@@ -1,0 +1,19 @@
+@import './typography.css';
+
+:root {
+  /*  ------------ Colors ------------  */
+  --color-white: hsl(0, 0%, 100%);
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+
+  --color-brown-800: hsl(14, 45%, 36%);
+
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+
+  /*  ------------ Fonts ------------  */
+  --font-serif: 'Young-Serif';
+  --font-sans: 'Outfit';
+}

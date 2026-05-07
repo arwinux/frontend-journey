@@ -1,0 +1,121 @@
+@import './reset.css';
+@import './typography.css';
+@import './variables.css';
+
+@media (min-width: 768px) {
+  .recipe__image {
+    margin-top: 5rem;
+    border-radius: 2rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.seperator {
+  width: 100%;
+  background-color: var(--color-stone-600);
+  height: 0.1rem;
+  opacity: 0.2;
+}
+
+.recipe__image {
+  width: 100%;
+  height: 18rem;
+  background: url('../images/image-omelette.jpeg') no-repeat transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipe__title {
+  font-weight: 400;
+  font-size: 3.2rem;
+  font-family: var(--font-serif);
+  margin: 0rem 0 2.4rem 0;
+  margin-top: 1.8rem;
+  line-height: 3.2rem;
+  padding: 0 2.4rem 0 2.4rem;
+  color: var(--color-stone-900);
+}
+
+.recipe__description {
+  padding: 0 2.4rem 0 2.4rem;
+}
+
+.recipe {
+  padding: 2.4rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recipe__time {
+  margin-left: 2.4rem;
+  margin-top: 3rem;
+}
+
+.recipe__time-title {
+  font-size: 1.8rem;
+  color: var(--color-rose-800);
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.recipe__time-list {
+  gap: 1.5rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 60%;
+}
+
+.recipe__ingredients-list {
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 70%;
+}
+
+.recipe__instructions-list {
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+ol.recipe__instructions-list li::marker {
+  font-weight: bold;
+  color: var(--color-brown-800);
+}
+
+li {
+  padding-left: 2.4rem;
+}
+
+.recipe__nutrition-table {
+  width: 100%;
+  font-weight: 600;
+  border-collapse: collapse;
+}
+
+.recipe__nutrition-table tr {
+  border-bottom: 0.1rem solid var(--color-stone-150);
+}
+
+.recipe__nutrition-table td {
+  padding: 1.2rem 0;
+}
+
+.table-value {
+  color: var(--color-rose-800);
+}

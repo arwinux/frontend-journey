@@ -1,0 +1,37 @@
+/* ---------------------- Fonts ---------------------- */
+
+/* Young Serif Font */
+@font-face {
+  font-family: 'Young-Serif';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+/* Outfit Font */
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+}
+
+.title-text {
+  font-size: 2.6rem;
+  color: var(--color-brown-800);
+  font-family: var(--font-serif);
+}
