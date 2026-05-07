@@ -2,17 +2,28 @@
 @import './typography.css';
 @import './variables.css';
 
-@media (min-width: 768px) {
-  .recipe__image {
-    margin-top: 5rem;
-    border-radius: 2rem;
-  }
+body {
+  background-color: var(--color-stone-100);
 }
 
 .container {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  background-color: var(--color-white);
+}
+
+.recipe__header {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.recipe {
+  padding: 2.4rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0 0 2rem 2rem;
 }
 
 .seperator {
@@ -43,14 +54,6 @@
 
 .recipe__description {
   padding: 0 2.4rem 0 2.4rem;
-}
-
-.recipe {
-  padding: 2.4rem;
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
 }
 
 .recipe__time {
@@ -118,4 +121,20 @@ li {
 
 .table-value {
   color: var(--color-rose-800);
+}
+
+@media (min-width: 768px) {
+  .recipe__image {
+    border-radius: 2rem;
+  }
+
+  .recipe__header {
+    border-radius: 2rem 2rem 0 0;
+    padding: 4rem;
+    margin-top: 10rem;
+  }
+
+  .recipe {
+    margin-bottom: 10rem;
+  }
 }
