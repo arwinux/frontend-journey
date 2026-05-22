@@ -1,0 +1,12 @@
+:root {
+  --font-vazir: "Vazir";
+  --font-cascadia: "Cascadia";
+}
+
+.font-vazir {
+  font-family: var(--font-vazir);
+}
+
+.font-cascadia {
+  font-family: var(--font-cascadia);
+}

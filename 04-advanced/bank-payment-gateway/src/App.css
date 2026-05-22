@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@import "./styles/variables.css";
+@import "./styles/fonts.css";
+
+@theme {
+  --breakpoint-xs: 32rem;
+}
+
+.backdark {
+  @apply flex justify-between items-center p-7 bg-zinc-900 border border-zinc-800 rounded-3xl;
+}
+
+.cardnumbers-input {
+  @apply focus:outline-1 outline-zinc-400 tracking-wider font-bold text-sm xs:text-xl text-center px-3! py-3! xs:py-4! w-1/4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background-image: radial-gradient(#ffffff2d 1.5px, transparent 1px);
+  background-size: 30px 30px;
+  font-family: var(--font-vazir);
+
+  /* background-image:
+    linear-gradient(#ffffff10 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff10 1px, transparent 1px);
+  background-size: 30px 30px; */
+
+  /* background-image: repeating-linear-gradient(
+    45deg,
+    #ffffff10,
+    #ffffff10 2px,
+    transparent 2px,
+    transparent 20px
+  ); */
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #020617;
+  background-image: radial-gradient(#ffffff2d 1.5px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.light {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 400px;
+  background: radial-gradient(circle, #00ff00, transparent);
+  filter: blur(120px);
+  animation: move 10s infinite alternate;
+  mix-blend-mode: screen;
+}
+
+@keyframes move {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(200px, -150px);
+  }
+}
+
+.light:nth-child(1) {
+  top: 5%;
+  left: 0%;
+  background: radial-gradient(circle, #00ff00, transparent);
+  animation-duration: 12s;
+}
+
+.light:nth-child(2) {
+  top: 70%;
+  left: 30%;
+  background: radial-gradient(circle, #ff00d4, transparent);
+  animation-duration: 12s;
+}
+
+.light:nth-child(3) {
+  top: 0%;
+  left: 60%;
+  background: radial-gradient(circle, #001aff, transparent);
+  animation-duration: 5s;
+}
+
+@media (max-width: 768px) {
+  .light:nth-child(2) {
+    top: 80%;
+    left: 0;
+    background: radial-gradient(circle, #ff00d4, transparent);
+    animation-duration: 12s;
+  }
+
+  .light:nth-child(3) {
+    top: 40%;
+    left: 0;
+    background: radial-gradient(circle, #001aff, transparent);
+    animation-duration: 5s;
+  }
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 130%;
+  transform: translateY(-10%);
+
+  background: linear-gradient(
+    -50deg,
+    transparent 40%,
+    rgba(233, 233, 233) 50%,
+    transparent 40%
+  );
+  filter: blur(20px);
+  opacity: 0.1;
+
+  /* background: linear-gradient(
+    -35deg,
+    transparent 47%,
+    rgb(100, 100, 100, 0.2) 50%,
+    transparent 53%
+  ); */
+
+  animation: shimmer 2s infinite alternate;
+}
+
+@keyframes shimmer {
+  100% {
+    left: 100%;
+  }
+}
