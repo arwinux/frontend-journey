@@ -1,0 +1,149 @@
+@import "variable.css";
+@import "reset.css";
+@import "typography.css";
+
+/* ========== Layout ========== */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2.4rem;
+}
+
+/* ========== Product Card ========== */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 37.5rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* ========== Product Image ========== */
+
+.product-card__image {
+  min-height: 24rem;
+
+  background-image: url("../../assets/images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ========== Content ========== */
+
+.product-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 3.2rem;
+}
+
+.product-card__type {
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  color: var(--color-grey);
+}
+
+.product-card__title {
+  font-family: var(--font-secondary);
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--color-black);
+}
+
+.product-card__desc {
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: var(--color-grey);
+}
+
+/* ========== Price ========== */
+
+.product-card__price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product-card__price-discount {
+  font-family: var(--font-secondary);
+  font-size: 3.2rem;
+  color: var(--color-green-500);
+}
+
+.product-card__price-real {
+  font-family: var(--font-primary);
+  font-size: 1.3rem;
+  color: var(--color-grey);
+  text-decoration: line-through;
+}
+
+/* ========== Button ========== */
+
+.product-card__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  padding: 1.5rem;
+
+  border: none;
+  border-radius: 0.8rem;
+
+  background-color: var(--color-green-500);
+  color: var(--color-white);
+
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.product-card__add-btn:hover {
+  background-color: var(--color-green-700);
+}
+
+.product-card__add-btn img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* ========== Desktop ========== */
+
+@media (min-width: 768px) {
+  .product-card {
+    flex-direction: row;
+    width: 100%;
+    max-width: 60rem;
+  }
+
+  .product-card__title {
+    font-size: 3.6rem;
+  }
+
+  .product-card__image {
+    flex: 1;
+    background-image: url("../../assets/images/image-product-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .product-card__content {
+    flex: 1;
+    padding: 3.2rem;
+  }
+}
