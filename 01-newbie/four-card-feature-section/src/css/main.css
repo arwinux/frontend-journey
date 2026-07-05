@@ -1,0 +1,132 @@
+@import "./reset.css";
+@import "./variable.css";
+@import "./typography.css";
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.feature {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.feature__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.feature__title {
+  display: flex;
+  font-size: 2.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-Grey-500);
+}
+
+.feature__title-light {
+  font-weight: 200;
+}
+
+.feature__title-bold {
+  font-weight: 600;
+}
+
+.feature__desc {
+  font-size: 1.4rem;
+  max-width: 50rem;
+  width: 100%;
+  text-align: center;
+  color: var(--color-Grey-500);
+}
+
+.feature__cards {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-width: 144rem;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 32rem;
+  height: 22rem;
+  padding: 2.2rem 3rem 2.2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.7rem 0.7rem rgba(112, 112, 112, 0.18);
+}
+
+.card-details__title {
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: var(--color-Grey-500);
+}
+
+.card-details__desc {
+  color: var(--color-Grey-400);
+  font-size: 1.2rem;
+}
+
+.card__img {
+  width: 6rem;
+  height: 6rem;
+  align-self: flex-end;
+}
+
+.card-supervisor {
+  border-top: 0.4rem solid var(--color-Cyan);
+}
+
+.card-team {
+  border-top: 0.4rem solid var(--color-Red);
+}
+
+.card-karma {
+  border-top: 0.4rem solid var(--color-Orange);
+}
+
+.card-calculator {
+  border-top: 0.4rem solid var(--color-Blue);
+}
+
+.feature__cards-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .feature__title {
+    font-size: 2.8rem;
+  }
+
+  .feature__cards {
+    flex-direction: row;
+  }
+
+  .feature__desc {
+    max-width: 35em;
+    width: 100%;
+  }
+}
