@@ -1,0 +1,14 @@
+:root {
+  /*! ----------- Colors ----------- */
+  --color-white: #ffffff;
+  --color-primary: #000000;
+  --color-secondary: #606060;
+  --color-accent: #cc312d;
+  --color-divider: #b7b7b7;
+  --color-background: #fff4f8;
+  --color-badge: #00000033;
+
+  /*? ----------- Fonts ------------  */
+  --font-primary: "Abar";
+  --font-secondary: "YekanBakh";
+}

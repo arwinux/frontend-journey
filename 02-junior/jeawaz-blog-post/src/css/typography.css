@@ -1,0 +1,29 @@
+/** ----------- Yekan Bach Font ---------- */
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/YekanBakh/YekanBakhFaNum-Regular.woff")
+      format("woff"),
+    url("../../assets/fonts/YekanBakh/YekanBakhFaNum-Regular.woff2")
+      format("woff2");
+}
+
+/*^ ----------- Abar Font --------------- */
+
+@font-face {
+  font-family: "Abar";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/Abar/AbarLowFaNum-SemiBold.woff") format("woff"),
+    url("../../assets/fonts/Abar/AbarLowFaNum-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Abar";
+  font-weight: 800;
+  src:
+    url("../../assets/fonts/Abar/AbarLowFaNum-ExtraBold.woff") format("woff"),
+    url("../../assets/fonts/Abar/AbarLowFaNum-ExtraBold.woff2") format("woff2");
+}
