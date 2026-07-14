@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) {
+  .main-content {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .results-card {
+    max-width: 60rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 3.4rem var(--color-neutral-light-lavender);
+  }
+
+  .result-card__result {
+    flex: 1;
+    border-radius: 3rem;
+    padding-top: 3rem;
+  }
+
+  .result-card__summary {
+    flex: 1;
+    margin: 3rem 0;
+    padding: 0 2.5rem;
+  }
+
+  .result-card__subheading {
+    font-size: 2rem;
+  }
+
+  .result-card__score {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 8rem;
+    background: var(--gradient-circle);
+  }
+
+  .result-card__score-number {
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--color-neutral-white);
+  }
+
+  .result-card__score-total {
+    font-size: 1.4rem;
+    color: var(--color-neutral-light-lavender);
+  }
+
+  .result-card__desc {
+    width: 82%;
+    color: var(--color-neutral-light-lavender);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

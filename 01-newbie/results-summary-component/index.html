@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="results-card">
+        <div class="result-card__result">
+          <h1 class="result-card__title">Your Result</h1>
+
+          <div class="result-card__score">
+            <span class="result-card__score-number">76</span>
+            <span class="result-card__score-total">of 100</span>
+          </div>
+
+          <div class="result-card__details">
+            <p class="result-card__lable">Great</p>
+            <p class="result-card__desc">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <div class="result-card__summary">
+          <h2 class="result-card__subheading">Summary</h2>
+          <ul class="result-card__list">
+            <li class="result-card__item reaction-summary">
+              <span class="result-card__item-name">
+                <svg width="20" height="20" aria-hidden="true">
+                  <use
+                    href="assets/images/icons-sprite.svg#icon-reaction"
+                  ></use>
+                </svg>
+                <span>Reaction</span>
+              </span>
+              <span class="result-card__item-score">
+                <span class="result-card__item-number">80</span>
+                <span class="result-card__item-total">/ 100</span>
+              </span>
+            </li>
+            <li class="result-card__item memory-summary">
+              <span class="result-card__item-name">
+                <svg width="20" height="20" aria-hidden="true">
+                  <use href="assets/images/icons-sprite.svg#icon-memory"></use>
+                </svg>
+                <span>Memory</span>
+              </span>
+              <span class="result-card__item-score">
+                <span class="result-card__item-number">92</span>
+                <span class="result-card__item-total">/ 100</span>
+              </span>
+            </li>
+            <li class="result-card__item verbal-summary">
+              <span class="result-card__item-name">
+                <svg width="20" height="20" aria-hidden="true">
+                  <use href="assets/images/icons-sprite.svg#icon-verbal"></use>
+                </svg>
+                <span>Verbal</span>
+              </span>
+              <span class="result-card__item-score">
+                <span class="result-card__item-number">61</span>
+                <span class="result-card__item-total">/ 100</span>
+              </span>
+            </li>
+            <li class="result-card__item visual-summary">
+              <span class="result-card__item-name">
+                <svg width="20" height="20" aria-hidden="true">
+                  <use href="assets/images/icons-sprite.svg#icon-visual"></use>
+                </svg>
+                <span>Visual</span>
+              </span>
+              <span class="result-card__item-score">
+                <span class="result-card__item-number">72</span>
+                <span class="result-card__item-total">/ 100</span>
+              </span>
+            </li>
+          </ul>
+          <button class="result-card__btn" type="button">Continure</button>
+        </div>
+
+      </section>
+    </main>
+
+    <a
+      href="https://github.com/arwinux"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+      <!-- <span class="label">Author</span> -->
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+      </span>
+    </a>
+
+    <script>
+      // Click-to-toggle for touch devices (hover alone doesn't work on mobile).
+      // Desktop still gets instant hover via CSS; this just adds a persistent
+      // "open" state for tap/click, and closes when tapping outside.
+      (function () {
+        var badge = document.getElementById("sigBadge");
+
+        function setOpen(open) {
+          badge.classList.toggle("is-open", open);
+          badge.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+
+        badge.addEventListener("click", function (e) {
+          e.stopPropagation();
+          setOpen(!badge.classList.contains("is-open"));
+        });
+
+        badge.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setOpen(!badge.classList.contains("is-open"));
+          }
+          if (e.key === "Escape") {
+            setOpen(false);
+          }
+        });
+
+        document.addEventListener("click", function () {
+          setOpen(false);
+        });
+      })();
+    </script>
+  </body>
+</html>

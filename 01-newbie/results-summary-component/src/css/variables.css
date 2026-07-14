@@ -1,0 +1,53 @@
+:root {
+  /* */
+  /* ------------- Primary Colors ------------- */
+  --color-primary-red: hsl(0, 100%, 67%);
+  --color-primary-orange: hsl(39, 100%, 56%);
+  --color-primary-green: hsl(166, 100%, 37%);
+  --color-primary-blue: hsl(234, 85%, 45%);
+  --color-primary-gray: #9b939e;
+  --color-primary-background: #ecf2ff;
+
+  --color-primary-red-opacity: rgba(255, 87, 87, 0.05);
+  --color-primary-orange-opacity: rgb(255, 176, 31, 0.05);
+  --color-primary-green-opacity: rgb(0, 189, 145, 0.05);
+  --color-primary-blue-opacity: rgb(17, 37, 212, 0.05);
+
+  /* ------------- Neutral Colors ------------- */
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-pale-blue: hsl(221, 100%, 96%);
+  --color-neutral-light-lavender: hsl(241, 100%, 89%);
+  --color-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+  /* ------------- Background gradient -------- */
+  --color-gradient-bg-start: hsl(252, 100%, 67%);
+  --color-gradient-bg-end: hsl(241, 81%, 54%);
+
+  /* ------------- Circle gradient ------------ */
+  --color-gradient-circle-start: hsla(256, 72%, 46%, 1);
+  --color-gradient-circle-end: hsla(241, 72%, 46%, 0);
+
+  /* ------------- */
+
+  --ink: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  --gradient-background: linear-gradient(
+    180deg,
+    var(--color-gradient-bg-start),
+    var(--color-gradient-bg-end)
+  );
+
+  --gradient-circle: linear-gradient(
+    180deg,
+    var(--color-gradient-circle-start),
+    var(--color-gradient-circle-end)
+  );
+
+  /* ------------- Fonts ---------------------- */
+  --font-family: "HankenGrotest";
+}
