@@ -1,0 +1,54 @@
+/* ----------- Yekan Bach Font ---------- */
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/yekanbach/woff/YekanBakhFaNum-SemiBold.woff")
+      format("woff"),
+    url("../../assets/fonts/yekanbach/woff2/YekanBakhFaNum-SemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 700;
+  src:
+    url("../../assets/fonts/yekanbach/woff/YekanBakhFaNum-Bold.woff")
+      format("woff"),
+    url("../../assets/fonts/yekanbach/woff2/YekanBakhFaNum-Bold.woff2")
+      format("woff2");
+}
+
+/* ----------- Peyda Font --------------- */
+
+@font-face {
+  font-family: "Peyda";
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/peyda/woff/PeydaWeb-Regular.woff") format("woff"),
+    url("../../assets/fonts/peyda/woff2/PeydaWeb-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Peyda";
+  font-weight: 500;
+  src:
+    url("../../assets/fonts/peyda/woff/PeydaWeb-Medium.woff") format("woff"),
+    url("../../assets/fonts/peyda/woff2/PeydaWeb-Medium.woff2") format("woff2");
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-size: 700;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
