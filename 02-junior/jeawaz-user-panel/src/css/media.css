@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 480px) {
+  .products-btn__title {
+    font-size: 1.4rem;
+  }
+  .dashboard__order-cards > .divider {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dashboard {
+    grid-template-columns: 340px 1fr;
+  }
+
+  .order-filters__header,
+  .order-filters__container > .divider {
+    display: none;
+  }
+
+  .order-filters__track {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .dashboard__account {
+    width: 100%;
+    max-width: 34rem;
+  }
+}

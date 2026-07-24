@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeawaz User Panel</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="dashboard container">
+      <section class="dashboard__account">
+        <div class="account__profile">
+          <div class="account__profile-user">
+            <div class="account__profile-image">
+              <svg class="account__profile-image">
+                <use href="./assets/images/sprite.svg#User"></use>
+              </svg>
+            </div>
+            <div class="account__profile-userinfo">
+              <span class="account__profile-name">رضا جنیدی</span>
+              <span class="account__profile-phone">09123456789</span>
+            </div>
+          </div>
+
+          <svg class="account__profile-icon">
+            <use href="./assets/images/sprite.svg#Pen"></use>
+          </svg>
+        </div>
+
+        <div class="divider"></div>
+
+        <ul class="dashboard__menu">
+          <li class="menu-item selected">
+            <svg class="icon menu-item__image icon--fill">
+              <use href="./assets/images/sprite.svg#home-happy"></use>
+            </svg>
+            <span class="menu-item__title">سفارش های من</span>
+          </li>
+          <li class="menu-item">
+            <svg class="icon menu-item__image icon--fill">
+              <use href="./assets/images/sprite.svg#user-serach"></use>
+            </svg>
+            <span class="menu-item__title">اطلاعات حساب کاربری</span>
+          </li>
+          <li class="menu-item messages">
+            <div class="menu-item__message">
+              <svg class="icon menu-item__image icon--fill">
+                <use
+                  href="./assets/images/sprite.svg#notification-bell-ringing"
+                ></use>
+              </svg>
+              <span class="menu-item__title">پیام</span>
+            </div>
+            <span class="menu-item__inbox">3</span>
+          </li>
+          <li class="menu-item">
+            <svg class="icon menu-item__image icon--fill">
+              <use
+                href="./assets/images/sprite.svg#chat-bubble-rectangle"
+              ></use>
+            </svg>
+            <span class="menu-item__title">نظرات من</span>
+          </li>
+        </ul>
+        <button class="menu-item btn">
+          <svg class="icon menu-item__image icon--fill">
+            <use href="./assets/images/sprite.svg#logout"></use>
+          </svg>
+          <span class="menu-item__title">خروج</span>
+        </button>
+      </section>
+
+      <section class="dashboard__info">
+        <section class="dashboard__order-filters">
+          <div class="order-filters__header">
+            <img src="./assets/images/Right.svg" alt="Right arrow" />
+            <h3>سفارش های من</h3>
+          </div>
+
+          <div class="order-filters__container">
+            <div class="divider"></div>
+
+            <div class="order-filters__track">
+              <div class="order-filters__item filter-selected">
+                <div class="badge-filter badge-blue">
+                  <img src="./assets/images/Time-Circle.svg" alt="Clock icon" />
+                </div>
+
+                <div class="stats-item__status">
+                  <span class="order-filters__title">در حال پردازش</span>
+                  <div class="order-filters__count">
+                    <span>5</span>
+                    <span>سفارش</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-filters__item">
+                <div class="badge-filter badge-green">
+                  <img
+                    src="./assets/images/Check-Circle.svg"
+                    alt="Check icon"
+                  />
+                </div>
+
+                <div class="stats-item__status">
+                  <span class="order-filters__title">تحویل شده</span>
+                  <div class="order-filters__count">
+                    <span>5</span>
+                    <span>سفارش</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-filters__item">
+                <div class="badge-filter badge-grey">
+                  <img src="./assets/images/TurnLeft.svg" alt="TurnLeft icon" />
+                </div>
+
+                <div class="stats-item__status">
+                  <span class="order-filters__title">مرجوعی</span>
+                  <div class="order-filters__count">
+                    <span>5</span>
+                    <span>سفارش</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-filters__item">
+                <div class="badge-filter badge-red">
+                  <img
+                    src="./assets/images/Close-Circle.svg"
+                    alt="Close icon"
+                  />
+                </div>
+
+                <div class="stats-item__status">
+                  <span class="order-filters__title">لغو شده</span>
+                  <div class="order-filters__count">
+                    <span>5</span>
+                    <span>سفارش</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+          </div>
+        </section>
+
+        <section class="dashboard__order-cards">
+          <article class="dashboard__order-card">
+            <div class="order-card__details">
+              <span class="badge">
+                <img src="./assets/images/Time-Circle.svg" alt="clock icon" />
+                در حال پردازش
+              </span>
+
+              <div class="order-card__date">
+                <h3>تاریخ تحویل سفارش :</h3>
+                <span>1403/05/07</span>
+              </div>
+
+              <div class="order-card__code">
+                <h3>کد سفارش :</h3>
+                <span>2165449</span>
+              </div>
+
+              <div class="order-card__price">
+                <h2>1,550,000</h2>
+              </div>
+            </div>
+
+            <div class="order-card__products">
+              <div class="order-card__prodcts-img">
+                <div class="product-img">
+                  <img src="./assets/images/product1.png" alt="product image" />
+                </div>
+
+                <div class="product-img">
+                  <img src="./assets/images/product2.png" alt="product image" />
+                </div>
+
+                <div class="product-img">
+                  <img src="./assets/images/product3.png" alt="product image" />
+                </div>
+              </div>
+              <button type="button" class="order-card__products-btn">
+                <h3 class="products-btn__title">جزئیات سفارش</h3>
+                <img src="./assets/images/Arrow.svg" alt="arrow left" />
+              </button>
+            </div>
+          </article>
+
+          <div class="divider"></div>
+
+          <article class="dashboard__order-card">
+            <div class="order-card__details">
+              <span class="badge">
+                <img src="./assets/images/Time-Circle.svg" alt="clock icon" />
+                در حال پردازش
+              </span>
+
+              <div class="order-card__date">
+                <h3>تاریخ تحویل سفارش :</h3>
+                <span>1403/05/07</span>
+              </div>
+
+              <div class="order-card__code">
+                <h3>کد سفارش :</h3>
+                <span>2165449</span>
+              </div>
+
+              <div class="order-card__price">
+                <h2>1,550,000</h2>
+              </div>
+            </div>
+
+            <div class="order-card__products">
+              <div class="order-card__prodcts-img">
+                <div class="product-img">
+                  <img src="./assets/images/product1.png" alt="product image" />
+                </div>
+
+                <div class="product-img">
+                  <img src="./assets/images/product2.png" alt="product image" />
+                </div>
+
+                <div class="product-img">
+                  <img src="./assets/images/product3.png" alt="product image" />
+                </div>
+              </div>
+              <button type="button" class="order-card__products-btn">
+                <h3 class="products-btn__title">جزئیات سفارش</h3>
+                <img src="./assets/images/Arrow.svg" alt="arrow left" />
+              </button>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <a
+      href="https://github.com/arwinux"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+      <!-- <span class="label">Author</span> -->
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+      </span>
+    </a>
+
+    <script>
+      // Click-to-toggle for touch devices (hover alone doesn't work on mobile).
+      // Desktop still gets instant hover via CSS; this just adds a persistent
+      // "open" state for tap/click, and closes when tapping outside.
+      (function () {
+        var badge = document.getElementById("sigBadge");
+
+        function setOpen(open) {
+          badge.classList.toggle("is-open", open);
+          badge.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+
+        badge.addEventListener("click", function (e) {
+          e.stopPropagation();
+          setOpen(!badge.classList.contains("is-open"));
+        });
+
+        badge.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setOpen(!badge.classList.contains("is-open"));
+          }
+          if (e.key === "Escape") {
+            setOpen(false);
+          }
+        });
+
+        document.addEventListener("click", function () {
+          setOpen(false);
+        });
+      })();
+    </script>
+  </body>
+</html>
