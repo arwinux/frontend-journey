@@ -1,0 +1,503 @@
+<!doctype html>
+<html dir="rtl" lang="fa-IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tapc Blog</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header class="tapc__header container">
+      <div class="tapc__navigation">
+        <div class="tapc__img">
+          <img src="./assets/images/tapclogo.svg" alt="tapc logo" />
+        </div>
+        <button class="tapc__nav-toggler nav__toggler">
+          <img src="./assets/images/menu-open.svg" alt="menu icon" />
+        </button>
+      </div>
+    
+      <nav class="tapc__nav">
+        <ul class="tapc__menu">
+          <li><a class="tapc__menu-item" href="#">پشتیبانی</a></li>
+          <li><a class="tapc__menu-item" href="#">خدمات کسب و کار ها</a></li>
+          <li><a class="tapc__menu-item" href="#">فرصت های شغلی</a></li>
+          <li><a class="tapc__menu-item" href="#">وبلاگ</a></li>
+          <button class="tapc__menu-item btn btn--primary">دانلود تپسی</butto>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="tapc">
+      <section class="tapc__hero">
+        <picture>
+          <source srcset="./assets/images/banner.jpg" media="(min-width: 768px)" />
+          <source
+            srcset="./assets/images/banner-mobile.jpg"
+            media="(max-width: 767px)"
+          />
+          <img class="banner-img" src="./assets/images/banner.jpg" alt="banner" />
+        </picture>
+      
+        <div class="tapc__hero-wrapper container">
+          <div class="tapc__hero-intro">
+            <h1>تپسی</h1>
+            <h2>اپلیکیشن درخواست خودرو و پیک</h2>
+            <div class="tapc__hero-btns">
+              <div class="tapc__hero-btn-passengers">
+                <button class="tapc__hero-btn btn filled">
+                  دانلود اپلیکیشن مسافران
+                </button>
+                <button class="tapc__hero-btn btn filled">وب اپلیکیشن مسافران</button>
+              </div>
+      
+              <div class="tapc__hero-btn-drivers">
+                <button class="tapc__hero-btn btn outlined">
+                  دانلود اپلیکیشن رانندگان
+                </button>
+                <button class="tapc__hero-btn btn outlined">ثبت نام رانندگان</button>
+              </div>
+            </div>
+          </div>
+          <div class="tapc__hero-img">
+            <img src="./assets/images/mockup-phone.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="tapc__services container">
+        <h2 class="tapc__services-title">سرویس های تپسی</h2>
+        <div class="services-scrool">
+          <div class="service" data-service="classic">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-classic.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">تپسی کلاسیک</span>
+          </div>
+      
+          <div class="service" data-service="motopeyk">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-motopeyk.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">موتوپیک</span>
+          </div>
+      
+          <div class="service" data-service="autopeyk">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-autopeyk.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">اتوپیک</span>
+          </div>
+      
+          <div class="service" data-service="plus">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-plus.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">تپسی پلاس</span>
+          </div>
+      
+          <div class="service" data-service="tel">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-tel.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">تپسی تلفنی</span>
+          </div>
+      
+          <div class="service" data-service="hamyar">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-hamyar.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">همیار</span>
+          </div>
+      
+          <div class="service" data-service="hamkhat">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-hamkhat.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">همخط</span>
+          </div>
+      
+          <div class="service" data-service="taxi">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-taxi.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">تاکسی</span>
+          </div>
+      
+          <div class="service" data-service="line">
+            <img
+              class="service-img"
+              src="./assets/images/services/cc-line.png"
+              alt="tapc classic"
+            />
+            <span class="service-title">تپسی لاین</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="feature-container">
+        <section class="feature service-feature container">
+          <div class="feature__details">
+            <h3 class="feature__title">title</h3>
+            <p class="feature__desc">
+              در سرويس پلاس تاكسى اينترنتى تيسى، خودرويى با مدل بالاتر وعمر كمتر، به
+              دنبال شما خواهد آمد. همچنين، رانندگان اين سرويس بالاترين امتياز را از
+              مسافران دريافت کردهاند. در این سرویس که در حال حاضر در تهران فعال است،
+              امكان تعيين چند مقصد يا توقف در حين سفر، وجود دارد.
+            </p>
+          </div>
+        
+          <div class="feature__image">
+            <img src="./assets/images/services/illus-autopeyk.webp" alt="" />
+          </div>
+        </section>
+  
+  
+        <section class="feature container">
+          <div class="feature__image">
+            <img src="./assets/images/i-mac 1.png" alt="" />
+          </div>
+          
+          <div class="feature__details">
+            <h3 class="feature__title">خدمات تپسی برای کسب و کار ها</h3>
+            <p class="feature__desc">
+              پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست
+              هم‌زمان تعداد نامحدودی خودرو و پیک را برای کسب‌وکارها و سازمان‌ها
+              فراهم می‌کند. و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
+              ارسال کالاهای خود را به سادگی مدیریت کنید.
+            </p>
+            <button class="btn btn--primary block" type="button">
+              ورود ثبت نام سازمانی
+            </button>
+          </div>
+        </section>
+  
+        <section class="feature feature-code container">
+          <div class="feature__image">
+            <img src="./assets/images/mackbook.png" alt="" />
+          </div>
+          
+          <div class="feature__details">
+            <h3 class="feature__title">خرید کد اعتبار تپسی</h3>
+            <p class="feature__desc">
+              پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست
+              هم‌زمان تعداد نامحدودی خودرو و پیک را برای کسب‌وکارها و سازمان‌ها
+              فراهم می‌کند. و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
+              ارسال کالاهای خود را به سادگی مدیریت کنید.
+            </p>
+            <button class="btn btn--primary block" type="button">
+              ورود ثبت نام سازمانی
+            </button>
+          </div>
+        </section>
+      </div>
+      
+      <div class="panel-container container">
+        <h3 class="panel__title">پنل های رزرو تاکسی</h3>
+        <section class="block-plan">
+          <div class="plan plan--secondary">
+            <header class="plan__header">
+              <div class="plan__intro">
+                <span class="plan__title">اقتصادی</span>
+                <span class="badge badge--secondary">15% OFF</span>
+              </div>
+              <span class="plan__price">390,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__desc">سرویس ماشین های معمولی</span>
+            </header>
+            <div class="plan__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+              </ul>
+        
+              <button class="btn btn--secondary btn--block" type="button">
+                ثبت سفارش
+              </button>
+            </div>
+          </div>
+        
+          <div class="plan plan--primary plan--popular">
+            <header class="plan__header">
+              <div class="plan__intro">
+                <span class="plan__title">اقتصادی</span>
+                <span class="badge badge--primary">15% OFF</span>
+              </div>
+              <span class="plan__price">390,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__desc">سرویس ماشین های معمولی</span>
+            </header>
+            <div class="plan__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت عالی</li>
+                <li class="list__item">کم سر و صدا</li>
+                <li class="list__item">زمان محدود</li>
+                <li class="list__item">سرویس روزانه</li>
+              </ul>
+        
+              <button class="btn btn--primary btn--block" type="button">
+                ثبت سفارش
+              </button>
+            </div>
+          </div>
+        
+          <div class="plan plan--secondary">
+            <header class="plan__header">
+              <div class="plan__intro">
+                <span class="plan__title">اقتصادی</span>
+                <span class="badge badge--secondary">15% OFF</span>
+              </div>
+              <span class="plan__price">390,000</span>
+              <span class="plan__billing-cycle">ماهانه / تومان</span>
+              <span class="plan__desc">سرویس ماشین های معمولی</span>
+            </header>
+            <div class="plan__body">
+              <ul class="list list--tick">
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+                <li class="list__item">کیفیت معمولی</li>
+              </ul>
+        
+              <button class="btn btn--secondary btn--block" type="button">
+                ثبت سفارش
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="divier-bold"></div>
+
+      <section class="contact-us container">
+        <div class="contact-us__header">
+          <h1 class="contact-us__title">ارتباط با ما</h1>
+          <h3 class="contact-us__desc">
+            شما می توانید نظرات و انتقادات خود را برای ما بفرستید
+          </h3>
+        </div>
+      
+        <div class="contact-us__grid">
+          <form action="" class="contact-us__form">
+            <h2>Contact Us</h2>
+      
+            <input
+              class="contact-us__input"
+              type="text"
+              name="form-name"
+              id="form-name"
+              placeholder="Your Name"
+            />
+            <input
+              class="contact-us__input"
+              type="email"
+              name="form-email"
+              id="form-email"
+              placeholder="Your email"
+            />
+            <textarea
+              class="contact-us__input"
+              name="form-message"
+              id="form-message"
+              placeholder="Your Message"
+            ></textarea>
+      
+            <button class="btn btn--primary" type="button">SEND</button>
+          </form>
+      
+          <div class="contact-us__address">
+            <div class="contact-us__address-item location">
+              <div class="contact-us__item-img">
+                <img src="./assets/images/location.svg" alt="location icon" />
+              </div>
+      
+              <p class="contac-us__item-desc">
+                ایران - کردستان - سنندج - خیابان 21 - کوچه 101
+              </p>
+            </div>
+      
+            <div class="contact-us__address-item phone">
+              <div class="contact-us__item-img">
+                <img src="./assets/images/phone.svg" alt="phone icon" />
+              </div>
+      
+              <p class="contac-us__item-desc">(843) 555-0130</p>
+            </div>
+      
+            <div class="contact-us__address-item email">
+              <div class="contact-us__item-img">
+                <img src="./assets/images/email.svg" alt="email icon" />
+              </div>
+      
+              <p class="contac-us__item-desc">info@fronthooks.ir</p>
+            </div>
+          </div>
+      
+          <div class="contact-us__map">
+            <img src="./assets/images/locationimage.png" alt="map" />
+          </div>
+      
+          <div class="contact-us__social">
+            <div class="contact-us__social-img">
+              <img src="./assets/images/twitter.svg" alt="twitter logo" />
+            </div>
+      
+            <div class="contact-us__social-img">
+              <img src="./assets/images/facebook.svg" alt="facebook logo" />
+            </div>
+      
+            <div class="contact-us__social-img">
+              <img src="./assets/images/linkedin.svg" alt="linkedin logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="footer">
+      <div class="tapc__links-verify">
+        <div class="tapc-intro">
+          <img class="tapc-logo" src="./assets/images/tapsilogo-white.svg" alt="" />
+          <span>اپلیکیشن درخواست خودرو و پیک</span>
+          <span>تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است. </span>
+        </div>
+    
+        <ul class="tapc__links">
+          <h3 class="tapc__links-title">تپسی</h3>
+          <li><a class="tapc__link" href="">وبلاگ تپسی </a></li>
+          <li><a class="tapc__link" href="">فرصت شغلی</a></li>
+          <li><a class="tapc__link" href="">تماس با ما</a></li>
+          <li><a class="tapc__link" href="">لوگو و هویت سازمانی</a></li>
+          <li><a class="tapc__link" href="">استخدام بازاریاب</a></li>
+          <li><a class="tapc__link" href="">امور سهام</a></li>
+          <li><a class="tapc__link" href="">ویدئوها</a></li>
+        </ul>
+    
+        <ul class="tapc__links">
+          <h3 class="tapc__links-title">مسافران</h3>
+          <li><a class="tapc__link" href="">دانلود اپ مسافر</a></li>
+          <li><a class="tapc__link" href="">نسخه وب تپسی</a></li>
+          <li><a class="tapc__link" href="">پرسش‌های متداول مسافران</a></li>
+          <li><a class="tapc__link" href="">شرایط و قوانین مسافران</a></li>
+          <li><a class="tapc__link" href="">باشگاه مشتریان</a></li>
+        </ul>
+    
+        <ul class="tapc__links">
+          <h3 class="tapc__links-title">رانندگان</h3>
+          <li><a class="tapc__link" href="">دانلود اپ سفیر</a></li>
+          <li>
+            <a class="tapc__link" href="">ثبت نام راننده تاکسی اینترنتی</a>
+          </li>
+          <li><a class="tapc__link" href="">پرسش‌های متداول سفیران</a></li>
+          <li><a class="tapc__link" href="">شرایط و قوانین سفیران</a></li>
+          <li><a class="tapc__link" href="">تپسی گاراژ</a></li>
+          <li><a class="tapc__link" href="">ثبت نام راننده موتور</a></li>
+        </ul>
+    
+        <ul class="tapc__links">
+          <h3 class="tapc__links-title">کسب و کارها</h3>
+          <li><a class="tapc__link" href="">پنل سازمانی تپسی</a></li>
+          <li><a class="tapc__link" href="">خرید کد اعتبار و تخفیف</a></li>
+        </ul>
+    
+        <div class="tapc__verify">
+          <div class="tapc__verify-img">
+            <img src="./assets/images/etehadie.png" alt="etehadie logo" />
+          </div>
+    
+          <div class="tapc__verify-img">
+            <img src="./assets/images/digital.png" alt="digital logo" />
+          </div>
+          <div class="tapc__verify-img">
+            <img src="./assets/images/enamad.png" alt="enamad logo" />
+          </div>
+        </div>
+      </div>
+    
+      <div class="tapc__networks">
+        <h3 class="tapc__networks-title">تپسی در شبکه‌های اجتماعی</h3>
+    
+        <div class="tapc__networks-container">
+          <div class="tapc__network">
+            <img src="./assets/images/telegramf.svg" alt="telegram logo" />
+          </div>
+    
+          <div class="tapc__network">
+            <img src="./assets/images/linkedinf.svg" alt="linkedin logo" />
+          </div>
+    
+          <div class="tapc__network">
+            <img src="./assets/images/twitterf.svg" alt="twitter logo" />
+          </div>
+    
+          <div class="tapc__network">
+            <img src="./assets/images/instagramf.svg" alt="instagram logo" />
+          </div>
+    
+          <div class="tapc__network">
+            <img src="./assets/images/facebookf.svg" alt="facebook logo" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <a
+      href="https://github.com/arwinux"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+      <!-- <span class="label">Author</span> -->
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+      </span>
+    </a>
+    <script src="./src/js/arwinux-badge.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

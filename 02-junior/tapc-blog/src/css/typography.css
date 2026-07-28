@@ -1,0 +1,89 @@
+/* --------------------- IranYekan --------------------- */
+
+@font-face {
+  font-family: "iranyekan";
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanX-Regular.woff")
+      format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanX-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "iranyekan";
+  font-weight: 500;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanX-Medium.woff")
+      format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanX-Medium.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "iranyekan";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanX-DemiBold.woff")
+      format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanX-DemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "iranyekan";
+  font-weight: 700;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanX-Bold.woff") format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanX-Bold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "iranyekan";
+  font-weight: 800;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanX-ExtraBold.woff")
+      format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanX-ExtraBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "iranyekanFa";
+  font-weight: 700;
+  src:
+    url("../../assets/fonts/iranyekan/woff/IRANYekanXFaNum-Bold.woff")
+      format("woff"),
+    url("../../assets/fonts/iranyekan/woff2/IRANYekanXFaNum-Bold.woff2")
+      format("woff2");
+}
+
+/* --------------------- Graphik  --------------------- */
+@font-face {
+  font-family: "graphik";
+  font-weight: normal;
+  src:
+    url("../../assets/fonts/graphik/Graphik-Regular.woff") format("woff"),
+    url("../../assets/fonts/graphik/Graphik-Regular.woff2") format("woff2");
+}
+
+body {
+  color: var(--color-body);
+  font-size: 1.4rem;
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-heading);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}

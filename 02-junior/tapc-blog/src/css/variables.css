@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #ff5722;
+  --color-primary-light: #ff7a50;
+  --color-secondary-light: #fff6f2;
+  --color-secondary-dark: #ffa589;
+  --color-text: #252b42;
+  --color-border: #dddddd;
+  --color-border-input: #e8e8e8;
+  --color-back-input: #f5f5f5;
+  --color-navbar: #f8f8f8;
+  --color-body: #333333;
+  --color-heading: #000000;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --gradient-background: linear-gradient(to right, #171a3cb2, #171a3c4d);
+
+    /* Programmer Badge Colors */
+    --ink: #0b1420;
+    --panel: #0f1d2e;
+    --brass: #c9a24b;
+    --brass-hi: #e9cc7e;
+    --paper: #ede8de;
+    --muted: #8291a1;
+    --hair: rgba(201, 162, 75, 0.32);
+
+  --font-primary: "iranyekan";
+  --font-secondary: "iranyekanFa";
+}
