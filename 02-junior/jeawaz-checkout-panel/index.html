@@ -1,0 +1,394 @@
+<!doctype html>
+<html dir="rtl" lang="fa-IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeawaz Checkout Panel</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+  <body>
+    <main class="checkout container">
+      <!-- -------------------- User Information ---------------------->
+      <aside class="checkout-form">
+        <div class="checkout-form-heading heading">
+          <h2 class="strong">اطلاعات کاربری</h2>
+          <h2 class="small">شما</h2>
+        </div>
+
+        <form id="checkout-form" action="post" class="form">
+          <section class="form-section">
+            <h4 class="form-section__title">اطلاعات تحویل گیرنده</h4>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">نام و نام خانوادگی</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  maxlength="25"
+                  minlength="7"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="phone">شماره تماس گیرنده</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  maxlength="11"
+                  minlength="11"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="form-section__title">
+              <h4>آدرس تحویل</h4>
+              <button class="btn-address">
+                <img src="./assets/images/plus-red.svg" alt="red plus icon" />
+                انتخاب آدرس
+              </button>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="province">استان</label>
+                <div class="select-wrapper">
+                  <select
+                    class="form-select form-input"
+                    name="province"
+                    id="province"
+                  >
+                    <option value="tehran">تهران</option>
+                    <option value="alborz">البرز</option>
+                    <option value="kermanshah">کرمانشاه</option>
+                    <option value="fars">فارس</option>
+                    <option value="isfahan">اصفهان</option>
+                  </select>
+                  <img
+                    class="select-icon"
+                    src="./assets/images/select-icon.svg"
+                    alt="select icon"
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="city">شهر</label>
+                <div class="select-wrapper">
+                  <select class="form-select form-input" name="city" id="city">
+                    <option value="tehran">تهران</option>
+                    <option value="karaj">کرج</option>
+                    <option value="kermanshah">کرمانشاه</option>
+                    <option value="shiraz">شیراز</option>
+                    <option value="isfahan">اصفهان</option>
+                  </select>
+                  <img
+                    class="select-icon"
+                    src="./assets/images/select-icon.svg"
+                    alt="select icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <section class="form-section">
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="register">پلاک</label>
+                  <input
+                    class="form-input register"
+                    type="text"
+                    name="register"
+                    id="register"
+                    maxlength="10"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="postid">کدپستی</label>
+                  <input
+                    class="form-input"
+                    type="number"
+                    name="postid"
+                    id="postid"
+                    maxlength="10"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <div class="form-field post-input">
+              <label for="post">نشانی پست</label>
+              <textarea
+                class="form-field-textarea form-input"
+                name="post"
+                id="post"
+                maxlength="200"
+              ></textarea>
+            </div>
+
+            <div class="form-field">
+              <div class="shipping-header">
+                <div class="checkout-form-heading heading">
+                  <h2 class="small">انتخاب</h2>
+                  <h2 class="strong">نحوه ارسال</h2>
+                </div>
+
+                <span class="badge">3 محصول در سبد خرید</span>
+              </div>
+              <div class="shipping-methods form-grid">
+                <label
+                  for="shipping-tipax"
+                  class="shipping-method tipax-method"
+                >
+                  <div class="shipping-method__title">
+                    <div class="shipping-method__radio">
+                      <input
+                        checked
+                        class="shipping-method__input"
+                        type="radio"
+                        name="shipping-method"
+                        id="shipping-tipax"
+                      />
+                      <img
+                        src="./assets/images/check-icon.svg"
+                        alt="check icon"
+                      />
+                    </div>
+                    <span>تیپاکس با بیمه (1 تا 3 روز کاری)</span>
+                  </div>
+                  <div class="shipping-method__price">
+                    <span class="method__price">45,000</span>
+                    <span class="method__price-unit unit">تومان</span>
+                  </div>
+                </label>
+
+                <label
+                  for="shipping-pishtaz"
+                  class="shipping-method pishtaz-method"
+                >
+                  <div class="shipping-method__title">
+                    <div class="shipping-method__radio">
+                      <input
+                        class="shipping-method__input"
+                        type="radio"
+                        name="shipping-method"
+                        id="shipping-pishtaz"
+                      />
+                      <img
+                        src="./assets/images/check-icon.svg"
+                        alt="check icon"
+                      />
+                    </div>
+                    <span>پست پیشتاز (2 تا 5روز کاری)</span>
+                  </div>
+                  <div class="shipping-method__price">
+                    <span class="method__price">45,000</span>
+                    <span class="method__price-unit unit">تومان</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </section>
+        </form>
+      </aside>
+
+      <!-- -------------------- Purchase Section ---------------------->
+      <section class="checkout__purchase">
+        <div class="checkout__purchase-heading heading">
+          <h2 class="strong">اطلاعات</h2>
+          <h2 class="small">خرید</h2>
+        </div>
+        <div class="checkout__purchase-cards">
+          <article class="card">
+            <div class="card__img">
+              <img
+                class="card__img"
+                src="./assets/images/products/yellow-card.png"
+                alt="yellow perfume "
+              />
+            </div>
+            <div class="card__content">
+              <div class="card__info">
+                <div class="card__info-title">
+                  <h5 class="card__info-title-en">Hugo Just Different</h5>
+                  <h5 class="card__info-title-fa">هوگو بوس جاست دیفرنت </h5>
+                </div>
+                <div class="card__info-volume">
+                  <span class="card__info-volume-number">100</span>
+                  <span class="card__info-volume-unit unit">میل</span>
+                </div>
+              </div>
+
+              <div class="card__action-price">
+                <div class="card__price">
+                  <span class="card__price">1,550,000</span>
+                  <span class="card__price-unit unit">تومان</span>
+                </div>
+
+                <div class="card__action">
+                  <button class="btn-action btn-increase" type="button">
+                    <img
+                      src="./assets/images/btn-increase.svg"
+                      alt="plus icon"
+                    />
+                  </button>
+
+                  <div class="card__amount">1</div>
+
+                  <button class="btn-action btn-trash" type="button">
+                    <img src="./assets/images/btn-trash.svg" alt="plus icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img
+                class="card__img"
+                src="./assets/images/products/black-card.png"
+                alt="black perfume "
+              />
+            </div>
+            <div class="card__content">
+              <div class="card__info">
+                <div class="card__info-title">
+                  <h5 class="card__info-title-en">Hugo Just Different</h5>
+                  <h5 class="card__info-title-fa">هوگو بوس جاست دیفرنت </h5>
+                </div>
+                <div class="card__info-volume">
+                  <span class="card__info-volume-number">100</span>
+                  <span class="card__info-volume-unit unit">میل</span>
+                </div>
+              </div>
+
+              <div class="card__action-price">
+                <div class="card__price">
+                  <span class="card__price">1,550,000</span>
+                  <span class="card__price-unit unit">تومان</span>
+                </div>
+
+                <div class="card__action">
+                  <button class="btn-action btn-increase" type="button">
+                    <img
+                      src="./assets/images/btn-increase.svg"
+                      alt="plus icon"
+                    />
+                  </button>
+
+                  <div class="card__amount">1</div>
+
+                  <button class="btn-action btn-trash" type="button">
+                    <img src="./assets/images/btn-trash.svg" alt="plus icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img
+                class="card__img"
+                src="./assets/images/products/red-card.png"
+                alt="red perfume "
+              />
+            </div>
+            <div class="card__content">
+              <div class="card__info">
+                <div class="card__info-title">
+                  <h5 class="card__info-title-en">Hugo Just Different</h5>
+                  <h5 class="card__info-title-fa">هوگو بوس جاست دیفرنت </h5>
+                </div>
+                <div class="card__info-volume">
+                  <span class="card__info-volume-number">100</span>
+                  <span class="card__info-volume-unit unit">میل</span>
+                </div>
+              </div>
+
+              <div class="card__action-price">
+                <div class="card__price">
+                  <span class="card__price">1,550,000</span>
+                  <span class="card__price-unit unit">تومان</span>
+                </div>
+
+                <div class="card__action">
+                  <button class="btn-action btn-increase" type="button">
+                    <img
+                      src="./assets/images/btn-increase.svg"
+                      alt="plus icon"
+                    />
+                  </button>
+
+                  <div class="card__amount">1</div>
+
+                  <button class="btn-action btn-trash" type="button">
+                    <img src="./assets/images/btn-trash.svg" alt="plus icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="checkout__purchase-summary">
+          <div class="summary__row">
+            <h5 class="summary__label">خرید شما:</h5>
+
+            <div class="price">
+              <span class="price__value price">1,450,000</span>
+              <span class="price__unit unit price-unit">تومان</span>
+            </div>
+          </div>
+
+          <div class="summary__row">
+            <h5 class="summary__label">هزینه ارسال:</h5>
+
+            <div class="price">
+              <span class="price__value price">0</span>
+              <span class="price__unit unit price-unit">تومان</span>
+            </div>
+          </div>
+
+          <div class="summary__row">
+            <h5 class="summary__label">مبلغ قابل پرداخت:</h5>
+
+            <div class="price">
+              <h2 class="price__value price-total">8,450,000</h2>
+              <span class="price__unit unit price-unit">تومان</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary__row summary__row--payment">
+          <img
+            class="summary__payment-icon"
+            src="./assets/images/payment.svg"
+            alt="payment card"
+          />
+
+          <div class="summary__payment">
+            <span class="small">پرداخت امن با کارت‌های عضو شتاب از طریق</span>
+            <span class="strong">درگاه زیبال</span>
+          </div>
+        </div>
+
+        <button
+          class="btn btn-primary btn--block"
+          type="submit"
+          form="checkout-form"
+        >
+          پرداخت و خرید محصول
+        </button>
+      </section>
+    </main>
+  </body>
+</html>

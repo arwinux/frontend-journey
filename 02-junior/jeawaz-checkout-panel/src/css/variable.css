@@ -1,0 +1,49 @@
+:root {
+  /* ---------------------- Color ---------------------- */
+  --color-primary: #cc312d;
+  --color-background: #f7f7f7;
+  --color-border: #ebebeb;
+  --color-border-checkbox: #7c7f8480;
+  --color-border-amount: #e6e6e6;
+  --color-text: #1a1814;
+  --color-price-muted: #14141466;
+  --color-text-muted: #606060;
+  --color-badge: #e5303f1a;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* ---------------------- Programmer Badge ---------------------- */
+  --ink: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: #c9a24b52;
+
+  /* ---------------------- Font ---------------------- */
+  --font-primary: "YekanBakh";
+  --font-secondary: "Abar";
+  --font-mono: "Peyda";
+
+  /* ---------------------- Typography  ---------------------- */
+
+  --fs-xs: 1.2rem;
+  --fs-sm: 1.4rem;
+  --fs-md: 1.6rem;
+  --fs-lg: 1.8rem;
+  --fs-xl: 1rem;
+  --fs-2xl: 1.6rem;
+
+  --fs-body: var(--fs-sm);
+  --fs-h2: var(--fs-2xl);
+  --fs-h3: var(--fs-xl);
+  --fs-h4: var(--fs-md);
+  --fs-h5: var(--fs-sm);
+
+  /* ---------------------- Font Weights ---------------------- */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}

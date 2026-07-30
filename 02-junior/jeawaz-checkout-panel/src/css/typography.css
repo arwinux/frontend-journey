@@ -1,0 +1,128 @@
+/* ---------------------- Yekan Bach Font --------------------- */
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/yekanbach/woff/YekanBakhFaNum-Regular.woff")
+      format("woff"),
+    url("../../assets/fonts/yekanbach/woff2/YekanBakhFaNum-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/yekanbach/woff/YekanBakhFaNum-SemiBold.woff")
+      format("woff"),
+    url("../../assets/fonts/yekanbach/woff2/YekanBakhFaNum-SemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 700;
+  src:
+    url("../../assets/fonts/yekanbach/woff/YekanBakhFaNum-Bold.woff")
+      format("woff"),
+    url("../../assets/fonts/yekanbach/woff2/YekanBakhFaNum-Bold.woff2")
+      format("woff2");
+}
+
+/* ---------------------- Abar Font --------------------- */
+
+@font-face {
+  font-family: "Abar";
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/abar/woff/AbarLowFaNum-Regular.woff") format("woff"),
+    url("../../assets/fonts/abar/woff2/AbarLowFaNum-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Abar";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/abar/woff/AbarLowFaNum-SemiBold.woff")
+      format("woff"),
+    url("../../assets/fonts/abar/woff2/AbarLowFaNum-SemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Abar";
+  font-weight: 600;
+  src:
+    url("../../assets/fonts/abar/woff/AbarLowFaNum-Bold.woff") format("woff"),
+    url("../../assets/fonts/abar/woff2/AbarLowFaNum-Bold.woff2") format("woff2");
+}
+
+/* ---------------------- Peyda Font --------------------- */
+
+@font-face {
+  font-family: "Peyda";
+  font-weight: 500;
+  src:
+    url("../../assets/fonts/peyda/woff/PeydaWeb-Medium.woff") format("woff"),
+    url("../../assets/fonts/peyda/woff2/PeydaWeb-Medium.woff2") format("woff2");
+}
+
+/* ---------------------- Base --------------------- */
+body {
+  font-size: var(--fs-body);
+  font-family: var(--font-primary);
+  color: var(--color-text);
+}
+
+/* ---------------------- Headings --------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  font-weight: var(--fw-bold);
+  color: var(--color-text);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+}
+
+h5 {
+  font-size: var(--fs-h5);
+}
+
+/* ---------------------- Text Elements --------------------- */
+
+.small {
+  font-weight: var(--fw-regular);
+}
+
+.strong {
+  font-weight: var(--fw-bold);
+}
+
+/* ---------------------- Form Elements --------------------- */
+label {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+  color: inherit;
+}
