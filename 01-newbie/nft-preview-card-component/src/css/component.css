@@ -1,0 +1,269 @@
+main {
+  width: 100%;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 2.2rem;
+}
+
+.nft-card {
+  max-width: 32rem;
+  width: 100%;
+  background-color: var(--color-blue-900);
+  border-radius: 1.4rem;
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 15px 20px var(--color-blue-950);
+}
+
+.nft-card__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nft-card__img img {
+  width: 100%;
+}
+
+.nft-card__img-view {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--color-cyan-400-opacity);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.nft-card__img-view img {
+  width: 5rem;
+}
+
+.nft-card__img:hover .nft-card__img-view {
+  opacity: 1;
+}
+
+.nft-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-top: 2rem;
+  margin: 2rem 0 1.6rem 0;
+  padding-bottom: 1.6rem;
+  border-bottom: 0.1px solid var(--color-blue-800);
+}
+
+.nft-card__title {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+
+.text-hover {
+  transition: all 300ms linear;
+}
+
+.text-hover:hover {
+  cursor: pointer;
+  color: var(--color-cyan-400);
+}
+
+.nft-card__description {
+  font-weight: 300;
+  color: var(--color-blue-500);
+}
+
+.nft-card__price-deadline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-blue-500);
+  font-size: 1.4rem;
+  gap: 0.7rem;
+}
+
+.nft-card__price {
+  font-weight: 500;
+  color: var(--color-cyan-400);
+}
+
+.nft-card__author {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.nft-card__author-img {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 2rem;
+  padding: 0.1rem;
+  background-color: var(--color-white);
+}
+
+.nft-card__author-img img {
+  width: 100%;
+}
+
+.nft-card__author-name {
+  color: var(--color-blue-500);
+}
+
+.creator {
+  color: var(--color-white);
+}
+
+/* --------------------- Programmer Badge --------------------- */
+
+.sig-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  text-decoration: none;
+  background: linear-gradient(180deg, var(--panel), #0c1826);
+  border: 1px solid var(--hair);
+  border-radius: 3px;
+  padding: 9px 12px;
+  box-shadow: 0 14px 30px -12px rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease,
+    padding 0.3s ease;
+  user-select: none;
+  direction: ltr;
+}
+.sig-badge:hover,
+.sig-badge.is-open {
+  padding: 9px 16px;
+  box-shadow:
+    0 18px 40px -14px rgba(0, 0, 0, 0.75),
+    0 0 0 1px var(--hair);
+  transform: translateY(-1px);
+}
+
+.sig-badge {
+  position: fixed;
+}
+.sig-badge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-top: 1.5px solid var(--brass);
+  border-left: 1.5px solid var(--brass);
+  opacity: 0.9;
+}
+
+.sig-badge .icon {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  color: var(--brass-hi);
+  display: flex;
+}
+.sig-badge .icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.sig-badge .label {
+  flex: none;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-left: 8px;
+  transition:
+    opacity 0.18s ease,
+    max-width 0.3s ease,
+    margin 0.3s ease;
+  max-width: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sig-badge .reveal {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition:
+    max-width 0.32s ease,
+    opacity 0.25s ease 0.05s,
+    margin 0.32s ease;
+}
+.sig-badge:hover .reveal,
+.sig-badge.is-open .reveal {
+  max-width: 220px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.sig-badge:hover .label,
+.sig-badge.is-open .label {
+  max-width: 0;
+  opacity: 0;
+  margin-left: 0;
+}
+
+.sig-badge .divider {
+  width: 1px;
+  height: 12px;
+  background: var(--hair);
+  flex: none;
+}
+
+.sig-badge .name {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--paper);
+}
+
+.sig-badge .role {
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .sig-badge {
+    bottom: 14px;
+    right: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sig-badge,
+  .sig-badge .reveal,
+  .sig-badge .label {
+    transition: none;
+  }
+}

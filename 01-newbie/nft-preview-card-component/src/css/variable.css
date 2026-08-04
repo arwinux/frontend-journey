@@ -1,0 +1,24 @@
+:root {
+  /* ------------------- Primary ------------------- */
+  --color-blue-500: hsl(215, 31%, 59%);
+  --color-cyan-400: hsl(178, 100%, 50%);
+  --color-cyan-400-opacity: rgb(0, 255, 247, 0.5);
+
+  /* ------------------- Neutral ------------------- */
+  --color-blue-950: hsl(217, 54%, 11%); /* (main BG) */
+  --color-blue-900: hsl(216, 50%, 16%); /* (card BG) */
+  --color-blue-800: hsl(215, 32%, 27%); /* (line) */
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Programmer Badge Colors */
+  --ink: #0b1420;
+  --panel: #010202;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  /* ------------------- Font ---------------------- */
+  --font-family: "Outfit";
+}

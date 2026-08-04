@@ -11,7 +11,7 @@
 [![Challenge](https://img.shields.io/badge/Challenge-FrontHooks-c7b000?style=for-the-badge&logoColor=white)]()  
 [![License: MIT](https://img.shields.io/badge/License-MIT-11bb33?style=for-the-badge)](https://opensource.org/licenses/MIT)  
 [![Author: Arvin Jafari](https://img.shields.io/badge/Author-Arvin%20Jafari-3366cc?style=for-the-badge)](https://github.com/arwinux)  
-[![Hosted On: Netlify](https://img.shields.io/badge/Hosted-GITHUB-9933cc?style=for-the-badge)](https://www.github.com)  
+[![Hosted On: Github](https://img.shields.io/badge/Hosted-GITHUB-9933cc?style=for-the-badge)](https://www.github.com)  
 [![Stack: HTML · CSS](https://img.shields.io/badge/Stack-HTML%20·%20CSS-cccccc?style=for-the-badge)](#)
 
 ---
