@@ -44,7 +44,14 @@
   .shipping-methods {
     grid-template-columns: 1fr;
   }
+
+  .shipping-method {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
+
 @media screen and (min-width: 1024px) {
   .checkout {
     grid-template-columns: 1fr 460px;
@@ -57,7 +64,17 @@
     gap: 3rem;
   }
 
+  .shipping-methods {
+    grid-template-columns: 1fr;
+  }
+
   .pishtaz-method {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .shipping-methods {
+    grid-template-columns: 1fr 1fr;
   }
 }
