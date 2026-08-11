@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "RedHat";
+  font-weight: 500;
+  src: url("../../assets/fonts/RedHadt/woff2/RedHatDisplay-Medium.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "RedHat";
+  font-weight: 700;
+  src: url("../../assets/fonts/RedHadt/woff2/RedHatDisplay-Bold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "RedHat";
+  font-weight: 900;
+  src: url("../../assets/fonts/RedHadt/woff2/RedHatDisplay-Black.woff2")
+    format("woff2");
+}
+
+p {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,26 @@
+:root {
+  /* ------------- Primary ------------- */
+
+  --color-blue-100: rgb(224, 232, 255);
+  --color-blue-700: rgb(56, 41, 224);
+
+  /* ------------- Neutral ------------- */
+
+  --color-blue-50: rgb(245, 247, 255);
+  --color-gray-600: rgb(114, 128, 167);
+  --color-blue-950: rgb(31, 47, 86);
+
+  --color-blue-hover: rgba(56, 41, 224, 0.7);
+
+  /* ------------- Programmer Badge ---- */
+  --ink: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  /* ------------- Font ------------- */
+  --font-family: "RedHat";
+}
