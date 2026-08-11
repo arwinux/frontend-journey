@@ -402,5 +402,84 @@
         </button>
       </section>
     </main>
+    <a
+      href="https://github.com/arwinux"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author, Arvin, Frontend Developer"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+
+      <span class="label">Author</span>
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+        <span class="tap-hint">tap again →</span>
+      </span>
+    </a>
+
+    <script>
+      (function () {
+        var badge = document.getElementById("sigBadge");
+        var isDesktop = window.matchMedia(
+          "(hover: hover) and (pointer: fine)",
+        ).matches;
+
+        if (!isDesktop) {
+          document.documentElement.classList.add("touch");
+        }
+
+        function setOpen(open) {
+          badge.classList.toggle("is-open", open);
+          badge.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+
+        if (!isDesktop) {
+          badge.addEventListener("click", function (e) {
+            if (!badge.classList.contains("is-open")) {
+              e.preventDefault();
+              e.stopPropagation();
+              setOpen(true);
+            }
+          });
+
+          document.addEventListener("click", function () {
+            setOpen(false);
+          });
+        }
+
+        badge.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            if (!isDesktop && !badge.classList.contains("is-open")) {
+              e.preventDefault();
+              setOpen(true);
+            }
+          }
+          if (e.key === "Escape") {
+            setOpen(false);
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

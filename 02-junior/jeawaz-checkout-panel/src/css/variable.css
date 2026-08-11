@@ -19,7 +19,7 @@
   --brass-hi: #e9cc7e;
   --paper: #ede8de;
   --muted: #8291a1;
-  --hair: #c9a24b52;
+  --hair: rgba(201, 162, 75, 0.32);
 
   /* ---------------------- Font ---------------------- */
   --font-primary: "YekanBakh";

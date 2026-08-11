@@ -20,13 +20,13 @@
   --color-black: #000000;
 
   /* Programmer Badge Colors */
-  --ink: #0b1420;
-  --panel: #0f1d2e;
-  --brass: #c9a24b;
-  --brass-hi: #e9cc7e;
-  --paper: #ede8de;
-  --muted: #8291a1;
-  --hair: rgba(201, 162, 75, 0.32);
+  --ink:#0b1420;
+  --panel:#0f1d2e;
+  --brass:#c9a24b;
+  --brass-hi:#e9cc7e;
+  --paper:#ede8de;
+  --muted:#8291a1;
+  --hair:rgba(201,162,75,0.32);
 
   /*? ----------- Fonts ------------  */
   --font-primary: "YekanBakh";
