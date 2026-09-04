@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("../../assets/fonts/Inter/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("../../assets/fonts/Inter/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("../../assets/fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../../assets/fonts/Inter/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  font-weight: 300;
+  src: url("../../assets/fonts/LexendDeca/LexendDeca-Light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  font-weight: 400;
+  src: url("../../assets/fonts/LexendDeca/LexendDeca-Regular.woff2")
+    format("woff2");
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+}

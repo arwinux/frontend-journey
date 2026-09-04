@@ -1,0 +1,26 @@
+:root {
+  /* ---------------------- Color ---------------------- */
+
+  /* ------------------ Primary ------------------ */
+  --color-main-background: hsl(233, 47%, 7%);
+  --color-card-background: hsl(244, 37%, 16%);
+  --color-accent: hsl(277, 100%, 50%);
+
+  /* ------------------ Neutral ------------------ */
+  --color-white-main-heading-stats: hsl(0, 0%, 100%);
+  --color-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --color-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+  /* ------------------ Programmer Badge --------- */
+  --ink: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  /* ---------------------- Fonts ---------------------- */
+  --font-primary: "Inter";
+  --font-secondary: "LexendDeca";
+}
