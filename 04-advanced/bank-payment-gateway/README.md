@@ -304,12 +304,6 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Creator
-
-- **Your Name** - Frontend Developer
-  - _Specializing in React and modern web applications_
-  - _Focused on payment systems and financial UI_
-
 ## 🙏 Acknowledgments
 
 - [iran-bank-detector](https://www.npmjs.com/package/iran-bank-detector) - Iranian bank detection library
