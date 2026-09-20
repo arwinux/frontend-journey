@@ -1,0 +1,36 @@
+:root {
+  /* ---------------------- Color ---------------------- */
+  --cream: #fdfbd4;
+  --cream-light: #fffeea;
+  --cream-dark: #f1efc6;
+  --olive: #545333;
+  --olive-soft: #878672;
+  --olive-light: #b8b79a;
+  --inkt: #1d1d18;
+  --ink-soft: #4e4d40;
+  --border: rgba(84, 83, 51, 0.16);
+  --border-strong: rgba(84, 83, 51, 0.28);
+  --shadow-soft: 0 12px 35px rgba(55, 53, 28, 0.06);
+  --shadow-hover: 0 18px 45px rgba(55, 53, 28, 0.1);
+  --radius-xl: 32px;
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --progress-color: var(--olive);
+  --progress-color-light: var(--olive-light);
+  --progress-glow: rgba(84, 83, 51, 0.28);
+
+  /* ------------------ Programmer Badge --------- */
+  --ink: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  /* ---------------------- Fonts ---------------------- */
+  --font-primary: "DM Sans";
+  --font-secondary: "Cormorant Garamond";
+}

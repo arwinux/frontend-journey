@@ -35,7 +35,7 @@ A responsive stats preview card component built as a Frontend Mentor challenge. 
 
 ### Links
 
-- **Solution URL:** [GitHub Repository](https://github.com/arwinux/frontend-journey/tree/main/01-junior/stats-preview-card-component)
+- **Solution URL:** [GitHub Repository](https://github.com/arwinux/frontend-journey/tree/main/01-newbie/stats-preview-card-component)
 - **Live Site URL:** [Live demo](https://arwinux.github.io/frontend-journey/01-newbie/stats-preview-card-component/)
 
 ---

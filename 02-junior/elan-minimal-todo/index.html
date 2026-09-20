@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>Élan</title>
+  </head>
+  <body>
+    <main class="elan-todo">
+      <header class="todo-hero">
+        <div class="todo-brand">
+          <span class="brand-symbol">✦</span>
+          <span class="brand-title">ELAN</span>
+          <span class="brand-symbol">✦</span>
+        </div>
+
+        <div class="todo-slogen">
+          <h1>Make room</h1>
+          <span>for what matters.</span>
+        </div>
+
+        <p class="todo-app-description">
+          Small steps. Clear mind. One thing at a time.
+        </p>
+      </header>
+
+      <section class="todo-app">
+        <form class="todo-form">
+          <div class="todo-input-container">
+            <input
+              type="text"
+              class="note-input"
+              id="todo-input"
+              placeholder="What needs your attention?"
+              autocomplete="off"
+            />
+
+            <button id="add-todo" class="add-todo btn" type="submit"><span class="add-icon">+</span></button>
+          </div>
+        </form>
+
+        <div class="todo-controls">
+          <div class="todo-filters">
+            <button data-filter="all" class="todo-filter active-filter">All</button>
+            <button data-filter="complete" class="todo-filter">Complete</button>
+            <button data-filter="uncomplete" class="todo-filter">Uncomplete</button>
+          </div>
+  
+          <div class="todo-search-input-container">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search Notes ..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        
+
+        <div class="todo-statics">
+          <div class="todo-count">
+            <h3 class="todo-count-lable">YOUR TASKS</h3>
+            <span class="todo-count-number">07</spa>
+          </div>
+
+          <div class="todo-progress">
+            <div class="todo-progress-lable">
+              <h3 class="todo-percent"></h3>
+              <p>COMPLETED</p>
+            </div>
+            <div class="bar-container">
+              <div class="todo-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todo-notes">
+          <div class="todo-list"></div>
+          <div class="todo-notes-empty" >
+            <span>✦</span>
+            <h3>Nothing here yet.</h3>
+            <p>Add your first task and begin.
+            </p>
+          </div>
+          <!-- <div class="todo-note">
+            <div class="todo-checked flex-row">
+              <button class="todo-status"></button>
+              <span class="todo-number">01</span>
+            </div>
+            <p class="todo-description">
+              Organize GitHub Projects — Review the repositories from recent frontend practice, update their README files, remove unnecessary files, and make sure each project has a clean and understandable structure.
+            </p>
+
+            <div class="divider"></div>
+
+            <div class="todo-actions flex-row">
+
+              <button class="todo-view">VIEW</button>
+              
+              <div class="todo-edit-delete">
+              <button class="todo-edite action-btn">✎</button>
+              <button class="todo-delete action-btn">×</button>
+              </div>
+            </div>
+          </div> -->
+
+         
+        </div>
+      </section>
+
+      <div class="modal modal-edite modal-hidden">
+        <div class="modal-card">
+          <div class="modal-header flex-row">
+            <span>EDIT TASK</span>
+            <button class="modal-close close">×</button>
+          </div>
+
+          <textarea class="edit-input hide-scrollbar"
+              id="todo-input-edite"
+              placeholder="Edite Note ..."
+              autocomplete="off">
+          </textarea>
+            
+          <div class="modal-action flex-row">
+            <button class="modal-close modal-action-btn">Cancel</button>
+            <button class="modal-edit-btn modal-action-btn">Save</button>
+          </div>
+
+          </div>
+        </div>
+      
+        <div class="modal modal-view modal-hidden">
+          <div class="modal-card">
+            <div class="modal-header flex-row">
+              <span>TASK NOTE</span>
+              <button class="modal-close close">×</button>
+            </div>
+
+            <span class="modal-todo-date"></span>
+            <p class="todo-description-view">
+            </p>
+                
+              
+            
+  
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <a
+      href="https://github.com/arwinux"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author, Arvin, Frontend Developer"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+
+      <span class="label">Author</span>
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+        <span class="tap-hint">tap again →</span>
+      </span>
+    </a>
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/programmer-badge.js"></script>
+  </body>
+</html>
