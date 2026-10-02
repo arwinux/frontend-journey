@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-inter-400), system-ui, sans-serif;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  color: var(--color-ink);
+  background: var(--color-background);
+  min-height: 100vh;
+  font-feature-settings: "tnum", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  background: none;
+}
+/* Ambient orange glow behind the glass */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      38rem 38rem at 86% 26%,
+      rgba(74, 222, 128, 0.24),
+      transparent 70%
+    ),
+    radial-gradient(
+      42rem 42rem at 58% 92%,
+      rgba(200, 225, 50, 0.2),
+      transparent 70%
+    ),
+    radial-gradient(
+      30rem 30rem at 10% 10%,
+      rgba(74, 222, 128, 0.1),
+      transparent 70%
+    );
+  animation: ambientDrift 24s ease-in-out infinite alternate;
+}
+@keyframes ambientDrift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-3%, 2%, 0) scale(1.08);
+  }
+}
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(198, 226, 60, 0.35);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+:focus-visible {
+  outline: 0.2rem solid var(--color-primary);
+  outline-offset: 0.2rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

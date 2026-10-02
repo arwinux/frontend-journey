@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Inventory</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ------------------- Header ---------------------- -->
+    <header>
+      <div class="container header">
+        <div class="header__details">
+          <div class="header__logo logo logo-main">
+            <i class="fas fa-cube"></i>
+          </div>
+          <div class="header__content">
+            <span class="header__title">Quantum Inventory</span>
+            <p class="header__subtitle">Next-Gen Asset Management</p>
+          </div>
+        </div>
+
+        <div class="header__statics">
+          <div class="static-badge">
+            <i class="static-icon fa-solid fa-box-open"></i>
+            <p>Total Items</p>
+            <span class="total-static-items static-number"></span>
+          </div>
+          <div class="static-badge">
+            <i class="static-icon fas fa-layer-group"></i>
+            <p>Categories</p>
+            <span class="total-categories-items static-number"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ---------------------- Body ---------------------- -->
+    <main class="inventory">
+      <aside class="inventory__rail">
+        <div class="inventory__product-action panel">
+          <div class="inventory__product-action-lable">
+            <i class="fas fa-rocket"></i>
+            <p>Quick Action</p>
+          </div>
+          <button class="btn btn-accent add-new-category" type="button">
+            <i class="btn-icon fa-solid fa-plus"></i>
+            New Category
+          </button>
+        </div>
+
+        <!-- ---------------------- Add Category ---------------------- -->
+        <div class="inventory__category panel animate-slideInUp hidden">
+          <div class="category-title title-section">
+            <div class="logo"><i class="fas fa-folder-plus"></i></div>
+            <p class="title">Create New Category</p>
+          </div>
+
+          <div class="inventory__category-grid">
+            <div class="inventory__category-input-lable">
+              <label class="label" for="category-name">Category Name</label>
+              <input
+                class="input"
+                autocomplete="off"
+                placeholder="Electronics, Furniture, Books..."
+                type="text"
+                name=""
+                id="category-name"
+              />
+            </div>
+            <div class="inventory__category-input-lable">
+              <label class="label" for="category-description"
+                >Description</label
+              >
+              <textarea
+                class="input category-description"
+                autocomplete="off"
+                placeholder="Brief description of this category"
+                name=""
+                id="category-description"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="inventory__category-btns">
+            <button
+              class="cancel-new-category-btn btn btn-outline"
+              type="button"
+            >
+              <i class="btn-icon fa-solid fa-xmark"></i>
+              Cancel
+            </button>
+            <button class="add-new-category-btn btn btn-primary" type="button">
+              <i class="btn-icon fa-solid fa-plus"></i>
+              Create Category
+            </button>
+          </div>
+        </div>
+
+        <!-- ---------------------- Add Product ---------------------- -->
+        <div class="inventory__product panel">
+          <div class="inventory__product-title title-section">
+            <div class="logo"><i class="fas fa-box-open"></i></div>
+            <p class="title">Add New Product</p>
+          </div>
+
+          <div class="inventory__product-grid">
+            <div class="inventory__product-input-lable">
+              <label class="label" for="product-name">Product Name</label>
+              <input
+                class="input"
+                autocomplete="off"
+                placeholder="Wireless keyboard"
+                type="text"
+                name=""
+                id="product-name"
+              />
+            </div>
+            <div class="inventory__product-input-lable">
+              <label class="label" for="product-quantity">Quantity</label>
+              <input
+                class="input"
+                autocomplete="off"
+                placeholder="10"
+                type="number"
+                name=""
+                id="product-quantity"
+              />
+            </div>
+            <div class="inventory__product-input-lable">
+              <label class="label" for="product-category">Category</label>
+              <select
+                class="categories-options product-category-option input"
+                name=""
+                id="product-category"
+              ></select>
+            </div>
+          </div>
+
+          <div class="inventory__product-gridt">
+            <div class="inventory__product-input-lable">
+              <label class="label" for="product-price">Price</label>
+              <input
+                class="input"
+                autocomplete="off"
+                placeholder="99.99"
+                type="number"
+                name=""
+                id="product-price"
+              />
+            </div>
+            <div class="inventory__product-input-lable">
+              <label class="label" for="product-sku">Product SKU</label>
+              <input
+                class="input"
+                autocomplete="off"
+                placeholder="SKU-001"
+                type="text"
+                name=""
+                id="product-sku"
+              />
+            </div>
+          </div>
+
+          <div class="inventory__product-btns">
+            <button
+              class="cancel-new-product-btn btn btn-outline"
+              type="button"
+            >
+              <i class="btn-icon fa-solid fa-xmark"></i>
+              Cancel
+            </button>
+            <button class="add-new-product-btn btn btn-primary" type="button">
+              <i class="btn-icon fa-solid fa-plus-square"></i>
+              Add Product
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <div class="inventory__main">
+        <!-- ---------------------- Search Product ---------------------- -->
+        <div class="inventory__search panel">
+          <div class="inventory__search-title title-section">
+            <div class="logo"><i class="fas fa-search"></i></div>
+            <p class="title">Search &amp; Filters</p>
+          </div>
+
+          <div class="inventory__searchandfilters">
+            <div class="inventory__searchinput input">
+              <i class="search-input-logo fas fa-search"></i>
+              <input
+                class="search-input"
+                autocomplete="off"
+                placeholder="Search Products"
+                type="text"
+                name="search-input"
+                id="search-input"
+                aria-label="Search products"
+              />
+            </div>
+
+            <select
+              class="input inventory__filter-product categories-options-search product-category-option"
+              id="product-filter"
+              aria-label="Filter by category"
+            ></select>
+
+            <select
+              class="input inventory__sort-product product-category-option"
+              id="product-sort"
+              aria-label="Sort products"
+            >
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="name-a-z">Name (A-Z)</option>
+              <option value="name-z-a">Name (Z-A)</option>
+              <option value="quantity-l-h">Quantity (Low to High)</option>
+              <option value="quantity-h-l">Quantity (High to Low)</option>
+              <option value="price-l-h">Price (Low to High)</option>
+              <option value="price-h-l">Price (High to Low)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- ---------------------- Product Inventory ---------------------- -->
+        <div>
+          <div class="product__inventory title-section">
+            <p class="title">Product Inventory</p>
+          </div>
+          <div class="product__inventory-grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ---------------------- Edit Product Modal ---------------------- -->
+    <div class="modal hidden" id="edit-product-modal">
+      <div
+        class="modal__dialog panel animate-slideInUp"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="edit-product-heading"
+      >
+        <div class="title-section">
+          <div class="logo"><i class="fas fa-edit"></i></div>
+          <p class="title" id="edit-product-heading">Edit Product</p>
+          <button
+            class="edit-product-close modal__close product-cart-btn"
+            type="button"
+            aria-label="Close"
+          >
+            <i class="fas fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="inventory__product-grid">
+          <div class="inventory__product-input-lable">
+            <label class="label" for="edit-product-name">Product Name</label>
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder="Wireless keyboard"
+              type="text"
+              id="edit-product-name"
+            />
+          </div>
+          <div class="inventory__product-input-lable">
+            <label class="label" for="edit-product-quantity">Quantity</label>
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder="10"
+              type="number"
+              id="edit-product-quantity"
+            />
+          </div>
+          <div class="inventory__product-input-lable">
+            <label class="label" for="edit-product-category">Category</label>
+            <select
+              class="product-category-option input"
+              id="edit-product-category"
+            ></select>
+          </div>
+        </div>
+
+        <div class="inventory__product-gridt">
+          <div class="inventory__product-input-lable">
+            <label class="label" for="edit-product-price">Price</label>
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder="99.99"
+              type="number"
+              step="any"
+              id="edit-product-price"
+            />
+          </div>
+          <div class="inventory__product-input-lable">
+            <label class="label" for="edit-product-sku">Product SKU</label>
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder="SKU-001"
+              type="text"
+              id="edit-product-sku"
+            />
+          </div>
+        </div>
+
+        <p class="modal__error hidden" role="alert">
+          Please fill in all the fields.
+        </p>
+
+        <div class="inventory__product-btns">
+          <button class="edit-product-cancel btn btn-outline" type="button">
+            <i class="btn-icon fa-solid fa-xmark"></i>
+            Cancel
+          </button>
+          <button class="edit-product-save btn btn-primary" type="button">
+            <i class="btn-icon fa-solid fa-check"></i>
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <a
+      href="https://github.com/arwinux"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author, Arvin, Frontend Developer"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+
+      <span class="label">Author</span>
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+        <span class="tap-hint">tap again →</span>
+      </span>
+    </a>
+    <script type="module" src="./src/js/programmer-badge.js"></script>
+    <script type="module" src="./src/scripts/main.js"></script>
+  </body>
+</html>
