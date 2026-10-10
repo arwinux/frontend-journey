@@ -1,0 +1,21 @@
+{
+  "name": "transactions-panel-modern",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server -p 3000 ./data/db.json --watch",
+    "server:prod": "json-server -H 0.0.0.0 -p $PORT ./data/db.json --watch"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "axios": "^1.20.0",
+    "json-server": "^0.17.4"
+  }
+}

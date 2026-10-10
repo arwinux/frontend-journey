@@ -1,0 +1,313 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Transactions Panel</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="background">
+        <div class="background__bubble"></div>
+        <div class="background__bubble"></div>
+        <div class="background__bubble"></div>
+        <!-- bubble-white -->
+      </div>
+
+      <div class="panel">
+        <header>
+          <div class="brand">
+            <div class="brand__mark"></div>
+            <span>دفتر</span>
+          </div>
+          <span class="pill">پنل مالی</span>
+        </header>
+
+        <div class="panel__loading">
+          <span class="pill pill--gold">مدیریت و نظارت بر تراکنش‌های مالی</span>
+          <h2 class="intro__title">لیست <em>تراکنش‌ها</em></h2>
+          <span class="intro__text"
+            >تمام واریزی‌ها و برداشت‌های حساب شما، شفاف و دقیق، در یک نگاه.
+          </span>
+          <button class="btn upload-transactions">
+            <span>بارگذاری تراکنش ها</span>
+            <i class="fa-solid fa-upload"></i>
+            <i class="fa-solid fa-circle-notch loading-icon hidden"></i>
+          </button>
+        </div>
+
+        <section class="panel__dashboard hidden">
+          <div class="panel-stats">
+            <div class="stats-card">
+              <div class="stat-card stat--total card">
+                <div class="stat-card__head">
+                  <span class="stat__icon"
+                    ><i class="fa-solid fa-list"></i
+                  ></span>
+                  <span class="stat__chip">همه</span>
+                </div>
+                <span class="stat__name">کل تراکنش ها</span>
+                <span class="stat-amount stat-price stat--total">0</span>
+                <div class="stat__meter" style="--w: 100%"><i></i></div>
+              </div>
+
+              <div class="stat-card stat--in card">
+                <div class="stat-card__head">
+                  <span class="stat__icon"
+                    ><i class="fa-solid fa-arrow-up"></i
+                  ></span>
+                  <span class="stat__chip">71%</span>
+                </div>
+                <span class="stat__name">واریزی ها</span>
+                <span class="stat-amount deposit stat--in">5</span>
+                <div class="stat__meter">
+                  <i class="deposit-percent"></i>
+                </div>
+              </div>
+
+              <div class="stat-card stat--out card">
+                <div class="stat-card__head">
+                  <span class="stat__icon"
+                    ><i class="fa-solid fa-arrow-down"></i
+                  ></span>
+                  <span class="stat__chip">29%</span>
+                </div>
+                <span class="stat__name">برداشت ها</span>
+                <span class="stat-amount withdrawal stat--out">2</span>
+                <div class="stat__meter">
+                  <i class="withdrawal-percent"></i>
+                </div>
+              </div>
+
+              <div class="stat-card stat--sum card">
+                <div class="stat-card__head">
+                  <span class="stat__icon"
+                    ><i class="fa-solid fa-coins"></i
+                  ></span>
+                  <span class="stat__chip">مجموع</span>
+                </div>
+                <span class="stat__name">مجموع مبلغ</span>
+                <span class="stat-amount stat-sumtxn stat--sum"
+                  >۴٬۳۱۶٬۳۱۶٬۸۰۰</span
+                >
+              </div>
+            </div>
+
+            <div class="card flow">
+              <div>
+                <p class="stat__label">تراز خالص (واریز منهای برداشت)</p>
+                <p class="flow__net">0</p>
+              </div>
+              <div class="flow__bar">
+                <div class="flow__bars">
+                  <div class="flow__green"></div>
+                  <div class="flow__red"></div>
+                </div>
+
+                <div class="flow__bar-labels">
+                  <div class="flow__label green">
+                    <div class="flow-ball green"></div>
+                    <span class="flow-status">واریز</span>
+                    <b class="flow-green-number">0%</b>
+                  </div>
+                  <div class="flow__label red">
+                    <div class="flow-ball red"></div>
+                    <span class="flow-status">برداشت</span>
+                    <b class="flow-red-number">0%</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <div class="search card">
+              <input
+                id="search-input"
+                placeholder="جستجو بر اساس شماره پیگیری"
+                type="text"
+                class="search-input"
+              />
+            </div>
+
+            <div class="pill result-count"></div>
+          </div>
+
+          <div class="transactions-grid card">
+            <div class="transaction-thead">
+              <div>ردیف</div>
+              <div>نوع تراکنش</div>
+              <button class="btn-sort sort-price">
+                مبلغ
+                <i class="fa-solid fa-arrow-down sort-price-icon"></i>
+              </button>
+              <div>شماره پیگیری</div>
+              <button class="btn-sort sort-date">
+                تاریخ تراکنش
+                <i class="fa-solid fa-arrow-down sort-date-icon"></i>
+              </button>
+              <div>روز</div>
+              <div>زمان</div>
+            </div>
+
+            <!-- <article class="transaction row">
+              <div class="grid-item" data-l="ردیف">
+                <span class="idx">1</span>
+              </div>
+
+              <div class="grid-item" data-l="نوع تراکنش">
+                <span class="chip stat--in">
+                  <i class="fa-solid fa-arrow-up"></i>
+                  افزایش اعتبار
+                </span>
+              </div>
+
+              <span data-l="مبلغ" class="amount grid-item stat--in">
+                <div><small>+</small> ۸۳۵٬۰۰۰</div>
+              </span>
+
+              <div class="grid-item" data-l="شماره پیگیری">
+                <span class="track-number">839274193</span>
+              </div>
+
+              <div class="grid-item" data-l="تاریخ">
+                <span class="date"> ۱۴۰۳/۰۲/۲۲ </span>
+              </div>
+
+              <div class="grid-item" data-l="روز">
+                <span class="day">چهارشنبه</span>
+              </div>
+
+              <div class="grid-item" data-l="زمان">
+                <span class="time"> ۰۵:۱۶ </span>
+              </div>
+            </article>
+
+            <article class="transaction row">
+              <div class="grid-item" data-l="ردیف">
+                <span class="idx">1</span>
+              </div>
+
+              <div class="grid-item" data-l="نوع تراکنش">
+                <span class="chip stat--out">
+                  <i class="fa-solid fa-arrow-down"></i>
+                  کاهش اعتبار
+                </span>
+              </div>
+
+              <span data-l="مبلغ" class="amount grid-item stat--out">
+                <div><small>-</small> ۸۳۵٬۰۰۰</div>
+              </span>
+
+              <div class="grid-item" data-l="شماره پیگیری">
+                <span class="track-number">839274193</span>
+              </div>
+
+              <div class="grid-item" data-l="تاریخ">
+                <span class="date"> ۱۴۰۳/۰۲/۲۲ </span>
+              </div>
+
+              <div class="grid-item" data-l="روز">
+                <span class="day">چهارشنبه</span>
+              </div>
+
+              <div class="grid-item" data-l="زمان">
+                <span class="time"> ۰۵:۱۶ </span>
+              </div>
+            </article>
+
+            <article class="transaction row">
+              <div class="grid-item" data-l="ردیف">
+                <span class="idx">1</span>
+              </div>
+
+              <div class="grid-item" data-l="نوع تراکنش">
+                <span class="chip stat--out">
+                  <i class="fa-solid fa-arrow-down"></i>
+                  کاهش اعتبار
+                </span>
+              </div>
+
+              <span data-l="مبلغ" class="amount grid-item stat--out">
+                <div><small>-</small> ۸۳۵٬۰۰۰</div>
+              </span>
+
+              <div class="grid-item" data-l="شماره پیگیری">
+                <span class="track-number">839274193</span>
+              </div>
+
+              <div class="grid-item" data-l="تاریخ">
+                <span class="date"> ۱۴۰۳/۰۲/۲۲ </span>
+              </div>
+
+              <div class="grid-item" data-l="روز">
+                <span class="day">چهارشنبه</span>
+              </div>
+
+              <div class="grid-item" data-l="زمان">
+                <span class="time"> ۰۵:۱۶ </span>
+              </div>
+            </article> -->
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <a
+      href="https://github.com/arwinux"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sig-badge"
+      id="sigBadge"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-label="Show author, Arvin, Frontend Developer"
+    >
+      <span class="icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+      </span>
+
+      <span class="label">Author</span>
+
+      <span class="reveal">
+        <span class="divider"></span>
+        <span class="name">Arvin</span>
+        <span class="divider"></span>
+        <span class="role">Frontend Developer</span>
+        <span class="tap-hint">tap again →</span>
+      </span>
+    </a>
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="./src/js/programmer-badge.js"></script>
+  </body>
+</html>

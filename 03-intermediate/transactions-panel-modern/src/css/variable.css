@@ -1,0 +1,67 @@
+@import "./typography.css";
+
+:root {
+  --bg: #050505;
+  --ink: #fafafa;
+  --mute: #b0b0b6;
+  --dim: #75757d;
+  --line: rgba(255, 255, 255, 0.12);
+  --glass: rgba(255, 255, 255, 0.045);
+
+  /* ───────────── RED ───────────── */
+  --red-light: #ff8585;
+  --red: #ff2d2d;
+  --red-deep: #c41414;
+
+  /* ───────────── GOLD ───────────── */
+  --gold-light: #ffd966;
+  --gold: #ffb400;
+  --gold-deep: #ff7a00;
+
+  /* ───────────── BLUE ───────────── */
+  --blue-light: #78aaff;
+  --blue: #2a7bff;
+  --blue-deep: #1550c7;
+
+  /* ───────────── GREEN ───────────── */
+  --green-light: #63f0a0;
+  --green: #00e05a;
+  --green-deep: #00963d;
+
+  --in: var(--green);
+  --out: var(--red);
+  --r: 1.5rem;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* ------------------ Programmer Badge --------- */
+  --inks: #0b1420;
+  --panel: #0f1d2e;
+  --brass: #c9a24b;
+  --brass-hi: #e9cc7e;
+  --paper: #ede8de;
+  --muted: #8291a1;
+  --hair: rgba(201, 162, 75, 0.32);
+
+  /* ---------------------- Fonts ---------------------- */
+  --font-family: "Vazirmatn";
+}
+.stat--total {
+  --c: var(--blue);
+  --c2: var(--blue-light);
+  --c3: var(--blue-deep);
+}
+.stat--in {
+  --c: var(--green);
+  --c2: var(--green-light);
+  --c3: var(--green-deep);
+}
+.stat--out {
+  --c: var(--red);
+  --c2: var(--red-light);
+  --c3: var(--red-deep);
+}
+.stat--sum {
+  --c: var(--gold);
+  --c2: var(--gold-light);
+  --c3: var(--gold-deep);
+}
