@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Kumbhsans";
+  src: url("../../assets/fonts/KumbhSans/KumbhSans-VariableFont_YOPQ\,wght.ttf");
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+}

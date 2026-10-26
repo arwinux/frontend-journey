@@ -1,0 +1,141 @@
+@import "./reset.css";
+@import "./variable.css";
+@import "./typography.css";
+@import "./programmer-badge.css";
+
+main {
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(185, 75%, 39%);
+
+  background-image:
+    url("../../assets/images/bg-pattern-top.svg"),
+    url("../../assets/images/bg-pattern-bottom.svg");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    right 50vw bottom 50vh,
+    left 60vw top 50vh;
+
+  padding: 2rem;
+}
+
+.bubble {
+  position: absolute;
+  z-index: -1;
+
+  width: 80%;
+  height: auto;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.profile {
+  max-width: 375px;
+  background-color: var(--color-gray-100);
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.profile__banner {
+  width: 100%;
+}
+
+.profile__avatar {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.6rem solid var(--color-gray-100);
+  position: absolute;
+  top: 8rem;
+}
+
+.profile__avatar img {
+  width: 100%;
+}
+
+.profile__info {
+  padding: 2rem;
+  width: 100%;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__name-age {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.profile__name {
+  font-weight: var(--font-bold);
+}
+
+.profile__age {
+  color: var(--color-gray-500);
+  font-weight: var(--font-normal);
+}
+
+.profile__country {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--color-gray-500);
+  font-weight: var(--font-normal);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-gray-500);
+  opacity: 0.2;
+}
+
+.profile__stats {
+  margin-top: 2.8rem;
+  padding: 0 2rem 0 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__number {
+  font-weight: var(--font-bold);
+  color: var(--color-navy-950);
+}
+
+p.stat__lable {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color: var(--color-gray-500);
+}
