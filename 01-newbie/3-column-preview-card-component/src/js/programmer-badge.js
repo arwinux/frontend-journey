@@ -1,0 +1,36 @@
+// src/js/programmer-badge.js
+const badge = document.getElementById("sigBadge");
+const isDesktop = window.matchMedia(
+  "(hover: hover) and (pointer: fine)",
+).matches;
+
+if (!isDesktop) {
+  document.documentElement.classList.add("touch");
+}
+
+function setOpen(open) {
+  badge.classList.toggle("is-open", open);
+  badge.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+if (!isDesktop) {
+  badge.addEventListener("click", (e) => {
+    if (!badge.classList.contains("is-open")) {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen(true);
+    }
+  });
+
+  document.addEventListener("click", () => setOpen(false));
+}
+
+badge.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" || e.key === " ") {
+    if (!isDesktop && !badge.classList.contains("is-open")) {
+      e.preventDefault();
+      setOpen(true);
+    }
+  }
+  if (e.key === "Escape") setOpen(false);
+});

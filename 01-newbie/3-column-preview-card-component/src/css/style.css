@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* ---------------- COLORS ---------------- */
+  /*  Primary Colors */
+  --color-Gold-500: hsl(31, 77%, 52%);
+  --color-Cyan-800: hsl(184, 100%, 22%);
+  --color-Green-950: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --color-white-75: hsla(0, 0%, 100%, 0.75);
+  --color-gray-100: hsl(0, 0%, 95%);
+
+  /* Programmer Badge */
+  --color-brass: #c9a24b;
+  --color-brass-hi: #e9cc7e;
+  --color-paper: #ede8de;
+  --color-muted: #8291a1;
+  --color-hair: rgba(201, 162, 75, 0.32);
+  --color-panel: #0f1d2e;
+  --color-ink: #0b1420;
+
+  /* ---------------- FONTS ---------------- */
+  --font-body: "Lexend Deca", sans-serif;
+  --font-display: "Big Shoulders", sans-serif;
+
+  --text-base: 0.9375rem;
+}
